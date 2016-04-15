@@ -36,7 +36,7 @@ $display_values = [
 $reports = get_reports($mysqli);
 
 $res = get_report_list($mysqli, $order_by, $order, $filter_by, $filter);
-if ($res != 0) {
+if ($res) {
     echo "<table border=1><tr>";
     foreach (array_keys($display_values) as $key) {
         echo "<th>";

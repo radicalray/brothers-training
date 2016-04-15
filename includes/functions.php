@@ -16,12 +16,12 @@ function sec_session_start() {
     session_set_cookie_params($cookieParams["lifetime"],
         $cookieParams["path"], $cookieParams["domain"], $secure, $httponly); // Sets the session name to the one set above.
     session_name($session_name);
-    session_start();            // Start the PHP session 
-    session_regenerate_id();    // regenerated the session, delete the old one. 
+    session_start();            // Start the PHP session
+    session_regenerate_id();    // regenerated the session, delete the old one.
 }
 
 function login($username, $password, $mysqli) {
-    // Using prepared statements means that SQL injection is not possible. 
+    // Using prepared statements means that SQL injection is not possible.
     if ($stmt = $mysqli->prepare("SELECT id, username, password, salt, locality
         FROM members
        WHERE username = ?
@@ -38,10 +38,10 @@ function login($username, $password, $mysqli) {
         $password = hash('sha512', $password . $salt);
         if ($stmt->num_rows == 1) {
             // If the user exists we check if the account is locked
-            // from too many login attempts 
+            // from too many login attempts
 
             if (checkbrute($user_id, $mysqli) == true) {
-                // Account is locked 
+                // Account is locked
                 // Send an email to user saying their account is locked
                 return false;
             } else {
@@ -81,23 +81,23 @@ function login($username, $password, $mysqli) {
 }
 
 function checkbrute($user_id, $mysqli) {
-    // Get timestamp of current time 
+    // Get timestamp of current time
     $now = time();
 
-    // All login attempts are counted from the past 2 hours. 
+    // All login attempts are counted from the past 2 hours.
     $valid_attempts = $now - (2 * 60 * 60);
 
-    if ($stmt = $mysqli->prepare("SELECT time 
-                             FROM login_attempts 
-                             WHERE user_id = ? 
+    if ($stmt = $mysqli->prepare("SELECT time
+                             FROM login_attempts
+                             WHERE user_id = ?
                             AND time > '$valid_attempts'")) {
         $stmt->bind_param('i', $user_id);
 
-        // Execute the prepared query. 
+        // Execute the prepared query.
         $stmt->execute();
         $stmt->store_result();
 
-        // If there have been more than 5 failed logins 
+        // If there have been more than 5 failed logins
         if ($stmt->num_rows > 5) {
             return true;
         } else {
@@ -122,7 +122,7 @@ function getlist($mysqli, $order_by, $order, $filter_by, $filter) {
         $filter_sql = "WHERE $filter_by = '$filter' AND locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ($locality)";
+          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ('$locality')";
         }
 
 	if ($locality == 'Admin') {
@@ -130,12 +130,12 @@ function getlist($mysqli, $order_by, $order, $filter_by, $filter) {
     	}
 
     }
-    
+
     else {
         $filter_sql = "WHERE locality = '$locality'";
 
 	if (strpos($locality,',') !== false) {
-	  $filter_sql = "WHERE locality in ($locality)";
+	  $filter_sql = "WHERE locality in ('$locality')";
         }
 
 	if ($locality == 'Admin') {
@@ -144,6 +144,7 @@ function getlist($mysqli, $order_by, $order, $filter_by, $filter) {
     }
 
     if (login_check($mysqli)) {
+        // print "SELECT * FROM applications $filter_sql $order_sql";
         $res = $mysqli->query("SELECT * FROM applications $filter_sql $order_sql");
         return $res;
     }
@@ -187,7 +188,7 @@ function verify_payment($mysqli, $id, $payment) {
 }
 
 function login_check($mysqli) {
-    // Check if all session variables are set 
+    // Check if all session variables are set
     if (isset($_SESSION['user_id'],
                         $_SESSION['username'],
                         $_SESSION['login_string'])) {
@@ -199,10 +200,10 @@ function login_check($mysqli) {
         // Get the user-agent string of the user.
         $user_browser = $_SERVER['HTTP_USER_AGENT'];
 
-        if ($stmt = $mysqli->prepare("SELECT password 
-                                      FROM members 
+        if ($stmt = $mysqli->prepare("SELECT password
+                                      FROM members
                                       WHERE id = ? LIMIT 1")) {
-            // Bind "$user_id" to parameter. 
+            // Bind "$user_id" to parameter.
             $stmt->bind_param('i', $user_id);
             $stmt->execute();   // Execute the prepared query.
             $stmt->store_result();
@@ -214,22 +215,22 @@ function login_check($mysqli) {
                 $login_check = hash('sha512', $password . $user_browser);
 
                 if ($login_check == $login_string) {
-                    // Logged In!!!! 
+                    // Logged In!!!!
                     return true;
                 } else {
-                    // Not logged in 
+                    // Not logged in
                     return false;
                 }
             } else {
-                // Not logged in 
+                // Not logged in
                 return false;
             }
         } else {
-            // Not logged in 
+            // Not logged in
             return false;
         }
     } else {
-        // Not logged in 
+        // Not logged in
         return false;
     }
 }
@@ -279,7 +280,7 @@ function verify_code($value, $code) {
 }
 
 function get_attendance($attendance_table, $user_id, $date, $mysqli) {
-    if (!$date) { 
+    if (!$date) {
       $res = $mysqli->query("SELECT * FROM $attendance_table WHERE user_id = $user_id");
     } else {
       $res = $mysqli->query("SELECT * FROM $attendance_table WHERE user_id = $user_id and training_date = '$date'");
@@ -299,7 +300,7 @@ function get_attendance_list($attendance_table, $mysqli) {
 }
 
 function update_attendance($attendance_table, $user_id, $date, $status, $reason, $makeup, $mysqli) {
-   $res = $mysqli->query("UPDATE $attendance_table SET status = '$status', absence_reason = '$reason', makeup_date = '$makeup' WHERE user_id = '$user_id' and training_date = '$date'"); 
+   $res = $mysqli->query("UPDATE $attendance_table SET status = '$status', absence_reason = '$reason', makeup_date = '$makeup' WHERE user_id = '$user_id' and training_date = '$date'");
    return $res;
 }
 
@@ -316,7 +317,7 @@ function insert_attendance($attendance_table, $user_id, $date, $status, $reason,
 function update_absence($attendance_table, $user_id, $date, $field, $value, $mysqli) {
    if (!strcmp($field,"absence_reason")) {
       $res = $mysqli->query("UPDATE $attendance_table SET absence_reason = '$value' WHERE user_id = '$user_id' and training_date = '$date'");
-   } else { // update makeup_date 
+   } else { // update makeup_date
       $res = $mysqli->query("UPDATE $attendance_table SET makeup_date = '$value' WHERE user_id = '$user_id' and training_date = '$date'");
    }
    return $res;
@@ -339,7 +340,7 @@ function get_report_list($mysqli, $order_by, $order, $filter_by, $filter) {
         $filter_sql = "WHERE $filter_by = '$filter' AND locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ($locality)";
+          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ('$locality')";
         }
 
         if ($locality == 'Admin') {
@@ -352,7 +353,7 @@ function get_report_list($mysqli, $order_by, $order, $filter_by, $filter) {
         $filter_sql = "WHERE locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE locality in ($locality)";
+          $filter_sql = "WHERE locality in ('$locality')";
         }
 
         if ($locality == 'Admin') {
@@ -397,7 +398,7 @@ function get_accounting_list($mysqli, $order_by, $order, $filter_by, $filter) {
         $filter_sql = "WHERE $filter_by = '$filter' AND locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ($locality)";
+          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ('$locality')";
         }
 
         if ($locality == 'Admin') {
@@ -410,7 +411,7 @@ function get_accounting_list($mysqli, $order_by, $order, $filter_by, $filter) {
         $filter_sql = "WHERE locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE locality in ($locality)";
+          $filter_sql = "WHERE locality in ('$locality')";
         }
 
         if ($locality == 'Admin') {
@@ -462,7 +463,7 @@ function get_group_list($mysqli, $order_by, $order, $filter_by, $filter) {
         $filter_sql = "WHERE $filter_by = '$filter' AND locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ($locality)";
+          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ('$locality')";
         }
 
         if ($locality == 'Admin') {
@@ -474,7 +475,7 @@ function get_group_list($mysqli, $order_by, $order, $filter_by, $filter) {
         $filter_sql = "WHERE locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE locality in ($locality)";
+          $filter_sql = "WHERE locality in ('$locality')";
         }
 
 	if ($locality == 'Admin') {
@@ -535,7 +536,7 @@ function get_provinces($filename) {
       $province = explode("|", $province_line);
       $options .= '<option value="'.$province[0].'">'.$province[1].'</option>';
   }
-  
+
   return $options;
 }
 

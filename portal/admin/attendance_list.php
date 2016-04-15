@@ -19,8 +19,8 @@ body {
 <?php include("../../includes/header.html"); ?>
 <?php include("../../includes/navigation.html"); ?>
 <body>
-<?php 
-    if (login_check($mysqli) == true) : 
+<?php
+    if (login_check($mysqli) == true) :
 ?>
 
 <b>Trainee Attendence</b>
@@ -68,10 +68,10 @@ $group_dates = [
     "group mtg 12" => "Lesson 12",
     "group mtg 13" => "Lesson 13",
     "group mtg 14" => "Lesson 14",
-    "group mtg 15" => "Lesson 15", 
+    "group mtg 15" => "Lesson 15",
     "group mtg 16" => "Lesson 16",
     "group mtg 17" => "Lesson 17",
-    "group mtg 18" => "Lesson 18", 
+    "group mtg 18" => "Lesson 18",
 /*    "group mtg 19" => "Lesson 19",
     "group mtg 20" => "Lesson 20",
     "group mtg 21" => "Lesson 21",
@@ -94,13 +94,13 @@ $group_dates = [
 
 if (isset($_GET['attendance_task'])) {
    $attendance_task = $_GET['attendance_task'];
-   if ($attendance_task == "attendance") { // we are dealing with training attendancee 
+   if ($attendance_task == "attendance") { // we are dealing with training attendancee
       $attendance_table = "attendance";
       $date_array = $training_dates;
    } else {
       $attendance_table = "group_attendance";
       $date_array = $group_dates;
-  }   
+  }
 }
 
 if (isset($_GET['attendance_table'])) {
@@ -123,7 +123,10 @@ if (isset($_POST['submit_attendance_table'])) {
 $attendance = get_attendance_list($attendance_table, $mysqli);
 //print $attendance['8']['2014-12-30'];
 
+
+
 $res = getlist($mysqli, $order_by, $order, $filter_by, $filter);
+
 if ($res != 0) {
     echo "<table border=1><tr>";
     foreach (array_keys($display_values) as $key) {
@@ -181,8 +184,8 @@ if ($res != 0) {
     foreach(array_keys($date_array) as $date) {
       if (!$excused[$date]) {
         $excused[$date] = 0;
-      }        
-      echo $date, " is ", $excused[$date], "<br/>"; 
+      }
+      echo $date, " is ", $excused[$date], "<br/>";
     }
     echo "<br/><br/>Number of unexcused absences on:<br/>";
     foreach(array_keys($date_array) as $date) {
