@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/portal/styles.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+var debugScript = 0;
+
+function computeTableColumnTotal(tableId, colNumber)
+{
+  // find the table with id attribute tableId
+  // return the total of the numerical elements in column colNumber
+  // skip the top row (headers) and bottom row (where the total will go)
+
+  var result = 0;
+
+  try
+  {
+    var tableElem = window.document.getElementById(tableId);
+    var tableBody = tableElem.getElementsByTagName("tbody").item(0);
+    var i;
+    var howManyRows = tableBody.rows.length;
+    for (i=1; i<(howManyRows-1); i++) // skip first and last row (hence i=1, and howManyRows-1)
+    {
+       var thisTrElem = tableBody.rows[i];
+       var thisTdElem = thisTrElem.cells[colNumber];
+       var thisTextNode = thisTdElem.childNodes.item(0);
+
+       // try to convert text to numeric
+       var thisNumber = parseFloat(thisTextNode.value);
+       // if you didn't get back the value NaN (i.e. not a number), add into result
+       if (!isNaN(thisNumber))
+         result += thisNumber;
+      //   result = Math.ceil(result*100)/100;
+     } // end for
+  } // end try
+  catch (ex)
+  {
+     window.alert("Exception in function computeTableColumnTotal()\n" + ex);
+     result = 0;
+  }
+  finally
+  {
+     return result;
+  }
+
+}
+
+function finishTable()
+{
+   if (debugScript)
+     window.alert("Beginning of function finishTable");
+
+   var tableElemName = "reportTable";
+
+   var totalAmount = computeTableColumnTotal("reportTable", 4);
+
+   try
+   {
+      var totalAmountElem = window.document.getElementById("totalAmount");
+      totalAmountElem.innerHTML = totalAmount;
+      totalAmountElem.value = totalAmount;
+   }
+   catch (ex)
+   {
+      window.alert("Exception in function finishTable()\n" + ex);
+   }
+   return;
+}
+    function validateForm()
+    {
+        var fn = document.forms["accounting"]["first_name"].value;
+        var ln = document.forms["accounting"]["last_name"].value;
+        var lc = document.forms["accounting"]["locality"].value;
+        var em = document.forms["accounting"]["email"].value;
+        var rt = document.forms["accounting"]["report_type"].value;
+        if (fn == null || fn == "")
+        {
+            alert("Please enter your first name");
+            return false;
+        }
+        else if (ln == null || ln == "")
+        {
+            alert("Please enter your last name");
+            return false;
+        }
+        else if (lc == null || lc == "")
+        {
+            alert("Please enter your locality");
+            return false;
+        }
+        else if (em == null || em == "")
+        {
+            alert("Please enter your e-mail address");
+            return false;
+        }
+        else if (rt == null || rt == "")
+        {
+            alert("Please enter your report type");
+            return false;
+        } else {
+            return true;
+        }
+    }
+    </script>
+    <title>2016 Boston Area Training on Eldership</title>
+</head>
+<body>
+
+<!--<?php include("../includes/header.html"); ?>
+<?php include("../includes/navigation.html"); ?>
+<?php include_once("../includes/functions.php"); ?> -->
+
+<div class="report_content">
+    <center><b>2016 Boston Area Training on Eldership<br/>
+    <b>Income or Expense Report</b></center><br/><br/>
+      <div class="report_section">
+        <form method="post" onsubmit="return validateForm()" action="/brotherstraining/portal/submit_accounting.php" name="accounting">
+            <b>First Name:</b><br/>
+            <input type="text" name="first_name" id="first_name"/><br/><br/>
+            <b>Last Name:</b><br/>
+            <input type="text" name="last_name" id="last_name"/><br/><br/>
+            <b>E-mail:</b><br/>
+            <input type="text" name="email" id="email"/><br/><br/>
+            <b>Locality:</b><br/>
+            <select id="locality" name="locality">
+                <option value="">----</option>
+                <option value="Amherst, MA">Amherst, MA</option>
+                <option value="Boston, MA">Boston, MA</option>
+                <option value="Cambridge, MA">Cambridge, MA</option>
+                <option value="Lowell, MA">Lowell, MA</option>
+                <option value="Middleboro, MA">Middleboro, MA</option>
+                <option value="Newton, MA">Newton, MA</option>
+                <option value="Worcester, MA">Worcester, MA</option>
+                <option value="North Providence, RI">North Providence, RI</option>
+<?php echo get_provinces('../includes/localities.txt'); ?>
+
+            </select><br/><br/>
+        <b>Address:</b><br/>
+        <input type="text" name="address0" id="address0" size="80"/><br/><br/>
+        <b>Date:</b><br/>
+        <?echo date('l F jS\, Y h:iA');?><br/><br/>
+        <input type="hidden" name="date_submitted" value="<?echo date('Y-m-d');?>"/>
+        <b>Report Type</b><br/>
+        <select id="report_type" name="report_type">
+                <option value="">-----</option>
+                <option value="Income">Income</option>
+                <option value="Expense">Expense</option>
+             </select><br/><br/>
+        <table border="1" style="width:100%" id="reportTable">
+        <colgroup>
+            <col span="1" style="width:10%;">
+            <col span="1" style="width:25%;">
+            <col span="1" style="width:15%;">
+            <col span="1" style="width:25%;">
+            <col span="1" style="width:15%;">
+        </colgroup>
+        <tbody>
+        <tr><th>Date</th>
+            <th>Description</th>
+            <th>Payee</th>
+            <th>Address</th>
+            <th>Amount</th></tr>
+        <tr><td><input type="text" name="date1" id="date1" style="width:98%"/></td>
+            <td><input type="text" name="desc1" id="desc1" style="width:98%" /></td>
+            <td><input type="text" name="payee1" id="payee1" style="width:98%"/></td>
+            <td><input type="text" name="address1" id="address1" style="width:98%"/></td>
+            <td><input type="number" step="any" name="amount1" id="amount1" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date2" id="date2"style="width:98%"/></td>
+            <td><input type="text" name="desc2" id="desc2" style="width:98%"/></td>
+            <td><input type="text" name="payee2" id="payee2" style="width:98%"/></td>
+            <td><input type="text" name="address2" id="address2" style="width:98%"/></td>
+            <td><input type="number" step="any" name="amount2" id="amount2" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date3" id="date3" style="width:98%" /></td>
+            <td><input type="text" name="desc3" id="desc3" style="width:98%"/></td>
+            <td><input type="text" name="payee3" id="payee3"style="width:98%" /></td>
+            <td><input type="text" name="address3" id="address3" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount3" id="amount3" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date4" id="date4" style="width:98%" /></td>
+            <td><input type="text" name="desc4" id="desc4" style="width:98%" /></td>
+            <td><input type="text" name="payee4" id="payee4" style="width:98%" /></td>
+            <td><input type="text" name="address4" id="address4" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount4" id="amount4" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date5" id="date5" style="width:98%" /></td>
+            <td><input type="text" name="desc5" id="desc5" style="width:98%" /></td>
+            <td><input type="text" name="payee5" id="payee5" style="width:98%" /></td>
+            <td><input type="text" name="address5" id="address5" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount5" id="amount5" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date6" id="date6" style="width:98%" /></td>
+            <td><input type="text" name="desc6" id="desc6" style="width:98%" /></td>
+            <td><input type="text" name="payee6" id="payee6" style="width:98%" /></td>
+            <td><input type="text" name="address6" id="address6" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount6" id="amount6" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date7" id="date7" style="width:98%" /></td>
+            <td><input type="text" name="desc7" id="desc7" style="width:98%" /></td>
+            <td><input type="text" name="payee7" id="payee7" style="width:98%" /></td>
+            <td><input type="text" name="address7" id="address7" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount7" id="amount7" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date8" id="date8" style="width:98%" /></td>
+            <td><input type="text" name="desc8" id="desc8" style="width:98%" /></td>
+            <td><input type="text" name="payee8" id="payee8" style="width:98%" /></td>
+            <td><input type="text" name="address8" id="address8" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount8" id="amount8" style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date9" id="date9" style="width:98%" /></td>
+            <td><input type="text" name="desc9" id="desc9" style="width:98%" /></td>
+            <td><input type="text" name="payee9" id="payee9" style="width:98%" /></td>
+            <td><input type="text" name="address9" id="address9" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount9" id="amount9" style="width:98%"  onblur="finishTable()"/></td></tr>
+        <tr><td><input type="text" name="date10" id="date10" style="width:98%" /></td>
+            <td><input type="text" name="desc10" id="desc10" style="width:98%" /></td>
+            <td><input type="text" name="payee10" id="payee10" style="width:98%" /></td>
+            <td><input type="text" name="address10" id="address10" style="width:98%" /></td>
+            <td><input type="number" step="any" name="amount10" id="amount10"  style="width:98%" onblur="finishTable()"/></td></tr>
+        <tr><td></td><td></td><td></td><td><b>Total Amount</b></td><td><input type="number" step="any" name="totalAmount" id="totalAmount" style="width:98%" /></td></tr>
+            </tbody>
+        </table><br/><br/>
+        <b>Remark</b><br>
+        <textarea name="remark" cols="40" rows="4"/></textarea><br/><br/>
+        <b>Do you want a copy of this report to be sent to your email account?</b><br/>
+        <input type="radio" name="email_report" id="email_report" value="1" checked>Yes<br/>
+        <input type="radio" name="email_report" id="email_report" value="0" >No<br/><br/>
+        <input type="submit" value="Submit Report"/><br/><br/>
+    </div>
+
+</div>
+
+</body>
+</html>

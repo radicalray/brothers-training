@@ -1,0 +1,1 @@
+include_path = ".:/urs/local/lib/php:/usr/local/php5/lib/pear:/home/ncchurches_admin/ZendFramework-1.12.11-minimal/library/"

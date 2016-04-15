@@ -1,0 +1,103 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id A5440280084
+	for <ncchurches_admin@spruce.dreamhost.com>; Tue, 11 Aug 2015 19:39:30 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id BCC0A8015C659; Tue, 11 Aug 2015 19:46:03 -0700 (PDT)
+Date: Tue, 11 Aug 2015 19:46:03 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="5C2508692E1DB.1439347563/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20150812024604.BCC0A8015C659@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--5C2508692E1DB.1439347563/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<shengkc@yahoo.com>: delivery temporarily suspended: lost connection with
+    mta7.am0.yahoodns.net[66.196.118.36] while sending RCPT TO
+
+--5C2508692E1DB.1439347563/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: 5C2508692E1DB
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Sat,  8 Aug 2015 15:49:34 -0700 (PDT)
+
+Final-Recipient: rfc822; shengkc@yahoo.com
+Original-Recipient: rfc822;shengkc@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta7.am0.yahoodns.net[66.196.118.36] while sending RCPT TO
+
+--5C2508692E1DB.1439347563/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id 5C2508692E1DB
+	for <shengkc@yahoo.com>; Sat,  8 Aug 2015 15:49:34 -0700 (PDT)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 5CEB22200D2
+	for <shengkc@yahoo.com>; Sat,  8 Aug 2015 15:42:52 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 47295280087; Sat,  8 Aug 2015 15:42:58 -0700 (PDT)
+To: shengkc@yahoo.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150808224258.47295280087@spruce.dreamhost.com>
+Date: Sat,  8 Aug 2015 15:42:58 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: King<br/>
+         Last Name: Sheng<br/>
+         Email: shengkc@yahoo.com<br/>
+         Locality: Sunnyvale<br/>
+         Language: English<br/>
+         Group Number: 0<br/>
+         Lesson: Lesson 19<br/>
+         Attendees: Steve Lai; Spencer Choi; King Sheng<br/>
+         Absentees: Mike Lee; Tao Ma; Jae Kang<br/>
+         Study Report: Although we have only 3 brothers met together, we exercised our spirits and share all the questions and answers together. We were touched that the following points:
+1. An elder must have a very clear revelation and thorough vision concerning the position, the importance, the process, and the consummation of the church in God's plan; only then will he know what the church is that he is managing; and what is its position and nature. May the Lord grants us such clear revelation and thorough vision about the church.
+2. Every elder has to see that God has His government in the universe, and He also has His government in the church; every one who lacks a vision concerning God's government will be unable to serve satisfactorily as an elder before God. We shared that those who left the recovery may not see the government in both aspects. Lord, we need to see God's government in both universal and local aspects.
+3. The New Testament shows us clearly that the authority of the church is entrusted to the elders and is completely in the hands of the elders. Although the elders are appointed by the apostles, God has not entrusted the authority of the church to the hands of the apostles.<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-08-08<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--5C2508692E1DB.1439347563/irv-vsguest-relay2.dreamhost.com--

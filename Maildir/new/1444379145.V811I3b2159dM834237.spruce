@@ -1,0 +1,157 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id C6CEA28015E
+	for <ncchurches_admin@spruce.dreamhost.com>; Fri,  9 Oct 2015 01:25:45 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id 0DEF58010D0A5; Fri,  9 Oct 2015 01:33:17 -0700 (PDT)
+Date: Fri,  9 Oct 2015 01:33:17 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="865E98018B0F3.1444379597/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20151009083317.0DEF58010D0A5@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--865E98018B0F3.1444379597/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<paul.daubenmire@yahoo.com>: delivery temporarily suspended: lost connection
+    with mta7.am0.yahoodns.net[98.138.112.35] while sending RCPT TO
+
+--865E98018B0F3.1444379597/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: 865E98018B0F3
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Tue,  6 Oct 2015 01:22:59 -0700 (PDT)
+
+Final-Recipient: rfc822; paul.daubenmire@yahoo.com
+Original-Recipient: rfc822;paul.daubenmire@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta7.am0.yahoodns.net[98.138.112.35] while sending RCPT TO
+
+--865E98018B0F3.1444379597/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id 865E98018B0F3
+	for <paul.daubenmire@yahoo.com>; Tue,  6 Oct 2015 01:22:59 -0700 (PDT)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id AC5FC2200EA;
+	Tue,  6 Oct 2015 01:14:56 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 0B9902801B4; Tue,  6 Oct 2015 01:15:04 -0700 (PDT)
+To: paul.daubenmire@yahoo.com, norcalchurches@gmail.com
+Subject: NorCal SEROT: Expense Report
+X-PHP-Originating-Script: 14816965:submit_accounting.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20151006081504.0B9902801B4@spruce.dreamhost.com>
+Date: Tue,  6 Oct 2015 01:15:04 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: Paul<br/>
+         Last Name: Daubenmire<br/>
+         Email: paul.daubenmire@yahoo.com<br/>
+         Locality: Berkeley<br/>
+         Address: 2332 Haste St. Berkeley CA 94704<br/>
+         Report Type: Expense<br/>
+         Remark: this covers 12 months of printing related to SEROT training<br/>
+         Date Submitted: 2015-10-06<br/><br/><br/>
+         <table border="1" style="width:100%">
+         <colgroup>
+              <col span="1" style="width:10%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+        </colgroup>
+        <tr><td> Date </td><td> Description </td><td> Payee </td><td> Address </td><td> Amount </td>
+        <tr><td>9/23/15</td>
+            <td>Printer cartridge - multiple months printing</td>
+            <td>Church in Berkeley</td>
+            <td>2430 Dana St. Berkeley CA  94704</td>
+            <td>124.20</td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td><td></td><td></td><td>Total Amount</td><td>124.2</td></tr>
+        </table><br/><br/>
+        Note: This is an automically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--865E98018B0F3.1444379597/irv-vsguest-relay2.dreamhost.com--

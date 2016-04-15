@@ -1,0 +1,156 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by spruce.dreamhost.com (Postfix) with ESMTP id C075328007C
+	for <ncchurches_admin@spruce.dreamhost.com>; Sun,  1 Feb 2015 15:29:29 -0800 (PST)
+Received: by irv-shared-relay1.dreamhost.com (Postfix)
+	id 3166D22005E; Sun,  1 Feb 2015 15:29:27 -0800 (PST)
+Date: Sun,  1 Feb 2015 15:29:27 -0800 (PST)
+From: MAILER-DAEMON@irv-shared-relay1.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="4FAF2220060.1422833367/irv-shared-relay1.dreamhost.com"
+Message-Id: <20150201232927.3166D22005E@irv-shared-relay1.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--4FAF2220060.1422833367/irv-shared-relay1.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-shared-relay1.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<norchurches@gmail.com>: host gmail-smtp-in.l.google.com[74.125.129.27] said:
+    550-5.1.1 The email account that you tried to reach does not exist. Please
+    try 550-5.1.1 double-checking the recipient's email address for typos or
+    550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1
+    http://support.google.com/mail/bin/answer.py?answer=6596 y4si21641530par.93
+    - gsmtp (in reply to RCPT TO command)
+
+--4FAF2220060.1422833367/irv-shared-relay1.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-shared-relay1.dreamhost.com
+X-Postfix-Queue-ID: 4FAF2220060
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Sun,  1 Feb 2015 15:29:26 -0800 (PST)
+
+Final-Recipient: rfc822; norchurches@gmail.com
+Original-Recipient: rfc822;norchurches@gmail.com
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; gmail-smtp-in.l.google.com
+Diagnostic-Code: smtp; 550-5.1.1 The email account that you tried to reach does
+    not exist. Please try 550-5.1.1 double-checking the recipient's email
+    address for typos or 550-5.1.1 unnecessary spaces. Learn more at 550 5.1.1
+    http://support.google.com/mail/bin/answer.py?answer=6596 y4si21641530par.93
+    - gsmtp
+
+--4FAF2220060.1422833367/irv-shared-relay1.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 4FAF2220060;
+	Sun,  1 Feb 2015 15:29:26 -0800 (PST)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id D53CC28007D; Sun,  1 Feb 2015 15:29:28 -0800 (PST)
+To: brianchoy1111@gmail.com, norchurches@gmail.com
+Subject: NorCal SEROT: Expense Report
+X-PHP-Originating-Script: 14816965:submit_accounting.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150201232928.D53CC28007D@spruce.dreamhost.com>
+Date: Sun,  1 Feb 2015 15:29:28 -0800 (PST)
+
+Hi, <br/><br/> the following is the report you have submitted: <br/><br/>First Name: Danny<br/>
+         Last Name: DiBartaolomeo<br/>
+         Email: brianchoy1111@gmail.com<br/>
+         Locality: Mountain View<br/>
+         Address: ddddd<br/>
+         Report Type: Expense<br/>
+         Remark: <br/>
+         Date Submitted: 2015-02-01<br/>
+         <table border="1" style="width:100%">
+         <colgroup>
+              <col span="1" style="width:10%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+        </colgroup>
+        <tr><td> Date </td><td> Description </td><td> Payee </td><td> Address </td><td> Amount </td>
+        <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td><td></td><td></td><td>Total Amount</td><td></td></tr>
+        </table><br/><br/>
+
+--4FAF2220060.1422833367/irv-shared-relay1.dreamhost.com--

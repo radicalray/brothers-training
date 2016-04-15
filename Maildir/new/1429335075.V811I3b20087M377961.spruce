@@ -1,0 +1,114 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by spruce.dreamhost.com (Postfix) with ESMTP id 5AABB28007B
+	for <ncchurches_admin@spruce.dreamhost.com>; Fri, 17 Apr 2015 22:31:15 -0700 (PDT)
+Received: by irv-shared-relay1.dreamhost.com (Postfix)
+	id 9917C22005D; Fri, 17 Apr 2015 22:31:11 -0700 (PDT)
+Date: Fri, 17 Apr 2015 22:31:11 -0700 (PDT)
+From: MAILER-DAEMON@irv-shared-relay1.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="8AC3C22004E.1429335071/irv-shared-relay1.dreamhost.com"
+Message-Id: <20150418053111.9917C22005D@irv-shared-relay1.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--8AC3C22004E.1429335071/irv-shared-relay1.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-shared-relay1.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<ritero_chi@hotmail.com>: host mx1.hotmail.com[65.54.188.72] said: 550 OU-002
+    (BAY004-MC1F45) Unfortunately, messages from 64.90.62.20 weren't sent.
+    Please contact your Internet service provider since part of their network
+    is on our block list. You can also refer your provider to
+    http://mail.live.com/mail/troubleshooting.aspx#errors. (in reply to MAIL
+    FROM command)
+
+--8AC3C22004E.1429335071/irv-shared-relay1.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-shared-relay1.dreamhost.com
+X-Postfix-Queue-ID: 8AC3C22004E
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Fri, 17 Apr 2015 22:31:11 -0700 (PDT)
+
+Final-Recipient: rfc822; ritero_chi@hotmail.com
+Original-Recipient: rfc822;ritero_chi@hotmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx1.hotmail.com
+Diagnostic-Code: smtp; 550 OU-002 (BAY004-MC1F45) Unfortunately, messages from
+    64.90.62.20 weren't sent. Please contact your Internet service provider
+    since part of their network is on our block list. You can also refer your
+    provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+--8AC3C22004E.1429335071/irv-shared-relay1.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 8AC3C22004E
+	for <ritero_chi@hotmail.com>; Fri, 17 Apr 2015 22:31:11 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 3E83928007D; Fri, 17 Apr 2015 22:31:15 -0700 (PDT)
+To: ritero_chi@hotmail.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150418053115.3E83928007D@spruce.dreamhost.com>
+Date: Fri, 17 Apr 2015 22:31:15 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: Ritero<br/>
+         Last Name: Chi<br/>
+         Email: ritero_chi@hotmail.com<br/>
+         Locality: Santa Clara<br/>
+         Language: English<br/>
+         Group Number: 1<br/>
+         Lesson: Lesson 9<br/>
+         Attendees: Joseph Lee, Ritero Chi, Wen-Hsiang Hu, Jorge Tan, Hugh Wong, Daniel Yeung<br/>
+         Absentees: Warren Chung, Hui Wu, Tie Fang, Robert Ju, Richard Ho<br/>
+         Study Report:  The matter of managing our own household was made clear. The concept of Paul in this section regarding the elders is on the overseers' living. In this light, the way to lead and manage our household well is by having a living that presents a positive pattern to them; this depends on what we are. If we cannot be a good example to our children, we cannot be a good example in the church. The basic concept here is that the elders should lead not by ruling with authority but by being a living example so that the others could follow.
+
+It is easy to be proud when a person is put in a special position in a group. That is why it is dangerous to bring a new convert to the eldership. If an elder becomes proud, he will suffer the same condemnation as the devil.Being in an apprenticeship and having an attitude of learners will preserve us. We must be in fear and trembling, praying that the Lord will preserve us from any kind of pride.
+
+We also must have a good testimony from those outside, who are not in the church, that we may not fall into the reproach and snare of the devil. We should clear past mistakes by confessing to those who were involved. For the future, we must look to the Lord and realize that it is by His mercy that we are an elder, and also be careful because Satan will continually seek opportunity to damage us as those who care for God's house, the church.
+
+Holding to the faithful word is key to maintaining good order in the church. Such faithful word is according to the teaching of the apostles and enable us to stop troublesome talkers and calm a tumultuous situation. It enables us to convict those who contradict by exposing the true character of a matter, so as to convict and reprove by exposing one's fault.
+
+All these qualifications are a revelation of what the Lord can do within us, how much the resurrection life can do within us. On our side must cooperate with Him by having a desire and a willingness and by praying much. The current realization is that He indeed is doing such a work in us through this training. Amen, do it Lord Jesus!
+
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-04-17<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--8AC3C22004E.1429335071/irv-shared-relay1.dreamhost.com--

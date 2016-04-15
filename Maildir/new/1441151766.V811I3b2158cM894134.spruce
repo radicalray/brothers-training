@@ -1,0 +1,107 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id D89752801E0
+	for <ncchurches_admin@spruce.dreamhost.com>; Tue,  1 Sep 2015 16:56:06 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id 65998804B9855; Tue,  1 Sep 2015 17:03:04 -0700 (PDT)
+Date: Tue,  1 Sep 2015 17:03:04 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7C43080506900.1441152184/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20150902000304.65998804B9855@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--7C43080506900.1441152184/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<etsay33@yahoo.com>: delivery temporarily suspended: lost connection with
+    mta5.am0.yahoodns.net[98.138.112.34] while sending RCPT TO
+
+--7C43080506900.1441152184/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: 7C43080506900
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Sat, 29 Aug 2015 16:48:17 -0700 (PDT)
+
+Final-Recipient: rfc822; etsay33@yahoo.com
+Original-Recipient: rfc822;etsay33@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta5.am0.yahoodns.net[98.138.112.34] while sending RCPT TO
+
+--7C43080506900.1441152184/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id 7C43080506900
+	for <etsay33@yahoo.com>; Sat, 29 Aug 2015 16:48:17 -0700 (PDT)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 5F41B220059
+	for <etsay33@yahoo.com>; Sat, 29 Aug 2015 16:41:15 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 11F342802F7; Sat, 29 Aug 2015 16:41:22 -0700 (PDT)
+To: etsay33@yahoo.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150829234122.11F342802F7@spruce.dreamhost.com>
+Date: Sat, 29 Aug 2015 16:41:22 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: Elbert<br/>
+         Last Name: Tsay<br/>
+         Email: etsay33@yahoo.com<br/>
+         Locality: San Jose<br/>
+         Language: English<br/>
+         Group Number: 1<br/>
+         Lesson: Lesson 21<br/>
+         Attendees: Oun Ho Park, William Lee, Elbert Tsay, Abraham Lee, Aaron Morgan<br/>
+         Absentees: <br/>
+         Study Report: Q#1 : We need to know the Lord's recovery in Life not by speaking Life but living in Life. Without living, it does not have much meaning. Without seeing or knowing Life, our focus easily goes to outward activity or dead doctrine. If elders don;t know the Life, they cannot minister Life, discern the Life in others. The Lord's recovery has a purpose. God Himself becomes our Life. Without Life, everything is degraded. Recovery is the recovery of Life. Deviation from Life causes degradation. Lord's recovery is not sustainable without Life. Without Life, we also can be deceived. The discernment is from Life. What we need to see is a clear vision concerning what Life is. For this reason, we need to have definite prayers.
+
+Q#2 : Triune God is Life. The Life spoken of in John is present in Christ compared to something to come in the coming age. John 1:4 said, "In Him was life, and the life was the light of men. This life is a person.  We can get life supply but cannot live life without Him being our person. We have the divine life by regeneration (John 3:6) and become the children of God (John 1:12-13)  John 10:10 said 'I have come that they may have life and may have it abundantly. John 14:6 said "I am the resurrection and the life". He is a life that can withstand, overcome, and never be conquered or terminated by death. John 14:6 said "I am the way, the reality, and the life" He is a life that become our everything.
+
+Q#3: Golden lampstand in Revelation depicts the Triune God in His chosen, regenerated, transformed, conformed, and glorified people because His life is being worked into His believers. We need to see a vision of the churches as Golden lampstand - the embodiment and expression of the Triune God. 
+
+
+How to maintain the Lord's recovery continuously as a whole? Real danger is oldness. Once we become old, everything start attacking us. Pride is a start of oldness like Laodecia. So we need the Triune God in Christ realized as the indwelling Spirit to be our life.<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-08-29<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--7C43080506900.1441152184/irv-vsguest-relay2.dreamhost.com--

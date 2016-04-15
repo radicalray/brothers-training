@@ -1,0 +1,116 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id 45DA528007C
+	for <ncchurches_admin@spruce.dreamhost.com>; Thu,  2 Apr 2015 21:54:22 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id 85EBB8001F6D4; Thu,  2 Apr 2015 21:58:59 -0700 (PDT)
+Date: Thu,  2 Apr 2015 21:58:59 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="BD4A2806804C5.1428037139/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20150403045859.85EBB8001F6D4@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--BD4A2806804C5.1428037139/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<gopalkris_shetty@yahoo.com>: delivery temporarily suspended: lost connection
+    with mta5.am0.yahoodns.net[98.138.112.34] while sending RCPT TO
+
+--BD4A2806804C5.1428037139/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: BD4A2806804C5
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Mon, 30 Mar 2015 21:48:42 -0700 (PDT)
+
+Final-Recipient: rfc822; gopalkris_shetty@yahoo.com
+Original-Recipient: rfc822;gopalkris_shetty@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta5.am0.yahoodns.net[98.138.112.34] while sending RCPT TO
+
+--BD4A2806804C5.1428037139/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id BD4A2806804C5
+	for <gopalkris_shetty@yahoo.com>; Mon, 30 Mar 2015 21:48:42 -0700 (PDT)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id AD03922005F
+	for <gopalkris_shetty@yahoo.com>; Mon, 30 Mar 2015 21:44:03 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 10DCC28007D; Mon, 30 Mar 2015 21:44:07 -0700 (PDT)
+To: gopalkris_shetty@yahoo.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150331044407.10DCC28007D@spruce.dreamhost.com>
+Date: Mon, 30 Mar 2015 21:44:07 -0700 (PDT)
+X-VR-SPAMSTATE: OK
+X-VR-SPAMSCORE: 0
+X-VR-SPAMCAUSE: Vade Retro 01.380.16#93  Profile: <none>; Bailout: 300; 
+
+Hi, <br/><br/> the following is the report you have submitted: <br/><br/>First Name: Gopal<br/>
+         Last Name: Shetty<br/>
+         Email: gopalkris_shetty@yahoo.com<br/>
+         Locality: Brentwood<br/>
+         Language: English<br/>
+         Group Number: 1<br/>
+         Lesson: Lesson 9<br/>
+         Attendees: Gopal, Samuel Ho from Stockton<br/>
+         Absentees: <br/>
+         Study Report:  Elder is one who manages his house well.
+Managing well our own household is a proof that 
+one is qualified to take oversight of a local church,
+Elder should lead by being a living example so that other members of the church can follow
+It is dangerous to bring a new believer into the church lest he may be blinded with pride.
+Those who are taking the lead must be in fear and trembling, praying that the Lord will preserve them from any kind of pride
+The qualifications listed in 1 Timothy 3:1-7 are actually a revelation of how much the resurection life of the indwelling Christ can do in us.
+eg self control is altogether a matte of life.
+an elder must live  a life that has been dealt with 
+by the cross of Christ so that resurrection power   
+will operate in us.
+We need to cooperate with Him by having a desire and a willingness and by praying much
+If we wait on the Lord, He will work out all these things from within us<br/>
+         Suggestions: I would have liked to go to the middle aged training. But I am not able to go.
+But Praise Him this training is of much help to me  <br/>
+         Date Submitted: 2015-03-30<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--BD4A2806804C5.1428037139/irv-vsguest-relay2.dreamhost.com--

@@ -1,0 +1,50 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>2016 Boston Area Training on Eldership Training Mass Update Attendance</title>
+</head>
+<body>
+
+<?php include("../includes/header.html"); ?>
+<?php include("../includes/navigation.html"); ?>
+
+<div class="content">
+
+<center><b>2016 Canada Training on Eldership <br/>Training Meeting Update Attendance Form</b></center><br/>
+
+<form action="admin/attendance_rollcall.php" method="post">
+    <input type="hidden" name="attendance_table" value="attendance"/>
+    <div class="application_section">
+    <b><center>This script will set the Monthly Training Attendance table with 'Present' for any rows that are not marked yet.</b><br/>
+    <br/><br/>Please enter the attendance status:<br/><br/>
+    <select id="status" name="status">
+        <option value=''>------------</option>
+	<option value='P'>Present</option>
+    </select></center><br/>
+
+    <br/><br/><center>Please enter the training date for the update:<br/><br/>
+    <select id="training_date" name="training_date">
+        <option value=''>-----------</option>
+        <option value='2016-01-16'>01-16-2016</option>
+        <option value='2016-02-20'>02-20-2016</option>
+        <option value='2016-03-19'>03-19-2016</option>
+        <option value='2016-04-16'>04-16-2016</option>
+        <option value='2016-05-14'>05-14-2016</option>
+        <option value='2016-06-18'>06-18-2016</option>
+        <option value='2016-07-16'>07-16-2016</option>
+        <option value='2016-08-20'>08-20-2016</option>
+        <option value='2016-09-17'>09-17-2016</option>
+        <option value='2016-10-15'>10-15-2016</option>
+        <option value='2016-11-19'>11-19-2016</option>
+        <option value='2016-12-17'>12-17-2016</option>
+    </select></center><br/>
+    </div>
+
+    <center><input type="submit" value="Submit" class="application_submit"/></center><br/><br/>
+<center>Click <b><a href="../portal/attendance.html">HERE</b></a> to go back.</center><br/><br/>
+</form>
+
+</div>
+
+</body>
+</html>

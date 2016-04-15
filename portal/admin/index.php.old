@@ -1,0 +1,49 @@
+<?php
+include_once '../../includes/db_connect.php';
+include_once '../../includes/functions.php';
+ 
+sec_session_start();
+ 
+if (login_check($mysqli) == true) {
+    $logged = 'in';
+} else {
+    $logged = 'out';
+}
+?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Secure Login: Log In</title>
+        <script type="text/JavaScript" src="js/sha512.js"></script> 
+        <script type="text/JavaScript" src="js/forms.js"></script> 
+        <link rel="stylesheet" type="text/css" href="../styles.css" />
+    </head>
+<?php include("../../includes/header.html"); ?>
+<?php include("../../includes/navigation.html"); ?>
+<body>
+<br/><br/>
+        <?php
+        if (isset($_GET['error'])) {
+            echo '<p class="error">Error Logging In!</p>';
+        }
+        if (isset($_GET['login_failed'])) {
+            echo "<p><b>Login failed. Please check your username/password and try again.</b></p>";
+       }
+        $task = $_GET['task'];
+        echo "<form action=\"process_login.php?task=$task\" method=\"post\" name=\"login_form\">".                      
+            "Username: <input type=\"text\" name=\"username\" id=\"username\"/>".
+            "Password: <input type=\"password\"". 
+                             "name=\"password\"".
+                             "id=\"password\"/>".
+            "<input type=\"submit\"". 
+                   "value=\"Login\"". 
+                   "onclick=\"formhash(this.form, this.form.password);\". />". 
+        "</form>"
+        ?>
+        <p>If you don't have a login, please <b><u><a href="register.php">Register</a></u></b></p>
+        <p>If you forget your password, please <b><u><a href="reset_password.php">Reset Password</a></u></b></p>
+
+        <p>If you are done, please <b><u><a href="logout.php">Logout</a></u></b>.</p>
+        <p>You are currently logged <b><u><?php echo $logged ?></u></b>.</p>
+</body>
+</html>

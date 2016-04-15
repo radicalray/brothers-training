@@ -1,0 +1,109 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by spruce.dreamhost.com (Postfix) with ESMTP id A876A28006B
+	for <ncchurches_admin@spruce.dreamhost.com>; Thu, 26 Feb 2015 01:23:45 -0800 (PST)
+Received: by irv-shared-relay1.dreamhost.com (Postfix)
+	id AA0FA22005E; Thu, 26 Feb 2015 01:23:42 -0800 (PST)
+Date: Thu, 26 Feb 2015 01:23:42 -0800 (PST)
+From: MAILER-DAEMON@irv-shared-relay1.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="9B63D22005A.1424942622/irv-shared-relay1.dreamhost.com"
+Message-Id: <20150226092342.AA0FA22005E@irv-shared-relay1.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--9B63D22005A.1424942622/irv-shared-relay1.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-shared-relay1.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<ritero_chi@hotmail.com>: host mx2.hotmail.com[65.54.188.126] said: 550 OU-002
+    (BAY004-MC4F14) Unfortunately, messages from 64.90.62.20 weren't sent.
+    Please contact your Internet service provider since part of their network
+    is on our block list. You can also refer your provider to
+    http://mail.live.com/mail/troubleshooting.aspx#errors. (in reply to MAIL
+    FROM command)
+
+--9B63D22005A.1424942622/irv-shared-relay1.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-shared-relay1.dreamhost.com
+X-Postfix-Queue-ID: 9B63D22005A
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Thu, 26 Feb 2015 01:23:42 -0800 (PST)
+
+Final-Recipient: rfc822; ritero_chi@hotmail.com
+Original-Recipient: rfc822;ritero_chi@hotmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx2.hotmail.com
+Diagnostic-Code: smtp; 550 OU-002 (BAY004-MC4F14) Unfortunately, messages from
+    64.90.62.20 weren't sent. Please contact your Internet service provider
+    since part of their network is on our block list. You can also refer your
+    provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+--9B63D22005A.1424942622/irv-shared-relay1.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 9B63D22005A
+	for <ritero_chi@hotmail.com>; Thu, 26 Feb 2015 01:23:42 -0800 (PST)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 8E1B428007C; Thu, 26 Feb 2015 01:23:45 -0800 (PST)
+To: ritero_chi@hotmail.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150226092345.8E1B428007C@spruce.dreamhost.com>
+Date: Thu, 26 Feb 2015 01:23:45 -0800 (PST)
+
+Hi, <br/><br/> the following is the report you have submitted: <br/><br/>First Name: Ritero<br/>
+         Last Name: Chi<br/>
+         Email: ritero_chi@hotmail.com<br/>
+         Locality: Santa Clara<br/>
+         Language: English<br/>
+         Group Number: 1<br/>
+         Lesson: Lesson 4<br/>
+         Attendees: Martin Yue, Robert Ju, Hugh Wong, Jorge Tan, Hui Wu, Ritero Chi, Tie Feng<br/>
+         Absentees: Joseph Lee, Warren Chung, (one more)<br/>
+         Study Report:  After a time of prayer, we read and pray-read key verses in Acts 20:17-38.
+
+The fellowship was focused on the matter of overseeing the need of the saints, with brother Jorge bringing up the question on how to do so in our current small group meetings, which in most cases seems to go in many directions without a clear target. Most saints shared in regards to the need of learning the art of shepherding the saints. The striking point in this regards, in light of the speaking in this training, is that this matter requires much seeking of the Lord and study outside of the meetings in regards to each category of saints in general (e.g., working saints, young people, children, elderly saints, sisters) and each individual saint specifically, in order to be able to render the proper help. The picture of the priest with the breast place is very vivid in this regard. It also requires us to be always fully exercised in our spirit in the meetings and in our contact with people. 
+
+May the LORD grant us the grace to learn and follow in the footsteps of the patterns He has put ahead of us, so others can also learn by our example.
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-02-26<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--9B63D22005A.1424942622/irv-shared-relay1.dreamhost.com--

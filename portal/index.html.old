@@ -1,0 +1,88 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>2016 Boston Area Training on Eldership</title>
+</head>
+<body>
+
+<div class="header">
+  NorCalChurches.org <sub>[Beta]</sub>
+</div>
+<div class="navigation">
+<b>
+  <b>
+  <a href="/brotherstraining/portal/">Home</a>  |
+  <a href="registration.html">Application</a>  |
+  <a href="consecration.html">Consecration</a>  |
+  <a href="media.html">Media</a>  |
+  <a href="admin.html">Administration</a>  |
+  <a href="attendance.html">Attendance</a>  |
+  <a href="group.html">Study Group</a>  |
+  <a href="accounting.html">Accounting</a>  |
+  <a href="help.html">Help</a>  |
+  <a href="admin/logout.php">Logout</a>
+</b>
+</b>
+</div>
+
+<div class="content">
+
+    <b>Event: 2015 NorCal Special Elders and Responsible Ones Training</b>
+    <div class="application_section">
+    <b><u>Training Media:</u></b><br/>
+    The training audio files from last Saturday (1/17) are now available <b><a href="media.html"/>HERE</b>.<br/><br/>
+    <b><u>Consecration Agreement:</u></b><br/>
+    Click <a href="consecration.html"/><b>HERE</b></a> to read and sign.<br/><br/>
+    </div>
+    <div class="application_section">
+    <b><u>Registration Fee:</u></b><br/>
+    $150.00<br/><br/>
+    <b><u>Training Dates:</u></b><br/>
+    Jan 17, Feb 14, Mar 21, Apr 18, May 16, Jun 20<br/>
+    <i>(Third saturday of every month <b>except</b> February)</i><br/><br/>
+    <b><u>Training Location:</u></b><br/>
+    Jan - Mar: South San Francisco Conference Center<br/>
+    Apr - Jun: TBD<br/><br/>
+    <b><u>Time:</u></b><br/>
+    9 am to 1 pm<br/><br/>
+    <b><u>Practical Aspects:</u></b>
+    <ul style="margin-top: 0;">
+	<li>The training is one year in length.</li>
+        <li>During the 4-hour session on each Saturday morning, there will be 3 lessons. Total of 36 lessons in one year.</li>
+	<li>Lesson materials are given out on the day of the training session to the registered brothers.</li>
+	<li>Do not copy the lesson materials. Do not share the materials with anyone outside of your locality.</li>
+	<li>Meetings will be recorded and will be accessible with a password.</li>
+	<li>Try to arrange your shcedule so as to not miss any meeting.</li>
+	   	<ul>
+		<li>Saturday meetings - 3 excused absences are allowed and you are to make up by listening to the recordings. No unexcused absences are allowed.</li>
+		<li>Weekly local sessions - 1 to 1.5 hours; require a 75% attendance</li>
+		</ul>
+	<li>First training session is January 17, 2015</li>
+    </ul>
+    <b><u>Application Procedure</u></b>
+    <ol style="margin-top: 0;" type="1">
+	<li>Submit the following application form, and you will also need a recommendation from the leading brothers in your locality.</li>
+	<li>Sign a consecration agreement, which is a commitment to make all the meetings and do all the assignments. (The consecration agreement will be sent out later)</li>
+    </ol>
+    <b><u>Payment Procedure</u></b>
+    <ul style="margin-top: 0;">
+     	<li> Choose the online payment option in the registration form if possible.</li>
+	<li> There is no need to have a PayPal account to use the online payment.</li>
+	<li> If you choose to pay by check, give the check to the responsible brother in your locality.</li>
+	<li> Each locality should bring one check payable to "Church in San Jose" on the first day of training.</li>
+    </ul>
+    <b><u>Application Deadline</u></b><br/>
+    January 1st, 2015<br/><br/>
+    <b><u>Note</u></b><br/> Registration for the training is closed. <br/>Email admin@churchincambridge.org if you need any help.<br/><br/>
+
+<!--
+    <b><u>Application Form:</u></b><br/> 
+    Click <b><u><a href="registration.html">HERE</a></u></b> for application form<br/>
+-->
+    </div>
+   
+
+</div>
+
+</body>
+</html>

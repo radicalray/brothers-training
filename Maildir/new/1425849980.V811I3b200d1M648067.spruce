@@ -1,0 +1,160 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id 9C6C828006B
+	for <ncchurches_admin@spruce.dreamhost.com>; Sun,  8 Mar 2015 14:26:20 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id F1C7D804BB234; Sun,  8 Mar 2015 14:30:34 -0700 (PDT)
+Date: Sun,  8 Mar 2015 14:30:34 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="E4312804BC105.1425850234/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20150308213034.F1C7D804BB234@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--E4312804BC105.1425850234/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<paul.daubenmire@yahoo.com>: delivery temporarily suspended: lost connection
+    with mta5.am0.yahoodns.net[66.196.118.36] while sending RCPT TO
+
+--E4312804BC105.1425850234/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: E4312804BC105
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Thu,  5 Mar 2015 13:18:17 -0800 (PST)
+
+Final-Recipient: rfc822; paul.daubenmire@yahoo.com
+Original-Recipient: rfc822;paul.daubenmire@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta5.am0.yahoodns.net[66.196.118.36] while sending RCPT TO
+
+--E4312804BC105.1425850234/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id E4312804BC105
+	for <paul.daubenmire@yahoo.com>; Thu,  5 Mar 2015 13:18:17 -0800 (PST)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 90DC0220072;
+	Thu,  5 Mar 2015 13:14:02 -0800 (PST)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 93DE728007B; Thu,  5 Mar 2015 13:14:05 -0800 (PST)
+To: paul.daubenmire@yahoo.com, norcalchurches@gmail.com
+Subject: NorCal SEROT: Expense Report
+X-PHP-Originating-Script: 14816965:submit_accounting.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150305211405.93DE728007B@spruce.dreamhost.com>
+Date: Thu,  5 Mar 2015 13:14:05 -0800 (PST)
+X-VR-SPAMSTATE: OK
+X-VR-SPAMSCORE: 0
+X-VR-SPAMCAUSE: Vade Retro 01.379.49#122  Profile: <none>; Bailout: 300; 
+
+Hi, <br/><br/> the following is the report you have submitted: <br/><br/>First Name: Paul<br/>
+         Last Name: Daubenmire<br/>
+         Email: paul.daubenmire@yahoo.com<br/>
+         Locality: Berkeley<br/>
+         Address: 2330 Haste St. Unit 106  Berkeley CA 94704<br/>
+         Report Type: Expense<br/>
+         Remark: <br/>
+         Date Submitted: 2015-03-05<br/><br/><br/>
+         <table border="1" style="width:100%">
+         <colgroup>
+              <col span="1" style="width:10%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+        </colgroup>
+        <tr><td> Date </td><td> Description </td><td> Payee </td><td> Address </td><td> Amount </td>
+        <tr><td>2/10/15</td>
+            <td>USPS - Shipping</td>
+            <td>Paul Daubenmire</td>
+            <td>2330 Haste St., #106, Berkeley CA 94704</td>
+            <td>13.74</td></tr>
+       <tr><td>2/12/15</td>
+            <td>Copy Grafik</td>
+            <td>Paul Daubenmire</td>
+            <td>2330 Haste St., #106, Berkeley CA 94704</td>
+            <td>270</td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td><td></td><td></td><td>Total Amount</td><td>283.74</td></tr>
+        </table><br/><br/>
+        Note: This is an automically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--E4312804BC105.1425850234/irv-vsguest-relay2.dreamhost.com--

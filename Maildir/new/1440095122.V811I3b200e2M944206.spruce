@@ -1,0 +1,112 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id E4E1F280273
+	for <ncchurches_admin@spruce.dreamhost.com>; Thu, 20 Aug 2015 11:25:22 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id 2D292804BFD70; Thu, 20 Aug 2015 11:32:09 -0700 (PDT)
+Date: Thu, 20 Aug 2015 11:32:09 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="06980804BFCB0.1440095529/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20150820183209.2D292804BFD70@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--06980804BFCB0.1440095529/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<ucdjeffrey@hotmail.com>: host mx4.hotmail.com[65.54.188.110] said: 550 SC-001
+    (BAY004-MC3F43) Unfortunately, messages from 64.90.63.190 weren't sent.
+    Please contact your Internet service provider since part of their network
+    is on our block list. You can also refer your provider to
+    http://mail.live.com/mail/troubleshooting.aspx#errors. (in reply to MAIL
+    FROM command)
+
+--06980804BFCB0.1440095529/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: 06980804BFCB0
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Thu, 20 Aug 2015 11:32:09 -0700 (PDT)
+
+Final-Recipient: rfc822; ucdjeffrey@hotmail.com
+Original-Recipient: rfc822;ucdjeffrey@hotmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx4.hotmail.com
+Diagnostic-Code: smtp; 550 SC-001 (BAY004-MC3F43) Unfortunately, messages from
+    64.90.63.190 weren't sent. Please contact your Internet service provider
+    since part of their network is on our block list. You can also refer your
+    provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+--06980804BFCB0.1440095529/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id 06980804BFCB0
+	for <ucdjeffrey@hotmail.com>; Thu, 20 Aug 2015 11:32:09 -0700 (PDT)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id E7635220062
+	for <ucdjeffrey@hotmail.com>; Thu, 20 Aug 2015 11:25:15 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 4840D280274; Thu, 20 Aug 2015 11:25:22 -0700 (PDT)
+To: ucdjeffrey@hotmail.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150820182522.4840D280274@spruce.dreamhost.com>
+Date: Thu, 20 Aug 2015 11:25:22 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: Jeffrey<br/>
+         Last Name: Guo<br/>
+         Email: ucdjeffrey@hotmail.com<br/>
+         Locality: San Francisco<br/>
+         Language: Chinese<br/>
+         Group Number: 4<br/>
+         Lesson: Lesson 19<br/>
+         Attendees: Daniel Chang, Eddy Choy, Richard (Wen) Zhang, Tom Tang,  Jeffrey Guo, Roger Woo, Benjamin Lau<br/>
+         Absentees: <br/>
+         Study Report: Lesson 19 Knowing God’s Plan, Government and Authority
+
+We should have the vision of God’s economy, and live with this heavenly vision. The church is God’s flock. All saints need to shepherd each other according to God’s plan, government and authority in order to satisfy God. As  active responsible brothers, we need to support and shepherd the elders or other responsible ones in spirit and also humanly. 
+
+The church is the good pleasure of God for the heading up of all things in Christ through the church as the means. As long as each of saints knows God’s plan, government and authority, we can build up God’s body together, be His coworkers in this heavenly process and also become one New Man. If without a thoroughly understanding of God’s plan for us, we can not build up our church life into the oneness, which is the good pleasure of God and the expression of His son. 
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-08-20<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--06980804BFCB0.1440095529/irv-vsguest-relay2.dreamhost.com--

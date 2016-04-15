@@ -1,0 +1,109 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by spruce.dreamhost.com (Postfix) with ESMTP id A2E8F28007C
+	for <ncchurches_admin@spruce.dreamhost.com>; Mon,  2 Feb 2015 23:17:11 -0800 (PST)
+Received: by irv-shared-relay1.dreamhost.com (Postfix)
+	id 0DA71220069; Mon,  2 Feb 2015 23:17:09 -0800 (PST)
+Date: Mon,  2 Feb 2015 23:17:09 -0800 (PST)
+From: MAILER-DAEMON@irv-shared-relay1.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="DF65522006E.1422947829/irv-shared-relay1.dreamhost.com"
+Message-Id: <20150203071709.0DA71220069@irv-shared-relay1.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--DF65522006E.1422947829/irv-shared-relay1.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-shared-relay1.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<jlyhyanni@hotmail.com>: host mx4.hotmail.com[65.55.37.72] said: 550 OU-002
+    (COL004-MC1F5) Unfortunately, messages from 64.90.62.20 weren't sent.
+    Please contact your Internet service provider since part of their network
+    is on our block list. You can also refer your provider to
+    http://mail.live.com/mail/troubleshooting.aspx#errors. (in reply to MAIL
+    FROM command)
+
+--DF65522006E.1422947829/irv-shared-relay1.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-shared-relay1.dreamhost.com
+X-Postfix-Queue-ID: DF65522006E
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Mon,  2 Feb 2015 23:17:08 -0800 (PST)
+
+Final-Recipient: rfc822; jlyhyanni@hotmail.com
+Original-Recipient: rfc822;jlyhyanni@hotmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx4.hotmail.com
+Diagnostic-Code: smtp; 550 OU-002 (COL004-MC1F5) Unfortunately, messages from
+    64.90.62.20 weren't sent. Please contact your Internet service provider
+    since part of their network is on our block list. You can also refer your
+    provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+--DF65522006E.1422947829/irv-shared-relay1.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id DF65522006E
+	for <jlyhyanni@hotmail.com>; Mon,  2 Feb 2015 23:17:08 -0800 (PST)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 7220428007D; Mon,  2 Feb 2015 23:17:11 -0800 (PST)
+To: jlyhyanni@hotmail.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150203071711.7220428007D@spruce.dreamhost.com>
+Date: Mon,  2 Feb 2015 23:17:11 -0800 (PST)
+
+Hi, <br/><br/> the following is the report you have submitted: <br/><br/>First Name: Johnny<br/>
+         Last Name: Lee<br/>
+         Email: jlyhyanni@hotmail.com<br/>
+         Locality: San Jose<br/>
+         Language: Chinese<br/>
+         Group Number: 1<br/>
+         Lesson: Lesson 2<br/>
+         Attendees: Jun Su, Jacob Chen, Shaun Lin, Johnny Lee, Tony Ding, Eddy Li, Jian Zhang and Puquan<br/>
+         Absentees:  Johnny Dai<br/>
+         Study Report:  The  origin of elders
+God reveals his salvation from individual to corporate body in Exodus, thus it must have a administration among the children of Israel. This is the time where eldership and elder came in (Exo 3:16). Although power does come with administration, God’s desire was not a kingship; instead, elders has to contact with God and draws near to God. In addition, elders are need to be mature and experienced among the saints.
+
+To a church, its  tide is high or low solely depends on the elders. If elders are spiritually rich, the church is spiritually rich and vice versa. To the leading, elders must follow the Holy Spirit and must cooperate with apostles who lead churches into fellowship and bring bring in the apostles’ teaching. Without so, church will become paralyzed.
+
+For the eldership, the more elders in a church, the more grace bring in. For one is that it prevent anyone from becoming a king, for another one is burden can be share among elders. Moreover, each elder has their own capacity and functionality, which would become strong testimony from the church.
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-02-02<br/>
+
+--DF65522006E.1422947829/irv-shared-relay1.dreamhost.com--

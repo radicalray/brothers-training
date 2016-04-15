@@ -1,0 +1,119 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by spruce.dreamhost.com (Postfix) with ESMTP id 6A49C28006B
+	for <ncchurches_admin@spruce.dreamhost.com>; Mon, 29 Jun 2015 09:35:55 -0700 (PDT)
+Received: by irv-shared-relay1.dreamhost.com (Postfix)
+	id 80E27220066; Mon, 29 Jun 2015 09:35:49 -0700 (PDT)
+Date: Mon, 29 Jun 2015 09:35:49 -0700 (PDT)
+From: MAILER-DAEMON@irv-shared-relay1.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="71E85220063.1435595749/irv-shared-relay1.dreamhost.com"
+Message-Id: <20150629163549.80E27220066@irv-shared-relay1.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--71E85220063.1435595749/irv-shared-relay1.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-shared-relay1.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<ucdjeffrey@hotmail.com>: host mx1.hotmail.com[65.54.188.72] said: 550 OU-002
+    (BAY004-MC1F27) Unfortunately, messages from 64.90.62.20 weren't sent.
+    Please contact your Internet service provider since part of their network
+    is on our block list. You can also refer your provider to
+    http://mail.live.com/mail/troubleshooting.aspx#errors. (in reply to MAIL
+    FROM command)
+
+--71E85220063.1435595749/irv-shared-relay1.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-shared-relay1.dreamhost.com
+X-Postfix-Queue-ID: 71E85220063
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Mon, 29 Jun 2015 09:35:49 -0700 (PDT)
+
+Final-Recipient: rfc822; ucdjeffrey@hotmail.com
+Original-Recipient: rfc822;ucdjeffrey@hotmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx1.hotmail.com
+Diagnostic-Code: smtp; 550 OU-002 (BAY004-MC1F27) Unfortunately, messages from
+    64.90.62.20 weren't sent. Please contact your Internet service provider
+    since part of their network is on our block list. You can also refer your
+    provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+--71E85220063.1435595749/irv-shared-relay1.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 71E85220063
+	for <ucdjeffrey@hotmail.com>; Mon, 29 Jun 2015 09:35:49 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 1B0D828007B; Mon, 29 Jun 2015 09:35:55 -0700 (PDT)
+To: ucdjeffrey@hotmail.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150629163555.1B0D828007B@spruce.dreamhost.com>
+Date: Mon, 29 Jun 2015 09:35:55 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: Jeffrey<br/>
+         Last Name: Guo<br/>
+         Email: ucdjeffrey@hotmail.com<br/>
+         Locality: San Francisco<br/>
+         Language: Chinese<br/>
+         Group Number: 4<br/>
+         Lesson: Lesson 16<br/>
+         Attendees: Daniel Chang, Jeffrey Guo, Roger Woo, Benjamin Lau, Eddy Choy, Richard (Wen) Zhang<br/>
+         Absentees: <br/>
+         Study Report: Lesson 16 The Character of an Elder (2)
+1.Being Stable:
+“Stable” means that not live, conduct our life or dealing things according to our own will, thoughts or preferences since our flesh is not a reliable source because of our worldly sins. For example, in our church life, all saints worldwide in lord recovery come to Prayer Meeting on every Tuesday. The prayer meeting is vital for Lord and His body. The meeting day never be changed according to our own will or schedule. 
+
+An oversea saint come to US for summer training. While he stays in US, he still shepherds and calls to pray reading with saints, whom he shepherds at his homeland, even they are in different continents and in different time zones at this moment.
+
+Brothers pray that we set our minds and hearts to be stable in our church life as Prophecy Daniel set his minds not to give up when facing any situation, from King’s meal to Lions’ den. We set our minds that we would pray and give ourselves to the Spirit of Jesus Christ whichever situation we are in. 
+
+2. Having a concern for others:
+A concern for others means that we care others well-being in both spirit and real life. We all have different needs in real life, as students, working class, or a family. We, as responsible brothers, should have loving hearts for the needs of saints’ life, not only listen to them and know about it, but also pray for them and give them help accordingly. More importantly we should care their grows in Lord, their spiritual well being. 
+
+We pray that we can supply saints with abundant love in lord seamlessly and shepherd them with the riches and words of Lord all the time.
+
+3.Being accommodating:
+Solomon seeks an understanding heart for judging the people of Israel from Lord. Lord answered his request and gave Solomon an understanding as the sand that is on the seashore. We pray that each of us learns and grows in Lord every day so that we can be understanding and accommodating to all His people.
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-06-29<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--71E85220063.1435595749/irv-shared-relay1.dreamhost.com--

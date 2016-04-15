@@ -1,0 +1,87 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Canada Training on Eldership</title>
+</head>
+<body>
+
+<?php include("../includes/header.html"); ?>
+<?php include("../includes/navigation.html"); ?>
+
+<div class="content">
+
+    <b>Event: 2016 Canada Training on Eldership</b>
+    
+    <div class="application_section">
+    <b><u>First Term Training Registration</u></b><br/><br/>
+    The registration for first term is <b>OPEN</b>. To register: </br>
+    <ul>
+    <!--li>Existing trainees registering for third term: click <b><a href="/brotherstraining/portal/admin/index.php?username=3rdTerm&task=register"/>HERE</a></b></li-->
+    <li>Step 1: Fill out your application form <b><a href="registration_new.php"/>HERE</a></b></li>
+    <li>Step 2: Fill out your consecration form <b><a href="consecration.php"/>HERE</a></b></li>
+    </ul>
+    <br/>Please email admin@churchincambridge.org if you need help.<br/><br/>
+    </div>
+
+    <div class="application_section">
+    <b><u>Trainee criteria</u></b><br/>
+    <ul>
+        <li>The main target group for this training are brothers who should be:
+            <ul>
+		<li>Between 25-45 years old;
+		<li>Married, with a proper marital status, but single brothers can also be considered depending on their relative maturity in life and faithfulness in their service;
+		<li>Have good character, with a good knowledge of the truth, and a willingness to commit to the time commitments of the training: one Saturday a month from 9 am to 1 pm and a regular (likely weekly) meeting with the leading brothers in their locality;
+		<li>Have a normal church life, which should include regular meeting attendance on Lord's Day, prayer meeting, and home meeting, etc.
+             </ul>
+         <li>The second group would include all the brothers currently serving as leading ones, elders or responsible brothers functioning as such now in the church life, including those in their fifties and beyond. This group would attend as "auditors" who would be required to participate in all aspects of the training and who would even be responsible to carry out the training locally by reviewing and applying the training messages in the present church life and with the younger brothers who are being trained.
+    </ul>
+    </div>
+
+    <div class="application_section">
+        <b>Audio: Burden and Preparation for Training<br/></b>
+        <ul>
+        <li><u><a href="./admin/media_access.php">Training Burden</a></u>*</li>
+        <li><u><a href="./admin/media_access.php">Practical Matters</a></u>*</li>
+        <li><u><a href="./uploads/2014/12/2014DEC14SISMTG.mp3">Sisters Meeting</a></u></li></ul>
+    </div>
+
+    <div class="application_section">
+    <b><u>Training Dates 2016:</u></b>
+    <ul>
+    <li><b>First Term</b> - Jan 16, Feb 20, Mar 19, Apr 16, May 14, Jun 18</li>
+    <li><b>Second Term</b> - Jul 16, Aug 20, Sep 17, Oct 15, Nov 19, Dec 17</li>
+    </ul>
+
+    <b><u>Training Location:</u></b><br/>
+    TBA by locality<br/><br/>
+    <b><u>Time:</u></b><br/>
+    Saturdays 9 am to 1 pm<br/><br/>
+
+    <b><u>Cost</u></b></br>
+    $50 CDN per term. (Each term is 6 month.) <br/><br/>
+
+    
+    <b><u>Training Guidelines and Regulations</u></b>
+    <ul>
+    <li><b>Attire</b> - A tie and a jacket are the recommended attire for each trainee.</li>
+    <li><b>Arrival Time</b> - We recommend the trainees to arrive 8:30 AM, to allow time for registration, collection of badges, seating, and exercise of the spirit:</li>
+       <ul>
+       <li>Every trainee is expected to be in their seat no later than 5 minutes before the start time of each session.</li>
+       <li>Doors will be locked at the start time of each session. Those who arrive late should expect that they will not be able to enter until the next session break.</li>
+       </ul>
+   <li><b>Training Outlines</b> - Duplication of the training material is not permitted. For any absent trainees, only the locality coordinator (or an assigned representative) should pick up training outlines at the registration table.</li>
+   <li><b>Attendance</b> - All trainees should arrange their schedule so as not to miss any meeting:</li>
+       <ul>
+       <li>For the monthly training sessions, three excused absences per year are permitted with prior approval. Any unexcused absence or more than three excused absences will result in dismissal from the training.</li>
+       <li>Trainees are required to attend 75% of the weekly study groups for the yearThe training is one year in length.</li>
+       </ul> 
+    </ul>
+
+        
+    </div>
+
+   
+</div>
+
+</body>
+</html>

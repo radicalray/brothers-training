@@ -1,0 +1,126 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by spruce.dreamhost.com (Postfix) with ESMTP id 9E02A2800BB
+	for <ncchurches_admin@spruce.dreamhost.com>; Wed, 22 Jul 2015 10:44:48 -0700 (PDT)
+Received: by irv-shared-relay1.dreamhost.com (Postfix)
+	id 2810C2201D0; Wed, 22 Jul 2015 10:44:43 -0700 (PDT)
+Date: Wed, 22 Jul 2015 10:44:43 -0700 (PDT)
+From: MAILER-DAEMON@irv-shared-relay1.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="1801E2200D6.1437587083/irv-shared-relay1.dreamhost.com"
+Message-Id: <20150722174443.2810C2201D0@irv-shared-relay1.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--1801E2200D6.1437587083/irv-shared-relay1.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-shared-relay1.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<ucdjeffrey@hotmail.com>: host mx4.hotmail.com[207.46.8.199] said: 550 OU-002
+    (BAY004-MC6F25) Unfortunately, messages from 64.90.62.20 weren't sent.
+    Please contact your Internet service provider since part of their network
+    is on our block list. You can also refer your provider to
+    http://mail.live.com/mail/troubleshooting.aspx#errors. (in reply to MAIL
+    FROM command)
+
+--1801E2200D6.1437587083/irv-shared-relay1.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-shared-relay1.dreamhost.com
+X-Postfix-Queue-ID: 1801E2200D6
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Wed, 22 Jul 2015 10:44:43 -0700 (PDT)
+
+Final-Recipient: rfc822; ucdjeffrey@hotmail.com
+Original-Recipient: rfc822;ucdjeffrey@hotmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx4.hotmail.com
+Diagnostic-Code: smtp; 550 OU-002 (BAY004-MC6F25) Unfortunately, messages from
+    64.90.62.20 weren't sent. Please contact your Internet service provider
+    since part of their network is on our block list. You can also refer your
+    provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+--1801E2200D6.1437587083/irv-shared-relay1.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 1801E2200D6
+	for <ucdjeffrey@hotmail.com>; Wed, 22 Jul 2015 10:44:43 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 5B795280102; Wed, 22 Jul 2015 10:44:48 -0700 (PDT)
+To: ucdjeffrey@hotmail.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150722174448.5B795280102@spruce.dreamhost.com>
+Date: Wed, 22 Jul 2015 10:44:48 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: Jeffrey<br/>
+         Last Name: Guo<br/>
+         Email: ucdjeffrey@hotmail.com<br/>
+         Locality: San Francisco<br/>
+         Language: Chinese<br/>
+         Group Number: 4<br/>
+         Lesson: Lesson 17<br/>
+         Attendees: Daniel Chang, Jeffrey Guo, Roger Woo, Benjamin Lau<br/>
+         Absentees: Eddy Choy, Richard (Wen) Zhang<br/>
+         Study Report: Lesson 17    The Authority of the Elders (1)
+
+       1) Authority and administration:
+
+In our church life, we have the authorities, become authorities and responsible ones, over certain matters because we respect the authorities and the ones with the authorities. If we do not have the heart to respect the authorities, we will not be empowered with it by God.
+
+      2) and 3) Knowing authority and  submitting to authority
+
+In church life, the authorities are from God. Our church life are built upon these authorities. Because of it, we have peaceful mind among saints and in church life. In a family, when the children rebel against their parents, they would have troubles with their parents. If we do not know and submit to the authorities, we would not have peaceful minds, hearts and spirits in our church life since we do not understand the authorities spiritually.
+
+Because Daniel submit to God authorities, he was not hurt by Lions when he was put into the den of lions. He said that My God hath sent His angel , and hath shut the lions’ mouths, that they have not hurt me. 
+
+We pray that we set our minds to submit to the God authority whichever situation we are in.
+
+      4) On being the Authority 5) not exercising authority
+
+Moses is the model of being an elder for God’s people. He has the authority, from God, over Israel people. But he never exercise his authority over God’s people. Whenever he faces some issues or complaints from Israel people, he turns to God and pray for it. 
+
+We pray that we have the heart and spirit of being the authority, but submitting to God in our church life. 
+
+
+
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-07-22<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--1801E2200D6.1437587083/irv-shared-relay1.dreamhost.com--

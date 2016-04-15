@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>2016 Boston Area Training on Eldership</title>
+</head>
+<body>
+
+<div class="header">
+  NorCalChurches.org <sub>[Beta]</sub>
+</div>
+<div class="navigation">
+ <b>
+  <a href="/brotherstraining/portal/">Home</a> |
+  <a href="registration.html">Application</a> |
+  <a href="consecration.html">Consecration</a> |
+  <a href="media.html">Media</a> |
+  <a href="admin.html">Administration</a> |
+  <a href="attendance.html">Attendance</a> |
+  <a href="group.html">Study Group</a> |
+  <a href="accounting.html">Accounting</a> |
+  <a href="help.html">Help</a> |
+  <a href="admin/logout.php">Logout</a>
+</b>
+</div>
+
+<div class="content">
+
+    <div class="application_section">
+       <b> You have been logged out! Bye! </b>
+    </div>
+
+
+</div>
+
+</body>
+</html>

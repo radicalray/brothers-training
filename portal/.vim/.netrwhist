@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/ncchurches_admin/logs/localhost/norcalchurches/http'
+let g:netrw_dirhist_2='/home/ncchurches_admin/norcalchurches/admin'
+let g:netrw_dirhist_3='/home/ncchurches_admin/norcalchurches/signature'

@@ -1,0 +1,112 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by spruce.dreamhost.com (Postfix) with ESMTP id 0599728007C
+	for <ncchurches_admin@spruce.dreamhost.com>; Mon,  8 Jun 2015 22:40:38 -0700 (PDT)
+Received: by irv-shared-relay1.dreamhost.com (Postfix)
+	id E3F59220059; Mon,  8 Jun 2015 22:40:32 -0700 (PDT)
+Date: Mon,  8 Jun 2015 22:40:32 -0700 (PDT)
+From: MAILER-DAEMON@irv-shared-relay1.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="D55C422004E.1433828432/irv-shared-relay1.dreamhost.com"
+Message-Id: <20150609054032.E3F59220059@irv-shared-relay1.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--D55C422004E.1433828432/irv-shared-relay1.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-shared-relay1.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<ucdjeffrey@hotmail.com>: host mx4.hotmail.com[65.54.188.110] said: 550 OU-002
+    (BAY004-MC3F8) Unfortunately, messages from 64.90.62.20 weren't sent.
+    Please contact your Internet service provider since part of their network
+    is on our block list. You can also refer your provider to
+    http://mail.live.com/mail/troubleshooting.aspx#errors. (in reply to MAIL
+    FROM command)
+
+--D55C422004E.1433828432/irv-shared-relay1.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-shared-relay1.dreamhost.com
+X-Postfix-Queue-ID: D55C422004E
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Mon,  8 Jun 2015 22:40:32 -0700 (PDT)
+
+Final-Recipient: rfc822; ucdjeffrey@hotmail.com
+Original-Recipient: rfc822;ucdjeffrey@hotmail.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; mx4.hotmail.com
+Diagnostic-Code: smtp; 550 OU-002 (BAY004-MC3F8) Unfortunately, messages from
+    64.90.62.20 weren't sent. Please contact your Internet service provider
+    since part of their network is on our block list. You can also refer your
+    provider to http://mail.live.com/mail/troubleshooting.aspx#errors.
+
+--D55C422004E.1433828432/irv-shared-relay1.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id D55C422004E
+	for <ucdjeffrey@hotmail.com>; Mon,  8 Jun 2015 22:40:32 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id CDA2D28007D; Mon,  8 Jun 2015 22:40:37 -0700 (PDT)
+To: ucdjeffrey@hotmail.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150609054037.CDA2D28007D@spruce.dreamhost.com>
+Date: Mon,  8 Jun 2015 22:40:37 -0700 (PDT)
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: Jeffrey<br/>
+         Last Name: Guo<br/>
+         Email: ucdjeffrey@hotmail.com<br/>
+         Locality: San Francisco<br/>
+         Language: Chinese<br/>
+         Group Number: 4<br/>
+         Lesson: Lesson 14<br/>
+         Attendees: Roger Woo, Tom Tang, Bejamine Lau, Jeffrey Guo, Wen Zhang<br/>
+         Absentees: <br/>
+         Study Report: 1.Apostle Peter said to Lord before His crucifixion that I love you and will die for you. Lord said that you, Apostle Peter, would deny me 3 times… When situations came, apostle peter denied Lord 3 times. Praise Lord for dealing with our hearts! No matter what situation we face, we do have a pure heart to Lord and His body, so we will be a pattern to others in church life.
+
+2. Solomon has a understanding heart as large as the sand in beach. Brother Benjamin took a trip to New Jersey, he joyfully shared what he experienced in the local churches over there. He was encouraged bountifully by the spirit of saints over there. Brother Roger shared the experience he had in Taiwan international mandarin speaking training 2014, he was much touched by all local saints, regardless of how long they have lived in church life, the way they took care of oversea saints. We pray for the understanding heart and largeness of heart from the Lord’s mercy and grace.
+
+3.We thank Lord the way we pursue everything in our church life, in which we fellowship over all things conducted in the body. Even the elder brothers fellowship among them over all things in leadership matter in church life. In our church life, elders and responsible brothers distinguish ourselves from religious priesthood by eliminating the worldly ranking system. We praise lord for the pure heart when we serve in His body.
+
+4.The word of upright in the verse means absolute vertical, no even slightly skew in any situation. Solomon prayed for the understanding heart so that he can lead and judge the people of Israel. The perfect and upright heart also depends on how we should pursue the lord in our life. It also takes the life time to learn and pursue.
+
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-06-08<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--D55C422004E.1433828432/irv-shared-relay1.dreamhost.com--

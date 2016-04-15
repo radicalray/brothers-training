@@ -1,0 +1,27 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>2016 Boston Area Training on Eldership</title>
+</head>
+<body>
+
+<?php include("../includes/header.html"); ?>
+<?php include("../includes/navigation.html"); ?>
+<?php
+   if (isset($_GET['email'])) {
+      $email = $_GET['email'];
+   }
+?>
+
+<div class="content">
+
+    <b>Thank You</b>
+    <div class="application_section">
+       Your report has been submitted and an email has been sent to <?=$email?>.<br/>
+    </div>
+
+
+</div>
+
+</body>
+</html>

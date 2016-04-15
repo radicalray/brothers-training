@@ -1,0 +1,109 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id 6A21B28007B
+	for <ncchurches_admin@spruce.dreamhost.com>; Sun, 19 Jul 2015 10:52:53 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id ED0C480501305; Sun, 19 Jul 2015 10:59:10 -0700 (PDT)
+Date: Sun, 19 Jul 2015 10:59:10 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="0416C80784A75.1437328750/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20150719175910.ED0C480501305@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--0416C80784A75.1437328750/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<yuqiangqin@yahoo.com>: delivery temporarily suspended: lost connection with
+    mta6.am0.yahoodns.net[98.136.216.26] while sending RCPT TO
+
+--0416C80784A75.1437328750/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: 0416C80784A75
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Thu, 16 Jul 2015 10:50:39 -0700 (PDT)
+
+Final-Recipient: rfc822; yuqiangqin@yahoo.com
+Original-Recipient: rfc822;yuqiangqin@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta6.am0.yahoodns.net[98.136.216.26] while sending RCPT TO
+
+--0416C80784A75.1437328750/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id 0416C80784A75
+	for <yuqiangqin@yahoo.com>; Thu, 16 Jul 2015 10:50:39 -0700 (PDT)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 44D19220056
+	for <yuqiangqin@yahoo.com>; Thu, 16 Jul 2015 10:44:18 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 6D38B28007D; Thu, 16 Jul 2015 10:44:23 -0700 (PDT)
+To: yuqiangqin@yahoo.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:submit_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150716174423.6D38B28007D@spruce.dreamhost.com>
+Date: Thu, 16 Jul 2015 10:44:23 -0700 (PDT)
+X-VR-SPAMSTATE: OK
+X-VR-SPAMSCORE: 0
+X-VR-SPAMCAUSE: Vade Retro 01.382.61#118  Profile: <none>; Bailout: 300; 
+
+Hi, the following is the report you have submitted: <br/><br/>First Name: John<br/>
+         Last Name: Qin<br/>
+         Email: yuqiangqin@yahoo.com<br/>
+         Locality: Campbell<br/>
+         Language: Chinese<br/>
+         Group Number: 2<br/>
+         Lesson: Lesson 16<br/>
+         Attendees: wenjie Zeng, John Qin, Robert Tien<br/>
+         Absentees: Mark Cheng (out of town) jeremy chen  (out of town) <br/>
+         Study Report: Meeting date: 7/4/2015
+1. prayed over outline points to receive lights from the Lord on the three points that we are lacking for 30 minutes. 
+2. fellowshipped about points that touched us a. we should not get excited too easily, be stable. b. have heart for others, like to be "bothered". c. being accommodating, like glue, to fit any shape. 
+3. fellowshipped the up coming Lord's day arrangement, the activity proposed for the coming months. 
+4. fellowshipped the arrangements for receiving visiting saints.
+
+<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-07-16<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--0416C80784A75.1437328750/irv-vsguest-relay2.dreamhost.com--

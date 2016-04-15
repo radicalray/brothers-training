@@ -1,0 +1,150 @@
+Return-Path: <51dchui@gmail.com>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from mail-pd0-f173.google.com (mail-pd0-f173.google.com [209.85.192.173])
+	by spruce.dreamhost.com (Postfix) with ESMTP id A4D7F28007C
+	for <ncchurches_admin@spruce.dreamhost.com>; Fri, 12 Jun 2015 22:57:30 -0700 (PDT)
+Received: by pdbki1 with SMTP id ki1so36501178pdb.1
+        for <ncchurches_admin@spruce.dreamhost.com>; Fri, 12 Jun 2015 22:57:29 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=from:content-type:content-transfer-encoding:mime-version:subject
+         :message-id:date:references:in-reply-to:to;
+        bh=yHFv2zaDQL6fYMIJvtQ8rM33t4I06TsU4hZPv/oXeLA=;
+        b=LsZNV2VYhFh7XCzeLT1W7PjL4Es73xt0gHXpph+FaRO470gk0BPOf8Xx/jAoJUTY1L
+         SCHgsJDN7io3pboScwN/RX+HtJqOwjt+CT0CYgVwVfeXbR9Pvn2P8DKKLjFv8dLPyIvf
+         H1AHeLl+Gal/PaDC+DK1Ml2qLXtBdW1rWJidBwSMEJXQHqPmSlUMOdNt+yc1ngbknnzI
+         uDR70YLYA5p4qSsBJLseERgWdrvkTkyIMMU3HyxNhk1ZrXr8YQSzF9IKQyZaTeStRak9
+         5y8gioUSo8gHBoWLm22g8SxCWclGyCFsaxqKiq382ZLe84cRpIXjz8YhOSScTlPmART1
+         7WkA==
+X-Received: by 10.70.89.138 with SMTP id bo10mr29499776pdb.146.1434175049792;
+        Fri, 12 Jun 2015 22:57:29 -0700 (PDT)
+Received: from ?IPv6:2601:9:5000:fe6:b4cc:92d7:8973:d2a0? ([2601:9:5000:fe6:b4cc:92d7:8973:d2a0])
+        by mx.google.com with ESMTPSA id k4sm5363689pdg.87.2015.06.12.22.57.29
+        for <ncchurches_admin@spruce.dreamhost.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 12 Jun 2015 22:57:29 -0700 (PDT)
+From: David Chui <51dchui@gmail.com>
+Content-Type: multipart/alternative;
+	boundary=Apple-Mail-DEB4C1E4-B657-448C-9F59-319F5C35DC0A
+Content-Transfer-Encoding: 7bit
+Mime-Version: 1.0 (1.0)
+Subject: Re: NorCal SEROT: Expense Report
+Message-Id: <B384677F-9CBD-487A-A46F-C1C5C6510A70@gmail.com>
+Date: Fri, 12 Jun 2015 22:57:28 -0700
+References: <20150613055141.BEB0828007D@spruce.dreamhost.com>
+In-Reply-To: <20150613055141.BEB0828007D@spruce.dreamhost.com>
+To: "ncchurches_admin@spruce.dreamhost.com" <ncchurches_admin@spruce.dreamhost.com>
+X-Mailer: iPhone Mail (12F70)
+
+
+--Apple-Mail-DEB4C1E4-B657-448C-9F59-319F5C35DC0A
+Content-Type: text/plain;
+	charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+
+
+Please correct the zip code. It should read 92801.=20
+
+
+> On Jun 12, 2015, at 10:51 PM, ncchurches_admin@spruce.dreamhost.com wrote:=
+
+>=20
+> Hi, the following is the report you have submitted:=20
+>=20
+> First Name: David
+> Last Name: Chui
+> Email: 51dchui@gmail.com
+> Locality: Cupertino
+> Address: 10690 S. Stelling Road, Cupertino 95014
+> Report Type: Expense
+> Remark:=20
+> Date Submitted: 2015-06-12
+>=20
+>=20
+> Date	Description	Payee	Address	Amount
+> 6/12/2015	Travel expenses 6/2 - 6/8	Elton Karr	2560 W. La P=
+alma Avenue, Apt 105 Anaheim, CA 92801500	500.00
+> Total Amount	500
+>=20
+>=20
+> Note: This is an automically generated email, please do not reply. Email n=
+orcalchurches@gmail.com if you have questions.
+
+--Apple-Mail-DEB4C1E4-B657-448C-9F59-319F5C35DC0A
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body dir="auto"><div><br>Please correct the zip code. It should read 92801.&nbsp;<br><br></div><div><br>On Jun 12, 2015, at 10:51 PM, <a href="mailto:ncchurches_admin@spruce.dreamhost.com">ncchurches_admin@spruce.dreamhost.com</a> wrote:<br><br></div><blockquote type="cite"><div>Hi, the following is the report you have submitted: <br><br>First Name: David<br>
+         Last Name: Chui<br>
+         Email: <a href="mailto:51dchui@gmail.com">51dchui@gmail.com</a><br>
+         Locality: Cupertino<br>
+         Address: 10690  S. Stelling Road, Cupertino 95014<br>
+         Report Type: Expense<br>
+         Remark: <br>
+         Date Submitted: 2015-06-12<br><br><br>
+         <table border="1" style="width:100%">
+         <colgroup>
+              <col span="1" style="width:10%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+              <col span="1" style="width:25%;">
+              <col span="1" style="width:15%;">
+        </colgroup>
+        <tbody><tr><td> Date </td><td> Description </td><td> Payee </td><td> Address </td><td> Amount </td>
+        </tr><tr><td>6/12/2015</td>
+            <td>Travel expenses 6/2 - 6/8</td>
+            <td>Elton Karr</td>
+            <td>2560 W. La Palma Avenue, Apt 105 Anaheim, CA 92801500</td>
+            <td>500.00</td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+       </tr><tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td></tr>
+       <tr><td></td><td></td><td></td><td>Total Amount</td><td>500</td></tr>
+        </tbody></table><br><br>
+        Note: This is an automically generated email, please do not reply. Email <a href="mailto:norcalchurches@gmail.com">norcalchurches@gmail.com</a> if you have questions.
+</div></blockquote></body></html>
+--Apple-Mail-DEB4C1E4-B657-448C-9F59-319F5C35DC0A--

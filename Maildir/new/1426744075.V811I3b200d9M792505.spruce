@@ -1,0 +1,108 @@
+Return-Path: <>
+X-Original-To: ncchurches_admin@spruce.dreamhost.com
+Delivered-To: ncchurches_admin@spruce.dreamhost.com
+Received: from irv-vsguest-relay2.dreamhost.com (irv-vsguest-relay2.dreamhost.com [64.90.63.190])
+	by spruce.dreamhost.com (Postfix) with ESMTP id B719A28007C
+	for <ncchurches_admin@spruce.dreamhost.com>; Wed, 18 Mar 2015 22:47:55 -0700 (PDT)
+Received: by irv-vsguest-relay2.dreamhost.com (Postfix)
+	id 80C77802A46C7; Wed, 18 Mar 2015 22:52:18 -0700 (PDT)
+Date: Wed, 18 Mar 2015 22:52:18 -0700 (PDT)
+From: MAILER-DAEMON@irv-vsguest-relay2.dreamhost.com (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: ncchurches_admin@spruce.dreamhost.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="546FB802EEB8D.1426744338/irv-vsguest-relay2.dreamhost.com"
+Message-Id: <20150319055218.80C77802A46C7@irv-vsguest-relay2.dreamhost.com>
+
+This is a MIME-encapsulated message.
+
+--546FB802EEB8D.1426744338/irv-vsguest-relay2.dreamhost.com
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host irv-vsguest-relay2.dreamhost.com.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+If you are a current customer of DreamHost, please contact our 
+technical support team here
+
+https://panel.dreamhost.com/support
+
+If you are not a customer please use our contact form at.
+
+http://dreamhost.com/contact
+
+If you do so, please include this email in your support ticket. You can
+delete your own text from the attached returned message.
+
+		DreamHost Email Support
+
+<gopalkris_shetty@yahoo.com>: delivery temporarily suspended: lost connection
+    with mta6.am0.yahoodns.net[66.196.118.33] while sending RCPT TO
+
+--546FB802EEB8D.1426744338/irv-vsguest-relay2.dreamhost.com
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; irv-vsguest-relay2.dreamhost.com
+X-Postfix-Queue-ID: 546FB802EEB8D
+X-Postfix-Sender: rfc822; ncchurches_admin@spruce.dreamhost.com
+Arrival-Date: Sun, 15 Mar 2015 22:44:08 -0700 (PDT)
+
+Final-Recipient: rfc822; gopalkris_shetty@yahoo.com
+Original-Recipient: rfc822;gopalkris_shetty@yahoo.com
+Action: failed
+Status: 4.4.2
+Diagnostic-Code: X-Postfix; delivery temporarily suspended: lost connection
+    with mta6.am0.yahoodns.net[66.196.118.33] while sending RCPT TO
+
+--546FB802EEB8D.1426744338/irv-vsguest-relay2.dreamhost.com
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <ncchurches_admin@spruce.dreamhost.com>
+Received: from irv-shared-relay1.dreamhost.com (irv-shared-relay1.dreamhost.com [64.90.62.20])
+	by irv-vsguest-relay2.dreamhost.com (Postfix) with ESMTP id 546FB802EEB8D
+	for <gopalkris_shetty@yahoo.com>; Sun, 15 Mar 2015 22:44:08 -0700 (PDT)
+Received: from spruce.dreamhost.com (spruce.dreamhost.com [208.113.231.92])
+	by irv-shared-relay1.dreamhost.com (Postfix) with ESMTP id 35DF622005C
+	for <gopalkris_shetty@yahoo.com>; Sun, 15 Mar 2015 22:39:43 -0700 (PDT)
+Received: by spruce.dreamhost.com (Postfix, from userid 14816965)
+	id 4FFE328007D; Sun, 15 Mar 2015 22:39:46 -0700 (PDT)
+To: gopalkris_shetty@yahoo.com
+Subject: NorCal SEROT: Study Report
+X-PHP-Originating-Script: 14816965:update_report.php
+From: ncchurches_admin@spruce.dreamhost.com
+Reply-To: ncchurches_admin@spruce.dreamhost.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=ISO-8859-1
+Message-Id: <20150316053946.4FFE328007D@spruce.dreamhost.com>
+Date: Sun, 15 Mar 2015 22:39:46 -0700 (PDT)
+X-VR-SPAMSTATE: OK
+X-VR-SPAMSCORE: 0
+X-VR-SPAMCAUSE: Vade Retro 01.379.71#166  Profile: <none>; Bailout: 300; 
+
+Hi, <br/><br/> the following is the report you have submitted: <br/><br/>First Name: Gopal<br/>
+         Last Name: Shetty<br/>
+         Email: gopalkris_shetty@yahoo.com<br/>
+         Locality: Brentwood<br/>
+         Language: English<br/>
+         Group Number: 1<br/>
+         Lesson: Lesson 6<br/>
+         Attendees: Gopal, Lawrence Fernandes (from Pleasanton)<br/>
+         Absentees: <br/>
+         Study Report:  March 2 Monday Spent 90 minutes in one evening 
+Pray read Rom. 12:8 and FN 8
+Pray-read 1 Pet 5:1-4
+Outline I Mathew 20:25-27 elders should serve as slaves.
+Read all the outlines and 
+reviewed the questions<br/>
+         Suggestions:  <br/>
+         Date Submitted: 2015-03-15<br/>
+         Note: This is an automatically generated email, please do not reply. Email norcalchurches@gmail.com if you have questions.
+
+--546FB802EEB8D.1426744338/irv-vsguest-relay2.dreamhost.com--
