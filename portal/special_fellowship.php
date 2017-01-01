@@ -28,7 +28,7 @@ body {
                     <div>
 
                         <audio controls>
-                        <source src="uploads/3.24.16 M.C. Session 1.mp3" type="audio/mp3">
+                        <source src="uploads/2016/Special_Fellowship/3.24.16 M.C. Session 1.mp3" type="audio/mp3">
                         Your browser does not support the audio tag.
                       </audio>
 
@@ -44,7 +44,7 @@ body {
                     <div>
 
                         <audio controls>
-                        <source src="uploads/Minoru Chen- Sisters Fellowship.mp3" type="audio/mp3">
+                        <source src="uploads/2016/Special_Fellowship/Minoru Chen- Sisters Fellowship.mp3" type="audio/mp3">
                         Your browser does not support the audio tag.
                       </audio>
 

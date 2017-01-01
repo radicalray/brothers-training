@@ -36,7 +36,7 @@
         }
         else if (ls == null || ls == "")
         {
-	    alert("Please enter your lesson number");
+	    alert("Please enter your Session number");
             return false;
         }
         else
@@ -45,7 +45,7 @@
         }
     }
     </script>
-    <title>NorCalChurches.org</title>
+    <title>Boston Area Training on Eldership</title>
 </head>
 <body>
 
@@ -54,7 +54,7 @@
 <?php include("../includes/functions.php"); ?>
 
 <div class="content">
-    <center><b>2016 Canada Training on Eldership<br/>
+    <center><b>2016 Boston Area Training on Eldership<br/>
     Group Study Report</b></center><br/>
 
     <b>Submit Study Reports</b><br/>
@@ -69,6 +69,14 @@
             <b>Locality:</b><br/>
             <select id="locality" name="locality">
                 <option value="">----</option>
+                <option value="Amherst, MA">Amherst, MA</option>
+                <option value="Boston, MA">Boston, MA</option>
+                <option value="Cambridge, MA">Cambridge, MA</option>
+                <option value="Lowell, MA">Lowell, MA</option>
+                <option value="Middleboro, MA">Middleboro, MA</option>
+                <option value="Newton, MA">Newton, MA</option>
+                <option value="Worcester, MA">Worcester, MA</option>
+                <option value="North Providence, RI">North Providence, RI</option>
 <?php echo get_provinces('../includes/localities.txt'); ?>
 
             </select><br/><br/>
@@ -104,46 +112,46 @@
                 <option value=18>18</option>
                 <option value=19>19</option>
                 <option value=20>20</option>
-            </select><br/><br/>   
-        <b>Lesson:</b><br/>
+            </select><br/><br/>
+        <b>Session:</b><br/>
         <select id="lesson" name="lesson">
         <option value=''>-----------</option>
-        <option value='Lesson 1'>Lesson 1</option>
-        <option value='Lesson 2'>Lesson 2</option>
-        <option value='Lesson 3'>Lesson 3</option>  
-        <option value='Lesson 4'>Lesson 4</option>  
-        <option value='Lesson 5'>Lesson 5</option>  
-        <option value='Lesson 6'>Lesson 6</option>  
-        <option value='Lesson 7'>Lesson 7</option>  
-        <option value='Lesson 8'>Lesson 8</option>  
-        <option value='Lesson 9'>Lesson 9</option>  
-        <option value='Lesson 10'>Lesson 10</option>  
-        <option value='Lesson 11'>Lesson 11</option>  
-        <option value='Lesson 12'>Lesson 12</option>  
-        <option value='Lesson 13'>Lesson 13</option>  
-        <option value='Lesson 14'>Lesson 14</option>  
-        <option value='Lesson 15'>Lesson 15</option>  
-        <option value='Lesson 16'>Lesson 16</option>  
-        <option value='Lesson 17'>Lesson 17</option>  
-        <option value='Lesson 18'>Lesson 18</option>  
-        <option value='Lesson 19'>Lesson 19</option>  
-        <option value='Lesson 20'>Lesson 20</option>  
-        <option value='Lesson 21'>Lesson 21</option>  
-        <option value='Lesson 22'>Lesson 22</option>  
-        <option value='Lesson 23'>Lesson 23</option>  
-        <option value='Lesson 24'>Lesson 24</option>  
-        <option value='Lesson 25'>Lesson 25</option>  
-        <option value='Lesson 26'>Lesson 26</option>  
-        <option value='Lesson 27'>Lesson 27</option>  
-        <option value='Lesson 28'>Lesson 28</option>  
-        <option value='Lesson 29'>Lesson 29</option>  
-        <option value='Lesson 30'>Lesson 30</option>  
-        <option value='Lesson 31'>Lesson 31</option>  
-        <option value='Lesson 32'>Lesson 32</option>  
-        <option value='Lesson 33'>Lesson 33</option>  
-        <option value='Lesson 34'>Lesson 34</option>  
-        <option value='Lesson 35'>Lesson 35</option>  
-        <option value='Lesson 36'>Lesson 36</option>  
+        <option value='Lesson 1'>Session 1</option>
+        <option value='Lesson 2'>Session 2</option>
+        <option value='Lesson 3'>Session 3</option>
+        <option value='Lesson 4'>Session 4</option>
+        <option value='Lesson 5'>Session 5</option>
+        <option value='Lesson 6'>Session 6</option>
+        <option value='Lesson 7'>Session 7</option>
+        <option value='Lesson 8'>Session 8</option>
+        <option value='Lesson 9'>Session 9</option>
+        <option value='Lesson 10'>Session 10</option>
+        <option value='Lesson 11'>Session 11</option>
+        <option value='Lesson 12'>Session 12</option>
+        <option value='Lesson 13'>Session 13</option>
+        <option value='Lesson 14'>Session 14</option>
+        <option value='Lesson 15'>Session 15</option>
+        <option value='Lesson 16'>Session 16</option>
+        <option value='Lesson 17'>Session 17</option>
+        <option value='Lesson 18'>Session 18</option>
+        <option value='Lesson 19'>Session 19</option>
+        <option value='Lesson 20'>Session 20</option>
+        <option value='Lesson 21'>Session 21</option>
+        <option value='Lesson 22'>Session 22</option>
+        <option value='Lesson 23'>Session 23</option>
+        <option value='Lesson 24'>Session 24</option>
+        <option value='Lesson 25'>Session 25</option>
+        <option value='Lesson 26'>Session 26</option>
+        <option value='Lesson 27'>Session 27</option>
+        <option value='Lesson 28'>Session 28</option>
+        <option value='Lesson 29'>Session 29</option>
+        <option value='Lesson 30'>Session 30</option>
+        <option value='Lesson 31'>Session 31</option>
+        <option value='Lesson 32'>Session 32</option>
+        <option value='Lesson 33'>Session 33</option>
+        <option value='Lesson 34'>Session 34</option>
+        <option value='Lesson 35'>Session 35</option>
+        <option value='Lesson 36'>Session 36</option>
     </select><br/><br/>
         <b>Attendees:</b><br/>
         <input type="text" name="attendees" id="attendees" size="50"/><br/><br/>

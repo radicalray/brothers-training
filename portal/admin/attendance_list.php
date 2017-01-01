@@ -39,12 +39,12 @@ $display_values = [
 ];
 
 $training_dates = [
-    "2016-01-16" => "01-16",
-    "2016-02-20" => "02-20",
-    "2016-03-19" => "03-19",
     "2016-04-16" => "04-16",
-    "2016-05-14" => "05-14",
-    "2016-06-18" => "06-18",
+    "2016-05-21" => "05-21",
+    "2016-06-25" => "06-25",
+    "2016-08-06" => "08-06",
+    "2016-09-24" => "09-24",
+    "2016-10-22" => "10-22",
     /*"2016-07-16" => "07-16",
     "2016-08-20" => "08-20",
     "2016-09-17" => "09-17",
@@ -54,24 +54,24 @@ $training_dates = [
 ];
 
 $group_dates = [
-    "group mtg 1" => "Lesson 01",
-    "group mtg 2" => "Lesson 02",
-    "group mtg 3" => "Lesson 03",
-    "group mtg 4" => "Lesson 04",
-    "group mtg 5" => "Lesson 05",
-    "group mtg 6" => "Lesson 06",
-    "group mtg 7" => "Lesson 07",
-    "group mtg 8" => "Lesson 08",
-    "group mtg 9" => "Lesson 09",
-    "group mtg 10" => "Lesson 10",
-    "group mtg 11" => "Lesson 11",
-    "group mtg 12" => "Lesson 12",
-    "group mtg 13" => "Lesson 13",
-    "group mtg 14" => "Lesson 14",
-    "group mtg 15" => "Lesson 15",
-    "group mtg 16" => "Lesson 16",
-    "group mtg 17" => "Lesson 17",
-    "group mtg 18" => "Lesson 18",
+    "group mtg 1" => "Session 01",
+    "group mtg 2" => "Session 02",
+    "group mtg 3" => "Session 03",
+    "group mtg 4" => "Session 04",
+    "group mtg 5" => "Session 05",
+    "group mtg 6" => "Session 06",
+    "group mtg 7" => "Session 07",
+    "group mtg 8" => "Session 08",
+    "group mtg 9" => "Session 09",
+    "group mtg 10" => "Session 10",
+    "group mtg 11" => "Session 11",
+    "group mtg 12" => "Session 12",
+    "group mtg 13" => "Session 13",
+    "group mtg 14" => "Session 14",
+    "group mtg 15" => "Session 15",
+    "group mtg 16" => "Session 16",
+    "group mtg 17" => "Session 17",
+    "group mtg 18" => "Session 18",
 /*    "group mtg 19" => "Lesson 19",
     "group mtg 20" => "Lesson 20",
     "group mtg 21" => "Lesson 21",
@@ -123,10 +123,7 @@ if (isset($_POST['submit_attendance_table'])) {
 $attendance = get_attendance_list($attendance_table, $mysqli);
 //print $attendance['8']['2014-12-30'];
 
-
-
 $res = getlist($mysqli, $order_by, $order, $filter_by, $filter);
-
 if ($res != 0) {
     echo "<table border=1><tr>";
     foreach (array_keys($display_values) as $key) {

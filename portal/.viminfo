@@ -222,7 +222,7 @@ $Lesson
 -'  1  0  ~/norcalchurches/training_rollcall.html
 -'  1  0  ~/norcalchurches/reset_success.html
 -'  1  0  ~/norcalchurches/reset_submitted.html
--'  1  0  ~/norcalchurches/report_submitted.html
+-'  1  0  ~/norcalchurches/report_submitted.php
 -'  56  23  ~/norcalchurches/report.html
 -'  3  0  ~/norcalchurches/report.html
 -'  1  0  ~/norcalchurches/report.html
@@ -1986,7 +1986,7 @@ $Lesson
 	+	163	42
 	+	56	23
 
-> ~/norcalchurches/report_submitted.html
+> ~/norcalchurches/report_submitted.php
 	"	1	0
 	.	16	0
 	+	18	35

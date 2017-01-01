@@ -17,10 +17,10 @@ verify_payment($mysqli, $id, $payment);
         $to = getemail($mysqli, $id);
 	$paid = "NOT YET PAID";
 	if ($payment) {$paid = "Payment Received";} else {$payment = "Payment Not Received";}
-        $subject = "Canada Training on Eldership: Application Update";
+        $subject = "Boston Area Training on Eldership: Application Update";
         $from = 'admin@churchincambridge.org';
         $body = "Hi, Your Application status has been updated to: <b>$paid</b> <br/><br/> Note: This is an automatically generated email, please do not reply. ";
-        $headers = "From: \"Canada Training on Eldership\" <". strip_tags($from) . ">\r\n";
+        $headers = "From: \"Boston Area Training on Eldership\" <". strip_tags($from) . ">\r\n";
         $headers .= "Reply-To: ". strip_tags($from) . "\r\n";
         $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";

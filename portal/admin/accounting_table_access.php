@@ -8,7 +8,7 @@ $password = $_POST['password'];
 
 if ($password == "7lampstands")
 {
-       header ("Location:/brotherstraining/portal/admin/index.php?task=accounting");
+       header ("Location:/portal/admin/index.php?task=accounting");
 }
 else
 {

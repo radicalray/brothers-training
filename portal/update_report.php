@@ -51,7 +51,7 @@ if (isset($_POST['email_report'])) {
         header("Location: /brotherstraining/portal/email_report.html?email=$em");
      }
     else {
-        header("Location:/brotherstraining/portal/report_submitted.html");
+        header("Location:/brotherstraining/portal/report_submitted.php");
     }
 }
 

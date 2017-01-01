@@ -145,7 +145,7 @@ vim index.html
 ls
 cd norcalchurches/
 ls
-vi report_submitted.html 
+vi report_submitted.php 
 vi submit_report.php
 grep HERE *
 vi index.html
