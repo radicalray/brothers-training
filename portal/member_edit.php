@@ -38,7 +38,7 @@ sec_session_start();
         }
     }
     </script>
-    <title>2016 Boston Area Training on Eldership</title>
+    <title>2017 Boston Area Training on Eldership</title>
 </head>
 
 <?php include("../includes/header.html"); ?>
@@ -92,17 +92,17 @@ if ($res != 0) {
                 <option value=8>8</option>
                 <option value=9>9</option>
                 <option value=10>10</option>
-            </select><br/><br/>   
+            </select><br/><br/>
         <b>Group Meeting Day:</b><br/>
         <select id="mtg_day" name="mtg_day">
         <option value="<? echo "$row[mtg_day]"?>"><? echo "$row[mtg_day]"?></option>
         <option value="Lord&#39s Day">Lord's Day</option>
         <option value="Monday">Monday</option>
-        <option value="Tuesday">Tuesday</option>  
-        <option value="Wednesday">Wednesday</option>  
-        <option value="Thursday">Thursday</option>  
-        <option value="Friday">Friday</option>  
-        <option value="Saturday">Saturday</option>    
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
     </select><br/><br/>
         <b>Meeting Time:</b></br>
         <input type="text" name="mtg_time" id="mtg_time" size="30" value="<? echo "$row[mtg_time]"?>"/><br/></br>
@@ -141,7 +141,7 @@ if ($res != 0) {
         <option value=20>28</option>
         <option value=20>29</option>
         <option value=20>30</option>
-           </select></br></br>    
+           </select></br></br>
         <b>Members' Names</b><br/>
         <textarea name="member_name" id="member_name" rows="4" cols="40"><?echo "$row[member_name]"?></textarea><br/><br/>
         <input type="submit" value="Edit Study Group Information"/>

@@ -42,6 +42,7 @@ if (isset($_GET['username'])) {
         $forbid_user = "3rdTerm";
         if (!strcmp($logged,"in") && strcmp($user_name,$forbid_user)) {
            echo "Hi <b>".htmlentities($_SESSION['username'])."</b>, you are currently logged in. (Click  <b><u><a href=\"skip_login.php?task=$task\" />HERE</a></b></u> to continue.)<br/><br/>";
+           echo "<script> window.location = \"skip_login.php?task=$task\"; </script>";
         }
         else {
            echo "You are currently <b>logged out</b>. (Please log in.)<br/><br/>";

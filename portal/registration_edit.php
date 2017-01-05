@@ -8,7 +8,7 @@ sec_session_start();
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title> 2016 Boston Area Training on Eldership Application Form</title>
+    <title> 2017 Boston Area Training on Eldership Application Form</title>
 </head>
 
 <?php include("../includes/header.html"); ?>
@@ -31,7 +31,7 @@ if ($res != 0) {
 
 <div class="content">
 
-<center><b>2016 Boston Area Training on Eldership <br/>Application Form</b></center><br/>
+<center><b>2017 Boston Area Training on Eldership <br/>Application Form</b></center><br/>
 
 <form action="update_registration.php" method="post">
     <b>Edit Personal Information</b><br/>
@@ -90,7 +90,7 @@ if ($res != 0) {
 
     <b>Edit Payment</b><br/>
     <div class="application_section">
-    Registration fee is <b>$100.00</b> for the training.<br/>
+    Registration fee is <b>$60.00</b> for the training.<br/>
     <ul>
     <li>If you pay by check, give your check to the responsible brother in your locality.<br/></li>
     </ul>

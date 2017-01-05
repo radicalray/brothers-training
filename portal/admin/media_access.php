@@ -34,6 +34,7 @@ else
             <form method="POST" action="media_access.php">
             Please enter your password to access: <input type="password" name="password"></input><br/>
             <input type="submit" name="submit" value="Go"></input>
+            <a href="/portal/">Cancel</a>
             </form>
     <?php }
 }

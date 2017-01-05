@@ -44,7 +44,7 @@
         }
     }
     </script>
-    <title> 2016 Boston Area Training on Eldership</title>
+    <title> 2017 Boston Area Training on Eldership</title>
 </head>
 <body>
 
@@ -52,7 +52,7 @@
 <?php include("../includes/navigation.html"); ?>
 
 <div class="content">
-    <center><b>2016 Boston Area Training on Eldership<br/>
+    <center><b>2017 Boston Area Training on Eldership<br/>
     </center>
     <br/>
     <div class="application_section">

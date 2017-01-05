@@ -22,7 +22,7 @@ foreach ($required as &$value) {
 if (!$filled){
    header("Location:input_error.html");
 }
-else{
+else {
 
   mysql_select_db('brotherstraining', $connection);
 

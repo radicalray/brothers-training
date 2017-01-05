@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2016 Boston Area Training on Eldership</title>
+    <title>2017 Boston Area Training on Eldership</title>
 </head>
 <body>
 

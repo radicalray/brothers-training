@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2016 Boston Area Training on Eldership Training Application Form</title>
+    <title>2017 Boston Area Training on Eldership Training Application Form</title>
 </head>
 <body>
 
@@ -10,7 +10,7 @@
 
 <div class="content">
 
-<?php 
+<?php
 $err_msg = $_GET['err_msg'];
 echo "<p class='warning'>".$err_msg."</p>";
 ?>

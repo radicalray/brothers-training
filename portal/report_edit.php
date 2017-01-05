@@ -51,7 +51,7 @@ sec_session_start();
         }
     }
     </script>
-    <title>2016 Boston Area Training on Eldership</title>
+    <title>2017 Boston Area Training on Eldership</title>
 </head>
 <?php include("../includes/header.html"); ?>
 <?php include("../includes/navigation.html"); ?>
@@ -149,7 +149,7 @@ if ($res != 0) {
         <option value='Lesson 33'>Session 33</option>
         <option value='Lesson 34'>Session 34</option>
         <option value='Lesson 35'>Session 35</option>
-        <option value='Lesson 36'>Session 36</option>  
+        <option value='Lesson 36'>Session 36</option>
     </select><br/><br/>
         <b>Attendees:</b><br/>
         <input type="text" name="attendees" id="attendees" size="50" value="<? echo "$row[attendees]"?>"/><br/><br/>

@@ -54,7 +54,7 @@
 <?php include("../includes/functions.php"); ?>
 
 <div class="content">
-    <center><b>2016 Boston Area Training on Eldership<br/>
+    <center><b>2017 Boston Area Training on Eldership<br/>
     Group Study Report</b></center><br/>
 
     <b>Submit Study Reports</b><br/>

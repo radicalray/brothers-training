@@ -2,7 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2016 Boston Area Training on Eldership Special Fellowship</title>
+    <title>2017 Boston Area Training on Eldership Special Fellowship</title>
 </head>
 <body>
 <style>
@@ -17,7 +17,7 @@ body {
 
 <div class="content">
 
-<center><b>2016 Boston Area Training on Eldership </b></center><br/>
+<center><b>2017 Boston Area Training on Eldership </b></center><br/>
     <div >
                         <h3 class="subtitle">2016 Brother Minoru's Visit to Boston</h3>
 

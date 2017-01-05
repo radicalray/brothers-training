@@ -5,7 +5,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title> 2016 Boston Area Training on Eldership Application Form</title>
+    <title> 2017 Boston Area Training on Eldership Application Form</title>
 </head>
 <body>
 
@@ -14,7 +14,7 @@
 
 <div class="content">
 
-<center><b>2016 Boston Area Training on Eldership <br/>Application Form</b></center><br/>
+<center><b>2017 Boston Area Training on Eldership <br/>Application Form</b></center><br/>
 
 <form action="submit.php" method="post">
     <b>Personal Information</b><br/>
@@ -97,7 +97,7 @@
     <div class="application_section">
     Registration fee is <b>$60.00</b> for the training.<br/>
     <ul>
-    <li>For training donations by check, please make the check payable to your locality, designated in the ‘memo section’ for the “GBA Training on Eldership”, and give the check (or cash), to a responsible brother in your locality.<br/></li>
+    <li>For training donations by check, please make the check payable to your locality, designated in the 'memo section' for the "GBA Training on Eldership", and give the check (or cash), to a responsible brother in your locality.<br/></li>
     </ul>
 <!--    Payment Method:
     <select id="payment_method" name="payment_method">

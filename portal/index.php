@@ -11,11 +11,11 @@
 <div class="content">
 
     <div class="application_section">
-      <b>Registration Dates: March 30 to April 10</b>
+      <b>Registration Dates: January 14 to January 22</b>
     </div>
 
     <div class="application_section">
-        <b>Video: Brother Minoru's fellowship in Boston<marquee behavior="scroll" loop="-1" width="10%">NEW</marquee><br/></b>
+        <b>Video: Brother Minoru's fellowship in Boston<br/></b>
         <ul>
             <li><u><a href="/portal/special_fellowship.php">Special Fellowship to All Registered Trainees</a></u></li>
             <!--li><u><a href="/brotherstraining/portal/uploads/2016.01.06_Wednesday_Training.mp4">Words to brothers regarding the elders' training</a></u></li>
@@ -27,8 +27,8 @@
     <b>Event: Boston Area Training on Eldership</b>
 
     <div class="application_section">
-    <b><u>First Term Training Registration</u></b><br/><br/>
-    The registration for first term is <b>OPEN</b>. To register: </br>
+    <b><u>Second Term Training Registration</u></b><br/><br/>
+    The registration for second term is <b>OPEN</b>. To register: </br>
     <ul>
     <!--li>Existing trainees registering for third term: click <b><a href="/brotherstraining/portal/admin/index.php?username=3rdTerm&task=register"/>HERE</a></b></li-->
     <li>Step 1: Fill out your application form <b><a href="registration_new.php"/>HERE</a></b></li>
@@ -65,12 +65,13 @@
     <div class="application_section">
     <b><u>Training Dates 2016:</u></b>
     <ul>
-    <li><b>First Term</b> - April 16, May 21, Jun 25, August 6, September 24, October 22</li>
-<!--    <li><b>Second Term</b> - Jul 16, Aug 20, Sep 17, Oct 15, Nov 19, Dec 17</li>-->
+    <!-- <li><b>First Term</b> - Jan 28 April 16, May 21, Jun 25, August 6, September 24, October 22</li> -->
+
+    <li><b>Second Term</b> - Jan 28, Mar 11, Apr 15, May 20, Jun 24, Aug 19</li>
     </ul>
 
     <b><u>Training Location:</u></b><br/>
-    Cambridge, MA<br/><br/>
+    Newton, MA<br/><br/>
     <b><u>Time:</u></b><br/>
     Saturdays 1 PM to 4 PM.<br/><br/>
 
