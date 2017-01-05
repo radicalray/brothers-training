@@ -15,7 +15,7 @@ body {
 </style>
 </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
    <body>
         <h1>Attendance Task Form</h1>
         <?php
@@ -24,8 +24,8 @@ body {
         }
         ?>
         <b>Please choose the attendance task you wish to perform.</b><br/><br/>
-        <form action="attendance_list.php" 
-                method="post" 
+        <form action="attendance_list.php"
+                method="post"
                 name="attendance task form">
             Task:  <select id="attendance_task" name="attendance_task">
         <option value="">-------------------------</option>
@@ -34,6 +34,6 @@ body {
     </select><br/><br/>
         <input type="submit" value="Go"/>
         </form>
-        <br/><br/>Return to the <b><a href="../attendance.html">Attendance page</a></b>.
+        <br/><br/>Return to the <b><a href="../attendance.php">Attendance page</a></b>.
     </body>
 </html>

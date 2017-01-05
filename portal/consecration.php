@@ -49,7 +49,7 @@
 <body>
 
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <div class="content">
     <center><b>2017 Boston Area Training on Eldership<br/>

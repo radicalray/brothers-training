@@ -16,22 +16,25 @@ if(isset($_GET['task'])) {
     $list = "list";
     $user_name = $_SESSION['username'];
     $forbid_user = "3rdTerm";
+    $home = "";
     if (!strcmp($task,$register)){ // task is registration
-            header('Location: /portal/registration.html');
+        header('Location: /portal/registration.html');
     } elseif (!strcmp($task,$month_attendance) && strcmp($user_name,$forbid_user)){ // task is monthly attendance
-            header('Location: /portal/admin/attendance_list.php?attendance_task=attendance');
+        header('Location: /portal/admin/attendance_list.php?attendance_task=attendance');
     } elseif (!strcmp($task, $week_attendance) && strcmp($user_name,$forbid_user)) { //task is weekly attendance
-            header('Location: /portal/admin/attendance_list.php?attendance_task=group_attendance');
+        header('Location: /portal/admin/attendance_list.php?attendance_task=group_attendance');
     } elseif (!strcmp($task,$report) && strcmp($user_name,$forbid_user)){ // task is to review report
-            header('Location: report_list.php');
+        header('Location: report_list.php');
     } elseif (!strcmp($task, $accounting) && strcmp($user_name,$forbid_user)) { // task is accounting
-            header('Location: accounting_list.php');
+        header('Location: accounting_list.php');
     } elseif (!strcmp($task, $member) && strcmp($user_name,$forbid_user)) { // task is group member
-            header('Location: member_list.php');
+        header('Location: member_list.php');
     } elseif (!strcmp($task, $list) && strcmp($user_name,$forbid_user)) { // task is administration
-            header('Location: list.php');
+        header('Location: list.php');
+    } elseif (!strcmp($task, $home)) {
+        header("Location: /portal/index.php");
     } else {
-       header("Location: /portal/admin/index.php?login_failed=1&task=$task");
+        header("Location: /portal/admin/index.php?login_failed=1&task=$task");
     }
 } else {
     // The correct GET variables were not sent to this page.

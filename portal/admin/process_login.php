@@ -21,6 +21,8 @@ if (isset($username) && isset($password)) {
     $accounting = "accounting";
     $member = "member";
     $list = "list";
+    $home = "";
+
     if (login($username, $password, $mysqli) == true) {
         // Login success
         $user_name = $_SESSION['username'];
@@ -39,6 +41,8 @@ if (isset($username) && isset($password)) {
             header('Location: member_list.php');
         } elseif (!strcmp($task, $list) && strcmp($user_name,$forbid_user)){ // task is administration
             header('Location: list.php');
+        } elseif (!strcmp($task, $home)) {
+            header("Location: /portal/index.php");
         } else {
             header("Location: /portal/admin/index.php?login_failed=1&task=$task");
         }

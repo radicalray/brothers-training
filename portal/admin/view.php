@@ -1,7 +1,7 @@
 <?php
 include_once '../../includes/db_connect.php';
 include_once '../../includes/functions.php';
- 
+
 sec_session_start();
 ?>
 <!DOCTYPE html>
@@ -20,7 +20,7 @@ body {
 </style>
 </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>
 
@@ -72,10 +72,10 @@ if ($res != 0) {
         }
         echo "</table>";
         echo "<br/><br/>";
-        
 
-/*        // allowing the administrator to approve or not approve the application 
-        if ($row['approved_by'] == "") { 
+
+/*        // allowing the administrator to approve or not approve the application
+        if ($row['approved_by'] == "") {
             echo "<br/><form action=\"approve.php\" method=\"post\">Comments:<br/><textarea cols=\"50\" rows=\"5\" name=\"comments\">{$row['comments']}</textarea><br/>".
                  "<select id=\"approved\" name=\"approved\">".
                  "   <option  value=\"1\">Approved</option>".
@@ -91,7 +91,7 @@ if ($res != 0) {
         }
 */
 
-        // allowing the administrator to approve or not approve the application 
+        // allowing the administrator to approve or not approve the application
 
 	echo "<hr><h1>Approve Application</h1>";
 	    $approved_selected = "";
@@ -115,7 +115,7 @@ if ($res != 0) {
     "<b>Send an email notification to the user? </b> <input type=\"radio\" name=\"email_notification\" id=\"email_notification\" value=\"1\" checked>Yes <input type=\"radio\" name=\"email_notification\" id=\"email_notification\" value=\"0\">No<br/>".
                  "<button type=\"submit\">Submit</button></form>";
 
-       echo "<br/><br/><hr><h1>Verify Payment</h1>"; 
+       echo "<br/><br/><hr><h1>Verify Payment</h1>";
 
         $paid_selected = "";
         $not_paid_selected = "";

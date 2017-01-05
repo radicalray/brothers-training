@@ -1,9 +1,3 @@
-<?php
-include_once '../../includes/db_connect.php';
-include_once '../../includes/functions.php';
-
-sec_session_start();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +11,7 @@ body {
 </style>
 </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>
 
@@ -135,6 +129,6 @@ if ($res != 0) {
     </p>
 <?php endif; ?>
 
-    <br/>Click <b><a href="../admin.html">HERE</b></a> to go back.<br/><br/>
+    <br/>Click <b><a href="../admin.php">HERE</b></a> to go back.<br/><br/>
 </body>
 </html>

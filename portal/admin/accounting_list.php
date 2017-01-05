@@ -17,7 +17,7 @@ body {
 </style>
 </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>
 
@@ -81,7 +81,7 @@ if ($res != 0) {
              "<td>{$row['approved2']}</td>";
        if ($row['report_type'] == "Expense") {
           echo "<td>".($row['expense_paid'] == 1 ? "yes" : "no")."</td>";
-       } 
+       }
        else {
           echo "<td></td>";
        }
@@ -109,6 +109,6 @@ if ($res != 0) {
     </p>
 <?php endif; ?>
 
-    <br/>Click <b><a href="../accounting.html">HERE</b></a> to go back.<br/><br/>
+    <br/>Click <b><a href="../accounting.php">HERE</b></a> to go back.<br/><br/>
 </body>
 </html>

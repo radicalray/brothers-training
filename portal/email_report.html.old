@@ -15,9 +15,9 @@
   <a href="consecration.html">Consecration</a> |
   <a href="media.html">Media</a> |
   <a href="admin.html">Administration</a> |
-  <a href="attendance.html">Attendance</a> |
+  <a href="attendance.php">Attendance</a> |
   <a href="group.html">Study Group</a> |
-  <a href="accounting.html">Accounting</a> |
+  <a href="accounting.php">Accounting</a> |
   <a href="help.html">Help</a> |
   <a href="admin/logout.php">Logout</a>
 </b>

@@ -17,7 +17,7 @@ body {
 </style>
 </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>
 
@@ -62,6 +62,6 @@ if ($res != 0) {
     </p>
 <?php endif; ?>
 
-    <br/>Click <b><a href="../attendance.html">HERE</b></a> to go back.<br/><br/>
+    <br/>Click <b><a href="../attendance.php">HERE</b></a> to go back.<br/><br/>
 </body>
 </html>

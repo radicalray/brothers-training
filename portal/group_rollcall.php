@@ -6,7 +6,7 @@
 <body>
 
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <div class="content">
 
@@ -65,7 +65,7 @@
     </div>
 
     <center><input type="submit" value="Submit" class="application_submit"/></center><br/><br/>
-<center>Click <b><a href="../attendance.html">HERE</b></a> to go back.</center><br/><br/>
+<center>Click <b><a href="../attendance.php">HERE</b></a> to go back.</center><br/><br/>
 <>form>
 
 </div>

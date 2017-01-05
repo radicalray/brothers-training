@@ -6,7 +6,7 @@
 <body>
 
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <div class="content">
 
@@ -23,7 +23,7 @@
 
     <b>Login</b><br/>
     <div class="application_section">
-    Click <b><a href="admin/index.php">Here</a></b> to login.<br><br>
+    Click <b><a href="admin/signin.php">Here</a></b> to login.<br><br>
     </div>
 
     <b>Register</b><br/>

@@ -1,9 +1,3 @@
-<?php
-include_once '../../includes/db_connect.php';
-include_once '../../includes/functions.php';
-
-sec_session_start();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +11,7 @@ body {
 </style>
 </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>
 
@@ -71,9 +65,9 @@ if ($res != 0) {
              "<td>{$row['mtg_time']}</td>".
              "<td>{$row['mtg_place']}</td>".
              "<td>{$row['member_no']}</td>";
-        echo "<td><u><a href=\"member_view.php?id={$row['id']}\"><b>View</a></b></u></td>"; 
-        echo "<td><u><a href=\"../member_edit.php?id={$row['id']}\"><b>Edit</a></b></u></td>"; 
-        echo "<td><u><a href=\"delete_confirm.php?id={$row['id']}&table=study_groups\"><b>Delete</a></b></u></td>"; 
+        echo "<td><u><a href=\"member_view.php?id={$row['id']}\"><b>View</a></b></u></td>";
+        echo "<td><u><a href=\"../member_edit.php?id={$row['id']}\"><b>Edit</a></b></u></td>";
+        echo "<td><u><a href=\"delete_confirm.php?id={$row['id']}&table=study_groups\"><b>Delete</a></b></u></td>";
         echo "</tr>";
         $count++;
     }
@@ -90,6 +84,6 @@ if ($res != 0) {
     </p>
 <?php endif; ?>
 
-    <br/>Click <b><a href="../member.html">HERE</b></a> to go back.<br/><br/>
+    <br/>Click <b><a href="../member.php">HERE</b></a> to go back.<br/><br/>
 </body>
 </html>

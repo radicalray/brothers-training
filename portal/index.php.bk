@@ -6,12 +6,12 @@
 <body>
 
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <div class="content">
 
     <b>Event: 2016 Canada Training on Eldership</b>
-    
+
     <div class="application_section">
     <b><u>First Term Training Registration</u></b><br/><br/>
     The registration for first term is <b>OPEN</b>. To register: </br>
@@ -60,7 +60,7 @@
     <b><u>Cost</u></b></br>
     $50 CDN per term. (Each term is 6 month.) <br/><br/>
 
-    
+
     <b><u>Training Guidelines and Regulations</u></b>
     <ul>
     <li><b>Attire</b> - A tie and a jacket are the recommended attire for each trainee.</li>
@@ -74,13 +74,13 @@
        <ul>
        <li>For the monthly training sessions, three excused absences per year are permitted with prior approval. Any unexcused absence or more than three excused absences will result in dismissal from the training.</li>
        <li>Trainees are required to attend 75% of the weekly study groups for the yearThe training is one year in length.</li>
-       </ul> 
+       </ul>
     </ul>
 
-        
+
     </div>
 
-   
+
 </div>
 
 </body>

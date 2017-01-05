@@ -6,7 +6,7 @@
 <body>
 
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <div class="content">
 
@@ -23,7 +23,7 @@
     <li>Mark the absences as 'unexcused' if they were not notified prior to the training sessions.</li>
     </ol>
 
-    <li>Click <b><a href="training_rollcall.html">Here</a></b> to mark the rest of the trainees in your locality as present.
+    <li>Click <b><a href="training_rollcall.php">Here</a></b> to mark the rest of the trainees in your locality as present.
     </ol>
 
        </div>
@@ -38,7 +38,7 @@
     <li>Provide the reasons for the absences and the dates for the make-up lessons.</li>
     <li>Mark the absences as 'unexcused' if they were not notified prior to the training sessions.</li>
     </ol>
-    <li>Click <b><a href="group_rollcall.html">Here</a></b> to mark the rest of the trainees as present.
+    <li>Click <b><a href="group_rollcall.php">Here</a></b> to mark the rest of the trainees as present.
     </ol>
     </div>
 </div>

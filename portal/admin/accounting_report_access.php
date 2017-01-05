@@ -10,7 +10,7 @@ $password = $_POST['password'];
 if ($password == "2spirits")
 {
 	include_once("../../includes/header.html");
-	include_once("../../includes/navigation.html");
+	include_once("../../includes/navigation.php");
 
         include("../accounting_report.html");
 }

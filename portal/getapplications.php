@@ -7,7 +7,7 @@
 <body>
 
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
+<?php include("../includes/navigation.php"); ?>
 <?php include_once("../includes/functions.php"); ?>
 
 <?php

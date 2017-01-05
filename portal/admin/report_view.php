@@ -1,7 +1,7 @@
 <?php
 include_once '../../includes/db_connect.php';
 include_once '../../includes/functions.php';
- 
+
 sec_session_start();
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ sec_session_start();
     <link rel="stylesheet" type="text/css" href="../styles.css" />
 </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>
 

@@ -54,7 +54,7 @@ sec_session_start();
     <title>2017 Boston Area Training on Eldership</title>
 </head>
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <body>
 

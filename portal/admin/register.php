@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="../styles.css" />
     </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
     <body>
         <!-- Registration form to be output if the POST variables are not
         set or if the registration script caused an error. -->

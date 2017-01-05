@@ -50,8 +50,7 @@
 <body>
 
 <?php include("../includes/header.html"); ?>
-<?php include("../includes/navigation.html"); ?>
-<?php include("../includes/functions.php"); ?>
+<?php include("../includes/navigation.php"); ?>
 
 <div class="content">
     <center><b>2017 Boston Area Training on Eldership<br/>
@@ -59,6 +58,27 @@
 
     <b>Submit Study Reports</b><br/>
     <div class="application_section">
+        <?php
+            echo $_SESSION;
+            if (!strcmp($logged,"in") && strcmp($user_name,$forbid_user)) {
+                echo $_SESSION;
+               echo "Hi <b>".htmlentities($_SESSION['username'])."</b>, you are currently logged in. (Click  <b><u><a href=\"skip_login.php?task=$task\" />HERE</a></b></u> to continue.)<br/><br/>";
+               echo "<script> window.location = \"skip_login.php?task=$task\"; </script>";
+            }
+            else {
+               echo "You are currently <b>logged out</b>. (Please log in.)<br/><br/>";
+            }
+            echo "<form action=\"process_login.php?task=$task\" method=\"post\" name=\"login_form\">".
+            "Username: <input type=\"text\" name=\"username\" id=\"username\"/>".
+            "Password: <input type=\"password\"".
+                             "name=\"password\"".
+                             "id=\"password\"/>".
+            "<input type=\"submit\"".
+                   "value=\"Login\"".
+                   "onclick=\"formhash(this.form, this.form.password);\". />".
+        "</form>"
+        ?>
+        ?>
         <form method="post" onsubmit="return validateForm()" action="submit_report.php"  name="report">
             <b>First Name:</b><br/>
             <input type="text" name="first_name" id="first_name"/><br/><br/>

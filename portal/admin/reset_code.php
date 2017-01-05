@@ -1,9 +1,9 @@
 <?php
 include_once '../../includes/db_connect.php';
 include_once '../../includes/functions.php';
- 
+
 sec_session_start();
- 
+
 if (login_check($mysqli) == true) {
     $logged = 'in';
 } else {
@@ -14,12 +14,12 @@ if (login_check($mysqli) == true) {
 <html>
     <head>
         <title>Secure Login: Log In</title>
-        <script type="text/JavaScript" src="js/sha512.js"></script> 
-        <script type="text/JavaScript" src="js/forms.js"></script> 
+        <script type="text/JavaScript" src="js/sha512.js"></script>
+        <script type="text/JavaScript" src="js/forms.js"></script>
         <link rel="stylesheet" type="text/css" href="../styles.css" />
     </head>
 <?php include("../../includes/header.html"); ?>
-<?php include("../../includes/navigation.html"); ?>
+<?php include("../../includes/navigation.php"); ?>
 <body>
 <br/><br/>
         <?php
@@ -32,9 +32,9 @@ if (login_check($mysqli) == true) {
         if (isset($_GET['id'])) {
             $id = $_GET['id'];
         }
-        echo "<form action=\"reset_check.php\" method=\"post\" name=\"reset_code\">".                      
+        echo "<form action=\"reset_check.php\" method=\"post\" name=\"reset_code\">".
             "Please enter your reset code: <input type=\"number\" name=\"code\" id=\"code\"/>".
-            "<input type=\"submit\" name=\"reset\" value=\"Reset\">". 
+            "<input type=\"submit\" name=\"reset\" value=\"Reset\">".
             "<input type=\"hidden\" name=\"id\" value=\"$id\">".
         "</form>"
         ?>

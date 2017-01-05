@@ -1,15 +1,3 @@
-<?php
-include_once '../../includes/db_connect.php';
-include_once '../../includes/functions.php';
-
-sec_session_start();
-
-if (login_check($mysqli) == true) {
-    $logged = 'in';
-} else {
-    $logged = 'out';
-}
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,15 +9,22 @@ if (login_check($mysqli) == true) {
 <?php include("../../includes/header.html"); ?>
 <?php include("../../includes/navigation.php"); ?>
 <body>
+<div class="content">
 <br/><br/>
+    <div class="application_section">
         <?php
         if (isset($_GET['error'])) {
             echo '<p class="error">Error Logging In!</p>';
         }
-        if (isset($_GET['login_failed'])) {
-            echo "<p><b>Login failed. Please check your username/password and try again.</b></p>";
-       }
-        $task = $_GET['task'];
+
+	$user_name = $_SESSION['username'];
+        $forbid_user = "3rdTerm";
+        if (!strcmp($logged,"in") && strcmp($user_name,$forbid_user)) {
+           echo "Hi <b>".htmlentities($_SESSION['username'])."</b>, you are currently logged in. (Click  <b><u><a href=\"skip_login.php?task=$task\" />HERE</a></b></u> to continue.)<br/><br/>";
+        }
+        else {
+           echo "You are currently <b>logged out</b>. (Please log in.)<br/><br/>";
+        }
         echo "<form action=\"process_login.php?task=$task\" method=\"post\" name=\"login_form\">".
             "Username: <input type=\"text\" name=\"username\" id=\"username\"/>".
             "Password: <input type=\"password\"".
@@ -40,10 +35,8 @@ if (login_check($mysqli) == true) {
                    "onclick=\"formhash(this.form, this.form.password);\". />".
         "</form>"
         ?>
-        <p>If you don't have a login, please <b><u><a href="register.php">Register</a></u></b></p>
-        <p>If you forget your password, please <b><u><a href="reset_password.php">Reset Password</a></u></b></p>
-
-        <p>If you are done, please <b><u><a href="logout.php">Logout</a></u></b>.</p>
-        <p>You are currently logged <b><u><?php echo $logged ?></u></b>.</p>
+      </br><center><b>(Please email admin@churchincambridge.org if you need help.)</b></center></br>
+     </div>
+</div>
 </body>
 </html>
