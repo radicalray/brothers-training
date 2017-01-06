@@ -1,7 +1,7 @@
 <?php
 include_once '../includes/psl-config.php';   // As functions.php is not included
 
-  $connection = mysql_connect('mysql.churchincambridge.org', 'sbruso', '2608amtT');
+  $connection = mysql_connect(HOST, USER, PASSWORD);
   if(!$connection)
   {
     die('could not connect to database: '.mysql_error());
@@ -24,7 +24,7 @@ if (!$filled){
 }
 else {
 
-  mysql_select_db('brotherstraining', $connection);
+  mysql_select_db(DATABASE, $connection);
 
   $my_fields = [
     'first_name',

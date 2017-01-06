@@ -279,6 +279,11 @@ function verify_code($value, $code) {
     }
 }
 
+function get_member($user_id, $mysqli) {
+    $res = $mysqli->query("SELECT * FROM members WHERE id = $user_id");
+    return $res;
+}
+
 function get_attendance($attendance_table, $user_id, $date, $mysqli) {
     if (!$date) {
       $res = $mysqli->query("SELECT * FROM $attendance_table WHERE user_id = $user_id");

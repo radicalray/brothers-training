@@ -11,13 +11,10 @@
 <?php include_once("../includes/functions.php"); ?>
 
 <?php
-$servername = "mysql.churchincambridge.org";
-$username = "sbruso";
-$password = "2608amtT";
-$dbname = "brotherstraining";
+include_once '../includes/psl-config.php';
 
 // Create connection
-$conn = mysqli_connect($servername, $username, $password, $dbname);
+$conn = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
