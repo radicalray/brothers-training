@@ -14,7 +14,6 @@ body {
 }
 </style>
 </head>
-<?php include("../../includes/header.html"); ?>
 <?php include("../../includes/navigation.php"); ?>
    <body>
         <h1>Attendance Task Form</h1>

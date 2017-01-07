@@ -20,6 +20,8 @@ if (isset($_GET['username'])) {
 }}
 ?>
 
+<?php include("header.html"); ?>
+
 <div class="navigation">
  <b>
   <ul id="mainmenu">

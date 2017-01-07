@@ -11,7 +11,6 @@ body {
 }
 </style>
 
-<?php include("../includes/header.html"); ?>
 <?php include("../includes/navigation.php"); ?>
 
 

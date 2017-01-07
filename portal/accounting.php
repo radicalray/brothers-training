@@ -5,12 +5,11 @@
 </head>
 <body>
 
-<?php include("../includes/header.html"); ?>
 <?php include("../includes/navigation.php"); ?>
 
 <div class="content">
 
-<center><b>2016 Canada Training on Eldership <br/>Training Accounting</b></center><br/>
+<center><b>2017 Canada Training on Eldership <br/>Training Accounting</b></center><br/>
     <b>Income and Expense Report</b><br/>
     <div class="application_section">
     Click <b><a href="./admin/accounting_report_access.php">Here</a></b> to submit an income or expense report for the training. <br/>

@@ -6,7 +6,6 @@
         <script type="text/JavaScript" src="js/forms.js"></script>
         <link rel="stylesheet" type="text/css" href="../styles.css" />
     </head>
-<?php include("../../includes/header.html"); ?>
 <?php include("../../includes/navigation.php"); ?>
 <body>
 <div class="content">

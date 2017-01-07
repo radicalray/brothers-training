@@ -5,7 +5,6 @@
     <title>Secure Login: Protected Page</title>
     <link rel="stylesheet" type="text/css" href="../styles.css" />
 </head>
-<?php include("../../includes/header.html"); ?>
 <?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>

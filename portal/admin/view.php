@@ -19,7 +19,6 @@ body {
 }
 </style>
 </head>
-<?php include("../../includes/header.html"); ?>
 <?php include("../../includes/navigation.php"); ?>
 <body>
 <?php if (login_check($mysqli) == true) : ?>

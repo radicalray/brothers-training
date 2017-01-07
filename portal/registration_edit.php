@@ -11,7 +11,6 @@ sec_session_start();
     <title> 2017 Boston Area Training on Eldership Application Form</title>
 </head>
 
-<?php include("../includes/header.html"); ?>
 <?php include("../includes/navigation.php"); ?>
 
 <body>
