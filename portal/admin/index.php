@@ -16,6 +16,10 @@
             echo '<p class="error">Error Logging In!</p>';
         }
 
+        if (isset($_GET['login_failed'])) {
+            echo '<p class="error">Incorrect username/password</p>';
+        }
+
 	$user_name = $_SESSION['username'];
         $forbid_user = "3rdTerm";
         if (!strcmp($logged,"in") && strcmp($user_name,$forbid_user)) {

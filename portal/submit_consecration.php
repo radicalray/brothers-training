@@ -42,6 +42,6 @@ if ($stmt = $mysqli->prepare($query)) {
     $stmt->execute();
 }
 
-header("Location:/portal/consecration_submitted.html");
+header("Location:/portal/consecration_submitted.php");
 
 ?>
