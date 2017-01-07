@@ -38,7 +38,7 @@ sec_session_start();
         }
     }
     </script>
-    <title>2017 Boston Area Training on Eldership</title>
+    <title><?php echo date("Y"); ?> Boston Area Training on Eldership</title>
 </head>
 
 <?php include("../includes/navigation.php"); ?>

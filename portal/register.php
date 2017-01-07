@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title> 2017 Boston Area Training on Eldership Application Form</title>
+    <title> <?php echo date("Y"); ?> Boston Area Training on Eldership Application Form</title>
 </head>
 <body>
 
@@ -9,7 +9,7 @@
 
 <div class="content">
 
-<center><b>2017 Boston Area Training on Eldership <br/></b></center><br/>
+<center><b><?php echo $year; ?> Boston Area Training on Eldership <br/></b></center><br/>
 
     <div class="application_section">
     <b><u>Second Term Training Registration</u></b><br/><br/>

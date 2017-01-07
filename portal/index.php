@@ -62,7 +62,7 @@
 
 
     <div class="application_section">
-    <b><u>Training Dates 2016:</u></b>
+    <b><u>Training Dates <?php global $year; echo $year; ?>:</u></b>
     <ul>
     <!-- <li><b>First Term</b> - Jan 28 April 16, May 21, Jun 25, August 6, September 24, October 22</li> -->
 

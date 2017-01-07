@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2017 Boston Area Training on Eldership Training Attendance Record</title>
+    <title><?php echo date("Y"); ?> Boston Area Training on Eldership Training Attendance Record</title>
 </head>
 <body>
 
@@ -9,7 +9,7 @@
 
 <div class="content">
 
-<center><b>2017 Boston Area Training on Eldership <br/>Training Attendance</b></center><br/>
+<center><b><?php echo $year; ?> Boston Area Training on Eldership <br/>Training Attendance</b></center><br/>
     <b>Plenary Session Attendance Tracking</b><br/>
     <div class="application_section">
     Plenary Session Attendance:

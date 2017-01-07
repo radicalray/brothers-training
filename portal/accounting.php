@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2017 Boston Area Training on Eldership Training Attendance Record</title>
+    <title><?php echo date("Y"); ?> Boston Area Training on Eldership Training Attendance Record</title>
 </head>
 <body>
 
@@ -9,7 +9,7 @@
 
 <div class="content">
 
-<center><b>2017 Canada Training on Eldership <br/>Training Accounting</b></center><br/>
+<center><b><?php echo $year; ?> Canada Training on Eldership <br/>Training Accounting</b></center><br/>
     <b>Income and Expense Report</b><br/>
     <div class="application_section">
     Click <b><a href="./admin/accounting_report_access.php">Here</a></b> to submit an income or expense report for the training. <br/>

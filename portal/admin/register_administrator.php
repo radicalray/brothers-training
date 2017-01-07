@@ -11,7 +11,7 @@
 <div class="content">
 <br/><br/>
 
-    <center><b>2017 Boston Area Training on Eldership<br/>Register Locality Administrators</b></center><br/>
+    <center><b><?php echo $year; ?> Boston Area Training on Eldership<br/>Register Locality Administrators</b></center><br/>
      <b>For Locality Administrators Only</b>
      <div class="application_section">
         <ul>

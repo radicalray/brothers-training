@@ -18,6 +18,10 @@ if (isset($_GET['username'])) {
         $pass_word = "8b653cfff75c6467f9e9f066237ee144b7ba7919079357ca69feedbb7843b87eae8a6b3948347e0da366803a95ffeb9e6a113506e4d6e1b72a2ca9954ab02c99";
     header("Location:/portal/admin/process_login.php?username=$user_name&password=$pass_word&task=register");
 }}
+
+global $year;
+$year = "2017";
+
 ?>
 
 <?php include("header.html"); ?>

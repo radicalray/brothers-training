@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2017 Boston Area Training on Eldership Training Mass Update Attendance</title>
+    <title><?php echo date("Y"); ?> Boston Area Training on Eldership Training Mass Update Attendance</title>
 </head>
 <body>
 
@@ -9,7 +9,7 @@
 
 <div class="content">
 
-<center><b>2017 Boston Area Training on Eldership <br/>Weekly Group Meeting Attendance Update Form</b></center><br/>
+<center><b><?php echo $year; ?> Boston Area Training on Eldership <br/>Weekly Group Meeting Attendance Update Form</b></center><br/>
 
 <form action="admin/attendance_rollcall.php" method="post">
     <input type="hidden" name="attendance_table" value="group_attendance"/>

@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2017 Boston Area Training on Eldership Training Administration</title>
+    <title><?php echo date("Y"); ?> Boston Area Training on Eldership Training Administration</title>
 </head>
 <body>
 
@@ -9,7 +9,7 @@
 
 <div class="content">
 
-<center><b>2017 Boston Area Training on Eldership <br/>Training Administration</b></center><br/>
+<center><b><?php echo $year; ?> Boston Area Training on Eldership <br/>Training Administration</b></center><br/>
     <b>Administrators</b><br>
     <div class="application_section">
     Each locality should designate a brother as the administrator to perform the following tasks for the training:

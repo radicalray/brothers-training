@@ -1,7 +1,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2017 Boston Area Training on Eldership Training Help Information</title>
+    <title><?php echo date("Y"); ?> Boston Area Training on Eldership Training Help Information</title>
 </head>
 <body>
 

@@ -44,14 +44,14 @@
         }
     }
     </script>
-    <title> 2017 Boston Area Training on Eldership</title>
+    <title><?php echo date("Y"); ?> Boston Area Training on Eldership</title>
 </head>
 <body>
 
 <?php include("../includes/navigation.php"); ?>
 
 <div class="content">
-    <center><b>2017 Boston Area Training on Eldership<br/>
+    <center><b><?php echo $year; ?> Boston Area Training on Eldership<br/>
     </center>
     <br/>
     <div class="application_section">
