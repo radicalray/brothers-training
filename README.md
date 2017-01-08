@@ -10,6 +10,8 @@ This is a standard php + mysql stack project. Any standard *amp framework will w
  - WAMP
  - LAMP
 
+Create a database called ```brotherstraining``` and import the db schema from ```database/db_schema.sql```. You will need to create a member entry to be able to sign in. To do so, go to "For Local Administrators -> Register Administrator" to register an administrator.
+
 ### Database Config
 
 Database config files live in ```includes/psl-config.php```. Please update accordingly depending on working in local/production environment.
