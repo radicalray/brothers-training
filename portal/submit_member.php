@@ -1,21 +1,32 @@
 <?php
 include_once '../includes/db_connect.php';
 
+// print_r ($_POST);
+
 $lc = $_POST['locality'];
-$lg = $_POST['language'];
 $gn = $_POST['group_no'];
 $md = $_POST['mtg_day'];
 $mt = $_POST['mtg_time'];
 $mp = $_POST['mtg_place'];
-$mn = $_POST['member_no'];
-$mb = $_POST['member_name'];
+$mids = implode(',', $_POST['member_ids']);
 
-$query = "INSERT INTO study_groups (locality, language, group_no, mtg_day, mtg_time, mtg_place, member_no, member_name) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
+$lg = "English";
+
+// implode(',', $a)
+
+$query = "INSERT INTO study_groups (locality, language, group_no, mtg_day, mtg_time, mtg_place, member_ids) VALUES (?, ?, ?, ?, ?, ?, ?)";
+
+// print_r ($mysqli);
 
 if ($stmt = $mysqli->prepare($query)) {
-    $stmt->bind_param('ssssssss', $lc, $lg, $gn, $md, $mt, $mp, $mn, $mb);
-    $stmt->execute();
+  // echo "blah";
+  // print_r ($stmt);
+  $stmt->bind_param('sssssss', $lc, $lg, $gn, $md, $mt, $mp, $mids);
+  $stmt->execute();
+  // echo "finished";
 }
+
+// echo $mids;
 
 header("Location:/portal/member_submitted.html");
 

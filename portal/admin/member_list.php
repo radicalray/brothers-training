@@ -29,7 +29,7 @@ $display_values = [
     "mtg_day" => "Meeting Day",
     "mtg_time" => "Meeting Time",
     "mtg_place" => "Meeting Place",
-    "member_no" => "Number of Members"
+    "member_ids" => "Member IDs"
 ];
 
 $res = get_group_list($mysqli, $order_by, $order, $filter_by, $filter);
@@ -63,7 +63,7 @@ if ($res != 0) {
              "<td>{$row['mtg_day']}</td>".
              "<td>{$row['mtg_time']}</td>".
              "<td>{$row['mtg_place']}</td>".
-             "<td>{$row['member_no']}</td>";
+             "<td>{$row['member_ids']}</td>";
         echo "<td><u><a href=\"member_view.php?id={$row['id']}\"><b>View</a></b></u></td>";
         echo "<td><u><a href=\"../member_edit.php?id={$row['id']}\"><b>Edit</a></b></u></td>";
         echo "<td><u><a href=\"delete_confirm.php?id={$row['id']}&table=study_groups\"><b>Delete</a></b></u></td>";

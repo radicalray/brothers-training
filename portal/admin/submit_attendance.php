@@ -33,18 +33,10 @@ if (!verify_code($user + $date, $code)) {
    print "error";
 }
 else {
-   get_attendance($attendance_table, $user, $date, $mysqli);
-   if (mysqli_affected_rows($mysqli) > 0){ // if we already have the record then update
-      if ($status != 'absent') {
-         $type = 'P';
-      }
-         update_attendance($attendance_table, $user, $date, $type, $reason, $makeup, $mysqli);
-   } else {
-     if ($status != 'absent') {
-        $type = 'P';
-     }
-        insert_attendance($attendance_table, $user, $date, $type, $reason, $makeup, $mysqli);
+  if ($status != 'absent') {
+    $type = 'P';
   }
+  insert_attendance($attendance_table, $user, $date, $type, $reason, $makeup, $mysqli);
 }
 header("Location:/portal/admin/attendance_list.php?attendance_table=$attendance_table");
 

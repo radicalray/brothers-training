@@ -1,19 +1,79 @@
 <?php
 include_once '../includes/db_connect.php';
+include_once '../includes/functions.php';
 
 $fn = $_POST['first_name'];
 $ln = $_POST['last_name'];
 $em = $_POST['email'];
 $lc = $_POST['locality'];
 $dt = $_POST['date'];
-$lg = $_POST['language'];
+$lg = "English"; //$_POST['language'];
 $ls = $_POST['lesson'];
 $gn = $_POST['group_no'];
-$ad = $_POST['attendees'];
-$as = $_POST['absentees'];
+
 $sr = $_POST['study_report'];
 $sg = $_POST['suggestions'];
 
+$monitor_id = $_POST['monitor_id'];
+$session = $_POST['lesson'];
+// $sr = $_POST['study_report'];
+// $sg = $_POST['suggestions'];
+$absent = $_POST['absent'];
+$excused = $_POST['excused'];
+
+$excused_reason = $_POST['excused_reason'];
+$makeup_date = $_POST['makeup_date'];
+
+// print_r ($absent);
+// print_r ($excused);
+
+$present_trainees = [];
+$absent_trainees = [];
+$excused_trainees = [];
+
+foreach($excused as $t => $is_excused) {
+    array_push($excused_trainees, $t);
+}
+
+$reason = "";
+$makeup = "";
+
+$attendance_table = "group_attendance";
+
+// Logic to figure out if trainee should be marked P (present), U (unexcused absent), or E (excused absent)
+foreach($absent as $t => $is_absent) {
+    if ($is_absent) {
+        if (!in_array($t, $excused_trainees)) {
+            // Only push in not excused trainees
+            array_push($absent_trainees, $t);
+            $type = 'U';
+        } else {
+            $type = 'E';
+            $reason = $excused_reason[$t];
+            $makeup = $makeup_date[$t];
+        }
+    } else {
+        array_push($present_trainees, $t);
+        $type = 'P';
+    }
+    insert_attendance($attendance_table, $t, $session, $type, $reason, $makeup, $mysqli);
+}
+
+// echo "present";
+// print_r ($present_trainees);
+// echo "absent";
+// print_r ($absent_trainees);
+// echo "excused";
+// print_r($excused_trainees);
+
+$monitor = get_trainee($monitor_id, $mysqli)->fetch_assoc();
+$fn = $monitor;
+
+// print_r ($monitor);
+$fn = $monitor['first_name'];
+$ln = $monitor['last_name'];
+$em = $monitor['email'];
+$lc = $monitor['locality'];
 
 $query = "INSERT INTO study_reports (first_name, last_name, email, locality, language, group_no, lesson, attendees, absentees, study_report, suggestions, date_submitted) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 

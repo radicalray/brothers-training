@@ -1,9 +1,3 @@
-<?php
-include_once '../../includes/db_connect.php';
-include_once '../../includes/functions.php';
-
-sec_session_start();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,7 +17,7 @@ body {
 <?php
 
 $display = [
-   "member_name"=>"Members' Names",
+   "member_ids"=>"Member IDs",
 ];
 
 $id = $_GET['id'];
