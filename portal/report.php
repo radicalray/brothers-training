@@ -43,13 +43,18 @@
             var elem = $(this);
             var absent = elem.val();
             var excused = elem.parent().parent().find('.excused');
+            var excused_info = elem.parent().parent().find('.excused_info');
 
             if (absent == 1) {
                 console.log('show', excused);
                 excused.show();
+                if (excused.find('input').is(':checked')) {
+                    excused_info.show();
+                }
             } else {
                 console.log('hide', excused);
                 excused.hide();
+                excused_info.hide();
             }
             console.log($(this).val());
 
@@ -84,6 +89,13 @@
 
     td {
         height: 25px;
+        /*padding-right: 10px;*/
+    }
+    .text-center {
+        text-align: center;
+    }
+    .text-absent {
+        padding-left: 15px;
     }
     </style>
     <title>Boston Area Training on Eldership</title>
@@ -148,7 +160,7 @@
             <table>
                 <thead>
                     <tr>
-                        <td><b>Monitor</b></td>
+                        <td><b>[x] Monitor</b></td>
                         <td><b>Present</b></td>
                         <td><b>Absent</b></td>
                     </tr>
@@ -163,10 +175,10 @@
                             $id = $row['id'];
 
                             print "<td><label> <input type='radio' name='monitor_id' value='$id' /> $name</label></td>";
-                            print "<td><input class='absent' type='radio' name='absent[$id]' value='0' /></td>";
-                            print "<td><input class='absent' type='radio' name='absent[$id]' value='1' /> ".
+                            print "<td class='text-center'><input class='absent' type='radio' name='absent[$id]' value='0' /></td>";
+                            print "<td class='text-absent'><input class='absent' type='radio' name='absent[$id]' value='1' /> ".
                                   "<label class='excused'> <input type='checkbox' name='excused[$id]' value='1'> Excused</label>".
-                                  "<span class='excused_info'><input type='text' name='excused_reason[$id]' placeholder='Reason' /> <input type='date' name='makeup_date[$id]' placeholder='Makeup Date' /></span></td>";
+                                  "<span class='excused_info'><input type='text' name='excused_reason[$id]' placeholder='Reason' /> Makeup Date: <input type='date' name='makeup_date[$id]' placeholder='Makeup Date' /></span></td>";
                         // print_r ($row);
                             // print $row['first_name'] . $row['last_name'] . '<br/>';
 

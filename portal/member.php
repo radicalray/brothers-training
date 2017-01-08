@@ -107,7 +107,6 @@
         <input type="text" name="mtg_time" id="mtg_time" size="30"/><br/></br>
         <b>Meeting Place:</b><br/>
         <input type="text" name="mtg_place" id="mtg_place" size="30"/><br/><br/>
-       </br></br>
         <b>Members</b><br/>
         <?php include_once("../includes/functions.php"); ?>
         <?php
