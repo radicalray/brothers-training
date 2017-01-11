@@ -3,34 +3,41 @@
  * These are the database login details
  */
 
-/////////////////////// Production Settings ////////////////////////
+$addr = $_SERVER["REMOTE_ADDR"];
+$debug = $addr == "127.0.0.1" || $addr == "::1";
 
-// define("HOST", "mysql.churchincambridge.org");     // The host you want to connect to.
-// //define("USER", "cl44-cdnbrtr");    // The database username.
-// //define("USER", "ncc_readonly");    // The database username.
-// define("USER", "sbruso");    // The database username.
-// define("PASSWORD", "2608amtT");    // The database password.
-// define("DATABASE", "brotherstraining");    // The database name.
-// //define("DATABASE", "norcalchurches");    // The database name.
+if (!$debug) {
 
-// define("CAN_REGISTER", "any");
-// define("DEFAULT_ROLE", "member");
+  /////////////////////// Production Settings ////////////////////////
 
-// define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
+  define("HOST", "mysql.churchincambridge.org");     // The host you want to connect to.
+  //define("USER", "cl44-cdnbrtr");    // The database username.
+  //define("USER", "ncc_readonly");    // The database username.
+  define("USER", "sbruso");    // The database username.
+  define("PASSWORD", "2608amtT");    // The database password.
+  define("DATABASE", "brotherstraining");    // The database name.
+  //define("DATABASE", "norcalchurches");    // The database name.
 
-////////////////////////// Local Development //////////////////////////
+  define("CAN_REGISTER", "any");
+  define("DEFAULT_ROLE", "member");
 
-define("HOST", "localhost");     // The host you want to connect to.
-//define("USER", "cl44-cdnbrtr");    // The database username.
-//define("USER", "ncc_readonly");    // The database username.
-define("USER", "root");    // The database username.
-define("PASSWORD", "root");    // The database password.
-define("DATABASE", "brotherstraining");    // The database name.
-//define("DATABASE", "norcalchurches");    // The database name.
+  define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
 
-define("CAN_REGISTER", "any");
-define("DEFAULT_ROLE", "member");
+} else {
+  ////////////////////////// Local Development //////////////////////////
 
-define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
+  define("HOST", "localhost");     // The host you want to connect to.
+  //define("USER", "cl44-cdnbrtr");    // The database username.
+  //define("USER", "ncc_readonly");    // The database username.
+  define("USER", "root");    // The database username.
+  define("PASSWORD", "root");    // The database password.
+  define("DATABASE", "brotherstraining");    // The database name.
+  //define("DATABASE", "norcalchurches");    // The database name.
+
+  define("CAN_REGISTER", "any");
+  define("DEFAULT_ROLE", "member");
+
+  define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
+}
 
 ?>
