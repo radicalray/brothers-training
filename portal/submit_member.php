@@ -10,23 +10,21 @@ $mt = $_POST['mtg_time'];
 $mp = $_POST['mtg_place'];
 $mids = implode(',', $_POST['member_ids']);
 
+// echo $mids;
+
 $lg = "English";
 
-// implode(',', $a)
-
-$query = "INSERT INTO study_groups (locality, language, group_no, mtg_day, mtg_time, mtg_place, member_ids) VALUES (?, ?, ?, ?, ?, ?, ?)";
-
-// print_r ($mysqli);
+$query = "INSERT INTO study_groups (locality, language, group_no, mtg_day, mtg_time, mtg_place, member_ids) VALUES (?, ?, ?, ?, ?, ?, ?)".
+         " ON DUPLICATE KEY UPDATE".
+         " mtg_day = VALUES (mtg_day),".
+         " mtg_time = VALUES (mtg_time),".
+         " mtg_place = VALUES (mtg_place),".
+         " member_ids = VALUES (member_ids)";
 
 if ($stmt = $mysqli->prepare($query)) {
-  // echo "blah";
-  // print_r ($stmt);
   $stmt->bind_param('sssssss', $lc, $lg, $gn, $md, $mt, $mp, $mids);
   $stmt->execute();
-  // echo "finished";
 }
-
-// echo $mids;
 
 header("Location:/portal/member_submitted.html");
 

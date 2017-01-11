@@ -59,15 +59,6 @@
 <?php echo get_provinces('../includes/localities.txt'); ?>
 
             </select><br/><br/>
-        <b>Language:</b><br/>
-        <select id="language" name="language">
-                <option value="">----</option>
-                <option value="English">English</option>
-                <option value="Chinese">Chinese</option>
-                <option value="French">French</option>
-                <option value="Korean">Korean</option>
-                <option value="Spanish">Spanish</option>
-            </select><br/><br/>
        <b>Group Number:</b></br>
        <select id="group_no" name="group_no">
                 <option value=0>----</option>
@@ -114,7 +105,7 @@
             while ($row = $res->fetch_assoc()) {
                 // print_r ($row);
                 // print $row['first_name'] . $row['last_name'], $row['id'];
-                print '<label> <input type="checkbox" name="member_id" value="' . $row['id'] . '" /> '. $row['first_name'] . " " . $row['last_name'] . "</label><br/>";
+                print '<label> <input type="checkbox" name="member_ids[]" value="' . $row['id'] . '" /> '. $row['first_name'] . " " . $row['last_name'] . "</label><br/>";
             }
         ?>
         <input type="submit" value="Submit Study Group Information"/>

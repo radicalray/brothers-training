@@ -1,9 +1,3 @@
-<?php
-include_once '../../includes/db_connect.php';
-include_once '../../includes/functions.php';
-
-sec_session_start();
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,6 +18,7 @@ $display = [
     "group_no"=>"Group Number",
     "attendees"=>"Attendees",
     "absentees"=>"Absentees",
+    "excused_absentees"=>"Excused Absentees",
     "study_report"=>"Study Report",
     "suggestions"=>"Suggestions",
     "date_submitted"=>"Date Submitted"

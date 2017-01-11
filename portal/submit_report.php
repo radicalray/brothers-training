@@ -2,10 +2,6 @@
 include_once '../includes/db_connect.php';
 include_once '../includes/functions.php';
 
-$fn = $_POST['first_name'];
-$ln = $_POST['last_name'];
-$em = $_POST['email'];
-$lc = $_POST['locality'];
 $dt = $_POST['date'];
 $lg = "English"; //$_POST['language'];
 $ls = $_POST['lesson'];
@@ -75,10 +71,16 @@ $ln = $monitor['last_name'];
 $em = $monitor['email'];
 $lc = $monitor['locality'];
 
-$query = "INSERT INTO study_reports (first_name, last_name, email, locality, language, group_no, lesson, attendees, absentees, study_report, suggestions, date_submitted) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+$ad = implode(',', $present_trainees);
+$as = implode(',', $absent_trainees);
+$es = implode(',', $excused_trainees);
+
+// echo $fn, $ln, $em, $lc, $lg, $gn, $ls, $ad, $as, $es, $sr, $sg, $dt;
+
+$query = "INSERT INTO study_reports (first_name, last_name, email, locality, language, group_no, lesson, attendees, absentees, excused_absentees, study_report, suggestions, date_submitted) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
 if ($stmt = $mysqli->prepare($query)) {
-    $stmt->bind_param('ssssssssssss', $fn, $ln, $em, $lc, $lg, $gn, $ls, $ad, $as, $sr, $sg, $dt);
+    $stmt->bind_param('sssssssssssss', $fn, $ln, $em, $lc, $lg, $gn, $ls, $ad, $as, $es, $sr, $sg, $dt);
     $stmt->execute();
 }
 

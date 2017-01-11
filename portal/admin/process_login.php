@@ -28,7 +28,7 @@ if (isset($username) && isset($password)) {
         $user_name = $_SESSION['username'];
         $forbid_user = "3rdTerm";
         if (!strcmp($task, $register)){ // task is registration
-            header('Location: /portal/registration.html');
+            header('Location: /portal/registration.php');
         } elseif (!strcmp($task, $month_attendance) && strcmp($user_name,$forbid_user)){ // task is monthly attendance
             header('Location: /portal/admin/attendance_list.php?attendance_task=attendance');
         } elseif (!strcmp($task,$week_attendance) && strcmp($user_name,$forbid_user)){ // task is weekly attendance

@@ -47,16 +47,8 @@
 
     Locality (required)<br/>
     <select id="locality" name="locality">
-    <option value="">----</option>
-    <option value="Amherst, MA">Amherst, MA</option>
-    <option value="Boston, MA">Boston, MA</option>
-    <option value="Cambridge, MA">Cambridge, MA</option>
-    <option value="Lowell, MA">Lowell, MA</option>
-    <option value="Middleboro, MA">Middleboro, MA</option>
-    <option value="Newton, MA">Newton, MA</option>
-    <option value="Worcester, MA">Worcester, MA</option>
-    <option value="North Providence, RI">North Providence, RI</option>
-<!--    <php echo get_provinces('../includes/localities.txt');> -->
+        <option value="">----</option>
+        <?php echo get_provinces('../includes/localities.txt'); ?>
 
     </select><br/><br/>
 

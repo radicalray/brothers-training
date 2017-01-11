@@ -1,4 +1,8 @@
-Cambridge, MA
-Boston, MA
-Newton, MA
-Other
+Amherst, MA|Amherst, MA
+Boston, MA|Boston, MA
+Cambridge, MA|Cambridge, MA
+Lowell, MA|Lowell, MA
+Middleboro, MA|Middleboro, MA
+Newton, MA|Newton, MA
+Worcester, MA|Worcester, MA
+North Providence, RI|North Providence, RI

@@ -12,7 +12,7 @@
 
 <div class="content">
     <center><b>2017 Boston Area Training on Eldership<br/>
-    <b>Third Term Registration</b></center><br/>
+    <b>Second Term Registration</b></center><br/>
     <div class="application_section">
         <form method="post"  action="submit_registration_update.php" name="registration_update">
             <b>Note: if you are registering for the first time, please click <u><a href="registration_new.php"/>HERE</a></u>.</b><br/><br/>
