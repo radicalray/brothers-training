@@ -6,25 +6,12 @@
 error_reporting(E_ERROR | E_PARSE);
 
 $addr = $_SERVER["REMOTE_ADDR"];
+$run_as_server = isset($addr);
+
+// if $addr is not set, ignore debug
 $debug = $addr == "127.0.0.1" || $addr == "::1";
 
-if ($debug || !$backup_prod_db) {
-  ////////////////////////// Local Development //////////////////////////
-
-  define("HOST", "localhost");     // The host you want to connect to.
-  //define("USER", "cl44-cdnbrtr");    // The database username.
-  //define("USER", "ncc_readonly");    // The database username.
-  define("USER", "root");    // The database username.
-  define("PASSWORD", "root");    // The database password.
-  define("DATABASE", "brotherstraining");    // The database name.
-  //define("DATABASE", "norcalchurches");    // The database name.
-
-  define("CAN_REGISTER", "any");
-  define("DEFAULT_ROLE", "member");
-
-  define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
-
-} else {
+if ($run_as_server && !$debug || isset($backup_prod_db)) {
   /////////////////////// Production Settings ////////////////////////
 
   define("HOST", "mysql.churchincambridge.org");     // The host you want to connect to.
@@ -32,6 +19,21 @@ if ($debug || !$backup_prod_db) {
   //define("USER", "ncc_readonly");    // The database username.
   define("USER", "sbruso");    // The database username.
   define("PASSWORD", "2608amtT");    // The database password.
+  define("DATABASE", "brotherstraining");    // The database name.
+  //define("DATABASE", "norcalchurches");    // The database name.
+
+  define("CAN_REGISTER", "any");
+  define("DEFAULT_ROLE", "member");
+
+  define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
+} else {
+  ////////////////////////// Local Development //////////////////////////
+
+  define("HOST", "localhost");     // The host you want to connect to.
+  //define("USER", "cl44-cdnbrtr");    // The database username.
+  //define("USER", "ncc_readonly");    // The database username.
+  define("USER", "root");    // The database username.
+  define("PASSWORD", "root");    // The database password.
   define("DATABASE", "brotherstraining");    // The database name.
   //define("DATABASE", "norcalchurches");    // The database name.
 

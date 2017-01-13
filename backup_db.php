@@ -4,7 +4,9 @@
  */
 
 $PROD_USER = "bkwiat";
-$backup_prod_db = $_SERVER['USER'] == $PROD_USER;
+if ($_SERVER['USER'] == $PROD_USER) {
+  $backup_prod_db = true;
+}
 include_once 'includes/psl-config.php';
 
 backup_tables(HOST, USER, PASSWORD, DATABASE);
