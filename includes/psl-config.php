@@ -8,7 +8,7 @@ error_reporting(E_ERROR | E_PARSE);
 $addr = $_SERVER["REMOTE_ADDR"];
 $debug = $addr == "127.0.0.1" || $addr == "::1";
 
-if (!$debug) {
+if (!$debug && !$backup_db) {
 
   /////////////////////// Production Settings ////////////////////////
 
