@@ -3,7 +3,8 @@
  * Run this file with php -f db_backup.php and schema + db backups will be saved
  */
 
-$backup_db = true;
+$PROD_USER = "bkwiat";
+$backup_prod_db = $_SERVER['USER'] == $PROD_USER;
 include_once 'includes/psl-config.php';
 
 backup_tables(HOST, USER, PASSWORD, DATABASE);

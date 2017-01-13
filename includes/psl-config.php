@@ -8,15 +8,14 @@ error_reporting(E_ERROR | E_PARSE);
 $addr = $_SERVER["REMOTE_ADDR"];
 $debug = $addr == "127.0.0.1" || $addr == "::1";
 
-if (!$debug && !$backup_db) {
+if ($debug || !$backup_prod_db) {
+  ////////////////////////// Local Development //////////////////////////
 
-  /////////////////////// Production Settings ////////////////////////
-
-  define("HOST", "mysql.churchincambridge.org");     // The host you want to connect to.
+  define("HOST", "localhost");     // The host you want to connect to.
   //define("USER", "cl44-cdnbrtr");    // The database username.
   //define("USER", "ncc_readonly");    // The database username.
-  define("USER", "sbruso");    // The database username.
-  define("PASSWORD", "2608amtT");    // The database password.
+  define("USER", "root");    // The database username.
+  define("PASSWORD", "root");    // The database password.
   define("DATABASE", "brotherstraining");    // The database name.
   //define("DATABASE", "norcalchurches");    // The database name.
 
@@ -26,13 +25,13 @@ if (!$debug && !$backup_db) {
   define("SECURE", FALSE);    // FOR DEVELOPMENT ONLY!!!!
 
 } else {
-  ////////////////////////// Local Development //////////////////////////
+  /////////////////////// Production Settings ////////////////////////
 
-  define("HOST", "localhost");     // The host you want to connect to.
+  define("HOST", "mysql.churchincambridge.org");     // The host you want to connect to.
   //define("USER", "cl44-cdnbrtr");    // The database username.
   //define("USER", "ncc_readonly");    // The database username.
-  define("USER", "root");    // The database username.
-  define("PASSWORD", "root");    // The database password.
+  define("USER", "sbruso");    // The database username.
+  define("PASSWORD", "2608amtT");    // The database password.
   define("DATABASE", "brotherstraining");    // The database name.
   //define("DATABASE", "norcalchurches");    // The database name.
 
