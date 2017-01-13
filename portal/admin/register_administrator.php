@@ -15,7 +15,14 @@
      <b>For Locality Administrators Only</b>
      <div class="application_section">
         <ul>
-        <li><p><b><u><a href="/portal/admin/adminregister.php">Create New Account</a></u></b></p></li>
+        <?php
+        if (!$debug) {
+            $register_link = "/portal/admin/register.php";
+        } else {
+            $register_link = "/portal/admin/adminregister.php";
+        }
+        ?>
+        <li><p><b><u><a href="<?= $register_link ?>">Create New Account</a></u></b></p></li>
         <li><p><b><u><a href="reset_password.php">Reset Account Password</a></u></b></p></li>
         </ul>
      </div>

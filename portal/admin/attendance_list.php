@@ -13,12 +13,17 @@ body {
 <?php include("../../includes/navigation.php"); ?>
 <?php include("../../includes/global-config.php"); ?>
 <body>
+
+  <div class="report-content">
 <?php
     if (login_check($mysqli) == true) :
 ?>
-
-<b>Trainee Attendence</b>
-<p class="info">Attendence codes: <b>P</b> - Present; <b>U</b> - Unexcused Absence; <b>E</b> - Excused Absense</p>
+<h2>Trainee Attendance</h2>
+<p class="info">
+  Attendence codes: <b>P</b> - Present; <b>U</b> - Unexcused Absence; <b>E</b> - Excused Absence
+  <br>
+  <i style="color: #c77777;">Please do not record lesson viewing attendance; only lesson study sessions.</i>
+</p>
 <?php
 $order_by = $_GET['order_by'];
 $order = $_GET['order'];
@@ -95,7 +100,7 @@ if ($res != 0) {
     while ($row = $res->fetch_assoc()) {
         echo "<tr><td>{$row['first_name']}</td>".
              "<td>{$row['last_name']}</td>".
-             "<td>{$row['locality']}</td>";
+             "<td class='nowrap'>{$row['locality']}</td>";
         foreach(array_keys($date_array) as $date) {
            if ($attendance[$row['id']][$date]) {
              echo "<td><a href=\"attendance.php?attendance_table=$attendance_table&user_id={$row['id']}&date={$date}&code=".code($row['id'] + $date)."\">{$attendance[$row['id']][$date]['status']}</a></td>";
@@ -142,5 +147,6 @@ if ($res != 0) {
 <?php endif; ?>
 
     <br/>Click <b><a href="../attendance.php">HERE</b></a> to go back.<br/><br/>
+    </div>
 </body>
 </html>

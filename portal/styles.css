@@ -133,6 +133,10 @@ a:hover {
   margin-right: auto;
 }
 
+.report-content {
+  padding: 20px;
+}
+
 .application_section {
   background-color: #EBE7E0;
   border: 1px solid black;
@@ -279,4 +283,8 @@ padding-top: 10px;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.nowrap {
+  white-space: nowrap;
 }

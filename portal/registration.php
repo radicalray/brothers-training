@@ -27,7 +27,7 @@
                <b>Locality:</b><br/>
                <select id="locality" name="locality">
                 <option value="">----</option>
-<?php echo get_provinces('../includes/localities.txt'); ?>
+                <?php echo get_provinces('../includes/localities.txt'); ?>
                </select><br/><br/><br/>
         <input type="submit" value="Submit"/>
     </div>

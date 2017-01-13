@@ -9,8 +9,8 @@
         <script type="text/JavaScript" src="js/forms.js"></script>
         <link rel="stylesheet" type="text/css" href="../styles.css" />
     </head>
-<body>
-    <div class="content">
+    <body>
+        <div class="content">
         <!-- Registration form to be output if the POST variables are not
         set or if the registration script caused an error. -->
         <h1>Account registration for administrators</h1>
@@ -53,15 +53,8 @@
                 <td>
                     <select id="locality" name="locality">
                         <option value="">----</option>
-                        <option value="Cambridge, MA">Cambridge, MA</option>
-                        <option value="Boston, MA">Boston, MA</option>
-                        <option value="Newton, MA">Newton, MA</option>
-                        <option value="Middleboro, MA">Middleboro, MA</option>
-                        <option value="Worcester, MA">Worcester, MA</option>
-                        <option value="Lowell, MA">Lowell, MA</option>
-                        <option value="North Providence, RI">North Providence, RI</option>
-                        <option value="Admin">*Super Admin*</option>
                         <?php echo get_provinces('../../includes/localities.txt'); ?>
+                        <option value="Admin">*Super Admin*</option>
                     </select>
                 </td>
             </tr>
@@ -95,6 +88,5 @@
         </form>
         <p>Return to the <b><u><a href="index.php">Login</a></u></b>.</p>
     </div>
-
-</body>
+    </body>
 </html>

@@ -1,4 +1,4 @@
-AuthUserFile /home3/thelocf0/public_html/lordsmoveincanada/brotherstraining/misc/.htpasswd
+AuthUserFile /home/bkwiat/brotherstraining.churchincambridge.org/misc/.htpasswd
 AuthName Register
 AuthType Basic
 <Files "register.php">

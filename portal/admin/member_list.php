@@ -57,13 +57,14 @@ if ($res != 0) {
 
     $count = 0;
     while ($row = $res->fetch_assoc()) {
+        $members = get_group_trainees_name_list($row['id'], $mysqli);
         echo "<tr><td>{$row['locality']}</td>".
              "<td>{$row['language']}</td>".
              "<td>{$row['group_no']}</td>".
              "<td>{$row['mtg_day']}</td>".
              "<td>{$row['mtg_time']}</td>".
              "<td>{$row['mtg_place']}</td>".
-             "<td>{$row['member_ids']}</td>";
+             "<td>{$members}</td>";
         echo "<td><u><a href=\"member_view.php?id={$row['id']}\"><b>View</a></b></u></td>";
         echo "<td><u><a href=\"../member_edit.php?id={$row['id']}\"><b>Edit</a></b></u></td>";
         echo "<td><u><a href=\"delete_confirm.php?id={$row['id']}&table=study_groups\"><b>Delete</a></b></u></td>";

@@ -64,12 +64,12 @@ else{
   $sql_query = "UPDATE applications SET {$sql_update} WHERE id=$id";
 
   $result = mysql_query($sql_query);
- 
+
  if (isset($_POST['email_report'])) {
     $er = $_POST['email_report'];
     if ($er) {
         $to = $my_values[email];
-        $subject = "Canada Training on Eldership: Application Information";
+        $subject = "Boston Training on Eldership: Application Information";
         $from = 'admin@churchincambridge.org';
         $body = 'Hi, your application has been updated by your local administrator: <br/><br/>First Name: '.$my_values[first_name].'<br/>
          Last Name: '.$my_values[last_name].'<br/>

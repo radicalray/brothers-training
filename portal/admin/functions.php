@@ -117,30 +117,29 @@ function getlist($mysqli, $order_by, $order, $filter_by, $filter) {
     if ($order_by != '' && $order != '') {
         $order_sql = "ORDER BY $order_by $order";
     }
+
     if ($filter_by != '' && $filter != '') {
 
         $filter_sql = "WHERE $filter_by = '$filter' AND locality = '$locality'";
 
         if (strpos($locality,',') !== false) {
-          $filter_sql = "WHERE $filter_by = '$filter' AND locality in ('$locality')";
+            $filter_sql = "WHERE $filter_by = '$filter' AND locality in ('$locality')";
         }
 
-	if ($locality == 'Admin') {
-	  $filter_sql = "WHERE $filter_by = '$filter'";
-    	}
+        if ($locality == 'Admin') {
+            $filter_sql = "WHERE $filter_by = '$filter'";
+        }
 
-    }
-
-    else {
+     } else {
         $filter_sql = "WHERE locality = '$locality'";
 
-	if (strpos($locality,',') !== false) {
-	  $filter_sql = "WHERE locality in ('$locality')";
+        if (strpos($locality,',') !== false) {
+            $filter_sql = "WHERE locality in ('$locality')";
         }
 
-	if ($locality == 'Admin') {
-	  $filter_sql = '';
-    	}
+        if ($locality == 'Admin') {
+            $filter_sql = '';
+        }
     }
 
     if (login_check($mysqli)) {
@@ -279,6 +278,46 @@ function verify_code($value, $code) {
     }
 }
 
+function get_member($user_id, $mysqli) {
+    $res = $mysqli->query("SELECT * FROM members WHERE id = $user_id");
+    return $res;
+}
+
+function get_all_members($mysqli) {
+    $res = $mysqli->query("SELECT * FROM members");
+    return $res;
+}
+
+function get_trainee($trainee_id, $mysqli) {
+    $res = $mysqli->query("SELECT * FROM applications WHERE id = $trainee_id");
+    return $res;
+}
+
+function get_all_trainees($mysqli) {
+    $res = $mysqli->query("SELECT * FROM applications ORDER BY first_name, last_name");
+    return $res;
+}
+
+function get_group_trainees($group_id, $mysqli) {
+    $member_ids = $mysqli->query("SELECT member_ids FROM study_groups WHERE id = $group_id")->fetch_assoc()["member_ids"];
+    $res = $mysqli->query("SELECT * from applications WHERE id IN ($member_ids) ORDER BY first_name, last_name");
+    return $res;
+}
+
+function get_group_trainees_name_list($group_id, $mysqli) {
+    $res = get_group_trainees($group_id, $mysqli);
+    $names = [];
+    while ($t = $res->fetch_assoc()) {
+        array_push($names, $t['first_name'] . " " . $t['last_name']);
+    }
+    return implode(', ', $names);
+}
+
+function get_all_groups($mysqli) {
+    $res = $mysqli->query("SELECT * FROM study_groups ORDER BY locality, group_no");
+    return $res;
+}
+
 function get_attendance($attendance_table, $user_id, $date, $mysqli) {
     if (!$date) {
       $res = $mysqli->query("SELECT * FROM $attendance_table WHERE user_id = $user_id");
@@ -304,9 +343,23 @@ function update_attendance($attendance_table, $user_id, $date, $status, $reason,
    return $res;
 }
 
+/**
+ * Insert or updates attenance based on user_id + training_date
+ * @param  [type] $attendance_table Can be attendance or group_attendance table
+ * @param  [type] $user_id          [description]
+ * @param  [type] $date             [description]
+ * @param  [type] $status           [description]
+ * @param  [type] $reason           [description]
+ * @param  [type] $makeup           [description]
+ * @param  [type] $mysqli           [description]
+ * @return [type]                   [description]
+ */
 function insert_attendance($attendance_table, $user_id, $date, $status, $reason, $makeup, $mysqli) {
-
-    $query = "INSERT INTO $attendance_table (user_id, training_date, status, absence_reason, makeup_date) VALUES (?, ?, ?, ?, ?)";
+    $query = "INSERT INTO $attendance_table (user_id, training_date, status, absence_reason, makeup_date) VALUES (?, ?, ?, ?, ?)".
+             " ON DUPLICATE KEY UPDATE".
+             " status = VALUES (status),".
+             " absence_reason = VALUES (absence_reason),".
+             " makeup_date = VALUES (makeup_date)";
 
     if ($stmt = $mysqli->prepare($query)) {
         $stmt->bind_param('sssss', $user_id, $date, $status, $reason, $makeup);
@@ -437,10 +490,10 @@ function accounting_approve($mysqli, $id, $approved1, $approved2, $payment_comme
     $mysqli->real_escape_string($payment_comment2);
 
     if (login_check($mysqli)) {
-    	 if($approved1) {
-    	 	$query = "UPDATE accounting SET approved1 = \"$approved1\", approved_date1 = NOW(), payment_comment1 = \"$payment_comment1\" WHERE id = $id";
-    	 }
-    	 else {
+         if($approved1) {
+            $query = "UPDATE accounting SET approved1 = \"$approved1\", approved_date1 = NOW(), payment_comment1 = \"$payment_comment1\" WHERE id = $id";
+         }
+         else {
          $query = "UPDATE accounting SET approved2 = \"$approved2\", approved_date2 = NOW(), payment_comment2 = \"$payment_comment2\" WHERE id = $id";
        }
     $res = $mysqli->query($query);
@@ -478,7 +531,7 @@ function get_group_list($mysqli, $order_by, $order, $filter_by, $filter) {
           $filter_sql = "WHERE locality in ('$locality')";
         }
 
-	if ($locality == 'Admin') {
+    if ($locality == 'Admin') {
           $filter_sql = "";
         }
 

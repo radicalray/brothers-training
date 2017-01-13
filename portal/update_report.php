@@ -15,7 +15,7 @@ $sr = $_POST['study_report'];
 $sg = $_POST['suggestions'];
 $id = $_POST['id'];
 
- 
+
 $query = "UPDATE study_reports SET first_name=?, last_name=?, email=?, locality=?, language=?, group_no=?, lesson=?, attendees=?, absentees=?, study_report=?, suggestions=?, date_submitted=? WHERE id=?";
 
 if ($stmt = $mysqli->prepare($query)) {
@@ -28,7 +28,7 @@ if (isset($_POST['email_report'])) {
     if ($er) {
         $mysqli->real_escape_string($em);
         $to = $em;
-        $subject = "Canada Training on Eldership: Study Report";
+        $subject = "Boston Training on Eldership: Study Report";
         $from = 'admin@churchincambridge.org';
         $body = 'Hi, <br/><br/> the following is the report you have submitted: <br/><br/>First Name: '.$fn.'<br/>
          Last Name: '.$ln.'<br/>
@@ -48,10 +48,10 @@ if (isset($_POST['email_report'])) {
         $headers .= "MIME-Version: 1.0\r\n";
         $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
         mail($to,$subject,$body,$headers);
-        header("Location: /brotherstraining/portal/email_report.html?email=$em");
+        header("Location: /portal/email_report.html?email=$em");
      }
     else {
-        header("Location:/brotherstraining/portal/report_submitted.php");
+        header("Location:/portal/report_submitted.php");
     }
 }
 

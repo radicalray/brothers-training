@@ -298,10 +298,28 @@ function get_all_trainees($mysqli) {
     return $res;
 }
 
-function get_group_trainees($group_num, $mysqli) {
-    $member_ids = $mysqli->query("SELECT member_ids FROM study_groups WHERE group_no = $group_num")->fetch_assoc()["member_ids"];
+function get_group_trainees($group_id, $mysqli) {
+    $member_ids = $mysqli->query("SELECT member_ids FROM study_groups WHERE id = $group_id")->fetch_assoc()["member_ids"];
     $res = $mysqli->query("SELECT * from applications WHERE id IN ($member_ids)");
     return $res;
+}
+
+function test() {
+    echo "test";
+}
+
+function get_group_trainees_name_list($group_id, $mysqli) {
+    echo 'here';
+    $res = get_group_trainees($group_id, $mysqli);
+    $names = [];
+    while ($t = $res->fetch_assoc()) {
+        array_push($names, $t['first_name'] . " " . $t['last_name']);
+    }
+    return implode(', ', $names);
+}
+
+function aftertest() {
+    echo "after test";
 }
 
 function get_all_groups($mysqli) {

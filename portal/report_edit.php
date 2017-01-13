@@ -70,7 +70,7 @@ if ($res != 0) {
 ?>
 
 <div class="content">
-    <center><b>2016 Canada Training on Eldership<br/>
+    <center><b>2017 Boston Training on Eldership<br/>
     Group Study Report</b></center><br/>
 
     <b>Edit Study Reports</b><br/>

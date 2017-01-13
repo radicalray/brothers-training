@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Jan 08, 2017 at 06:25 AM
+-- Generation Time: Jan 13, 2017 at 04:07 AM
 -- Server version: 5.5.29
 -- PHP Version: 5.4.10
 
@@ -189,7 +189,7 @@ CREATE TABLE `group_attendance` (
   `makeup_date` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `attendance_id` (`user_id`,`training_date`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=27 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=159 ;
 
 -- --------------------------------------------------------
 
@@ -219,7 +219,7 @@ CREATE TABLE `members` (
   `reset_code` smallint(6) NOT NULL,
   `reset_time` datetime NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=23 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=35 ;
 
 -- --------------------------------------------------------
 
@@ -236,8 +236,9 @@ CREATE TABLE `study_groups` (
   `mtg_time` varchar(200) NOT NULL,
   `mtg_place` varchar(200) NOT NULL,
   `member_ids` mediumtext NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `group_id` (`locality`,`group_no`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12 ;
 
 -- --------------------------------------------------------
 
@@ -256,8 +257,9 @@ CREATE TABLE `study_reports` (
   `lesson` varchar(200) NOT NULL,
   `attendees` varchar(400) NOT NULL,
   `absentees` varchar(400) NOT NULL,
+  `excused_absentees` varchar(400) NOT NULL,
   `study_report` longtext NOT NULL,
   `suggestions` varchar(400) NOT NULL,
   `date_submitted` date NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6 ;

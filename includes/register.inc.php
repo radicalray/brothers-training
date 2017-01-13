@@ -1,20 +1,16 @@
 <?php include_once 'db_connect.php'; ?>
 <?php include_once 'psl-config.php'; ?>
-
 <?php
 $error_msg = "";
 
 if (isset($_POST['username'], $_POST['email'], $_POST['p'], $_POST['locality'])) {
-?>
 
-<?php
     // Sanitize and validate the data passed in
     $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_STRING);
     $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
     $email = filter_var($email, FILTER_VALIDATE_EMAIL);
     $locality = filter_input(INPUT_POST, 'locality', FILTER_SANITIZE_STRING);
-?>
-<?php
+
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         // Not a valid email
         $error_msg .= '<p class="error">The email address you entered is not valid</p>';    }
@@ -92,8 +88,8 @@ if (isset($_POST['username'], $_POST['email'], $_POST['p'], $_POST['locality']))
                 header('Location: ./error.php?err=Registration failure: INSERT');
             }
         }
+
         header('Location: ./register_success.php');
     }
 }
-
 ?>

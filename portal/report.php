@@ -117,17 +117,18 @@
                 include_once("../includes/db_connect.php");
                 include_once("../includes/functions.php");
 
-                $group = $_GET['group'];
+                $group_id = $_GET['group'];
 
                 $res = get_all_groups($mysqli);
                 echo '<select id="group_input" name="group_no">';
                 echo "<option value=''>-----------</option>";
                 while ($row = $res->fetch_assoc()) {
                 // print_r ($row);
-                    $grp = $row['group_no'];
+                    $grp_id = $row['id'];
+                    $grp_num = $row['group_no'];
                     $locality = $row['locality'];
-                    $selected = $grp == $group ? 'selected' : '';
-                    echo "<option name='group' value='$grp' $selected>Group $grp - $locality</option>";
+                    $selected = $grp_id == $group_id ? 'selected' : '';
+                    echo "<option name='group' value='$grp_id' $selected>Group $grp_num - $locality</option>";
                     // print $row['group_no'] . $row['locality'] . '<br/>';
                 }
 
@@ -144,7 +145,7 @@
             ?>
             <br/><br/>
 
-            <?php if ($group) {
+            <?php if ($group_id) {
                 ?>
 
             <b>Session:</b><br/>
@@ -166,8 +167,8 @@
                     </tr>
                 </thead>
                 <?php
-                    if ($group) {
-                        $res = get_group_trainees($group, $mysqli);
+                    if ($group_id) {
+                        $res = get_group_trainees($group_id, $mysqli);
                         while ($row = $res->fetch_assoc()) {
                             echo "<tr>";
 

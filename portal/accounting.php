@@ -9,7 +9,7 @@
 
 <div class="content">
 
-<center><b><?php echo $year; ?> Canada Training on Eldership <br/>Training Accounting</b></center><br/>
+<center><b><?php echo $year; ?> Boston Training on Eldership <br/>Training Accounting</b></center><br/>
     <b>Income and Expense Report</b><br/>
     <div class="application_section">
     Click <b><a href="./admin/accounting_report_access.php">Here</a></b> to submit an income or expense report for the training. <br/>
