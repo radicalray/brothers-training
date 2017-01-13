@@ -89,7 +89,7 @@ if ($res != 0) {
 
     <b>Edit Payment</b><br/>
     <div class="application_section">
-    Registration fee is <b>$60.00</b> for the training.<br/>
+    Registration fee is <b>$50.00</b> for the training.<br/>
     <ul>
     <li>If you pay by check, give your check to the responsible brother in your locality.<br/></li>
     </ul>

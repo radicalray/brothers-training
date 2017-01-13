@@ -86,7 +86,7 @@
 
     <b>Payment</b><br/>
     <div class="application_section">
-    Registration fee is <b>$60.00</b> for the training.<br/>
+    Registration fee is <b>$50.00</b> for the training.<br/>
     <ul>
     <li>For training donations by check, please make the check payable to your locality, designated in the 'memo section' for the "GBA Training on Eldership", and give the check (or cash), to a responsible brother in your locality.<br/></li>
     </ul>
