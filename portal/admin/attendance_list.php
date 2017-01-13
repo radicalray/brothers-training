@@ -22,7 +22,7 @@ body {
 <p class="info">
   Attendence codes: <b>P</b> - Present; <b>U</b> - Unexcused Absence; <b>E</b> - Excused Absence
   <br>
-  <strong><i style="color: #c77777;">Please do not record lesson viewing attendance; only lesson study sessions.</i>
+  <i style="color: #c77777;font-weight: bold">Please do not record lesson viewing attendance; only lesson study sessions.</i>
 </p>
 <?php
 $order_by = $_GET['order_by'];
