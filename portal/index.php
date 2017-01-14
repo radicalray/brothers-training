@@ -75,7 +75,7 @@
     Saturdays 1 PM to 4 PM.<br/><br/>
 
     <b><u>Cost</u></b></br>
-    $60 USD for the training for 6 months.<br/><br/>
+    $50 USD for the training for 6 months.<br/><br/>
 
 
     <b><u>Training Guidelines and Regulations</u></b>

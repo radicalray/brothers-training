@@ -42,7 +42,7 @@ $year = "2017";
         <!-- This is New (1st term) registration -->
         <!-- <li><a href="/portal/register.php">New Registration</a></li> -->
         <!-- This is Reregistration (2nd term+) -->
-        <li><a href="/portal/admin/index.php?task=register">Renew Application</a></li>
+        <li><a href="/portal/admin/index.php?task=register">Submit Registration</a></li>
         <li><a href="/portal/consecration.php">Consecration</a></li>
      </ul>
     </li>
