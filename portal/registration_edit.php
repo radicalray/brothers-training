@@ -100,7 +100,7 @@ if ($res != 0) {
     </select><br/>
     </div>
 
-    <input type="hidden" name="third_term" id="third_term" value="1">
+    <input type="hidden" name="second_term" id="second_term" value="1">
     <center><b>Please only click the submit button once.</b><br/><input type="submit" value="Submit" class="application_submit"/></center>
 </form>
 

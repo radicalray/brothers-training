@@ -31,7 +31,6 @@ approve($mysqli, $id, $approved, $not_approved, $comments);
     }
 }
 
-
 header('Location: view.php?id='.$id.$message.$message_type);
 
 ?>
