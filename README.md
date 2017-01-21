@@ -10,9 +10,7 @@ This is a standard php + mysql stack project. Downloading and installing any of 
  - [WAMP](http://www.wampserver.com/en/) -> Windows
  - [LAMP](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu) -> Ubuntu (Linux)
 
- - Create a database called ```brotherstraining```
- - Import the db schema from ```database/db_schema.sql```. 
- - You will need to create a member entry to be able to sign in. To do so, go to "For Local Administrators -> Register Administrator" to register an administrator.
+```git clone``` this repo and put it in your *amp ```www/``` or ```htdocs/``` folder. You'll be able to access it at localhost:8888 or some port number.
 
 ### Database Config
 
@@ -25,6 +23,11 @@ USER: root
 PASSWORD: root
 DATABASE: brotherstraining
 ```
+
+### Database
+ - Create a database called ```brotherstraining```
+ - Import the db schema from ```database/db_schema.sql```. 
+ - You will need to create a member entry to be able to sign in. To do so, go to "For Local Administrators -> Register Administrator" to register an administrator.
 
 ### Contribute
 
