@@ -18,7 +18,7 @@ sec_session_start();
 <?php
 
 $id = $_GET['id'];
-$res = getlist($mysqli, '', '', 'id', $id);
+$res = $mysqli->query("SELECT * FROM applications WHERE id=$id");
 if ($res != 0) {
     $row = $res->fetch_assoc();
     if (!$row) {

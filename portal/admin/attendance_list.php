@@ -22,7 +22,13 @@ body {
 <p class="info">
   Attendence codes: <b>P</b> - Present; <b>U</b> - Unexcused Absence; <b>E</b> - Excused Absence
   <br>
-  <i style="color: #c77777;font-weight: bold;">Please do not record lesson viewing attendance; only lesson study sessions.</i>
+  <?php
+    $attendance_task = $_GET['attendance_task'];
+    if ($attendance_task == 'group_attendance') {
+      echo '<i style="color: red;font-weight: bold;">Please do not record lesson viewing attendance; only lesson study sessions.</i>';
+    }
+  ?>
+
 </p>
 <?php
 $order_by = $_GET['order_by'];
