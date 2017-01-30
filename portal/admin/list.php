@@ -33,8 +33,8 @@ $display_values = [
     "email" => "Email",
     "phone" => "phone",
     // "language" => "language"
-    // "first_term" => "First Term",
-    // "second_term" => "Second Term",
+    "first_term" => "First Term",
+    "second_term" => "Second Term",
     // "third_term" => "Third Term"
 ];
 
@@ -76,9 +76,9 @@ if ($res != 0) {
              "<td>".($row['payment_verification'] == 1 ? "yes" : "no")."</td>".
              "<td>{$row['email']}</td>".
              "<td>{$row['phone']}</td>".
-             "<td>{$row['language']}</td>".
-             // "<td>".($row['first_term'] == 1 ? "yes" : "no")."</td>".
-             // "<td>".($row['second_term'] == 1 ? "yes" : "no")."</td>".
+             // "<td>{$row['language']}</td>".
+             "<td>".($row['first_term'] == 1 ? "yes" : "no")."</td>".
+             "<td>".($row['second_term'] == 1 ? "yes" : "no")."</td>".
              // "<td>".($row['third_term'] == 1 ? "yes" : "no")."</td>".
              "<td><a href=\"view.php?id={$row['id']}\"><u><b>View</u></b></a></td>".
              "<td><a href=\"../registration_edit.php?id={$row['id']}\"><u><b>Edit</u></b></a></td>".

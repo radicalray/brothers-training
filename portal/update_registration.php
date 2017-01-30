@@ -43,23 +43,33 @@ else{
     'services',
     'training',
     'payment_method',
-    'first_term'
+    'first_term',
+    'second_term'
   ];
 
   $my_values = [];
   $sql_update = "";
   $id = mysql_real_escape_string($_POST['id']);
 
-  foreach ($my_fields as $field)
-  {
-    $my_values[$field] = mysql_real_escape_string($_POST[$field]);
-    if (!strcmp($field,"first_term")) { //dealing with the last field
-       $sql_update .= $field."='".$my_values[$field]."' "; //no need of coma
-    }
-    else {
-       $sql_update .= $field."='".$my_values[$field]."', ";
-    }
+  function get_field($field) {
+    return mysql_real_escape_string($_POST[$field]);
   }
+
+  if (get_field('second_term')) {
+    $_POST['first_term'] = '1';
+  }
+
+  $sql_update_fields = [];
+
+  foreach ($my_fields as $field) {
+    $my_values[$field] = get_field($field);
+    $str = "$field='{$my_values[$field]}'";
+    array_push($sql_update_fields, $str);
+  }
+
+  $sql_update = implode(', ', $sql_update_fields);
+
+  // echo $sql_update;
 
   $sql_query = "UPDATE applications SET {$sql_update} WHERE id=$id";
 

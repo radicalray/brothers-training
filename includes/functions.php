@@ -111,6 +111,7 @@ function getlist($mysqli, $order_by, $order, $filter_by, $filter) {
     $mysqli->real_escape_string($order);
     $mysqli->real_escape_string($filter_by);
     $mysqli->real_escape_string($filter);
+
     $order_sql = '';
     $filter_sql = '';
     $locality = $_SESSION['locality'];
