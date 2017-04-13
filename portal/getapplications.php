@@ -21,7 +21,7 @@ if (!$conn) {
 
 
 $sql = "SELECT id, first_name, last_name, email, locality, phone, approved, consecrated, payment_verification FROM applications
-        ORDER BY locality";
+        ORDER BY locality WHERE second_term = '1'";
 $result = mysqli_query($conn, $sql);
 
 if ($result->num_rows > 0) {
