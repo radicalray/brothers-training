@@ -20,8 +20,8 @@ if (!$conn) {
 }
 
 
-$sql = "SELECT id, first_name, last_name, email, locality, phone, approved, consecrated, payment_verification FROM applications
-        ORDER BY locality WHERE second_term = 1";
+$sql = "SELECT id, first_name, last_name, email, locality, phone, approved, consecrated, payment_verification FROM applications WHERE second_term = 1
+        ORDER BY locality";
 $result = mysqli_query($conn, $sql);
 
 if ($result->num_rows > 0) {
