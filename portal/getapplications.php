@@ -20,7 +20,7 @@ if (!$conn) {
 }
 
 
-$sql = "SELECT id, first_name, last_name, email, locality, phone, approved, consecrated, payment_verification FROM applications WHERE second_term = 1
+$sql = "SELECT id, first_name, last_name, email, locality, phone, approved, consecrated, payment_verification FROM applications WHERE second_term = 1 OR first_term = 1
         ORDER BY locality";
 $result = mysqli_query($conn, $sql);
 
