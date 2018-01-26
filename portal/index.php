@@ -1,10 +1,12 @@
 
 <!DOCTYPE html>
 <html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>2018 Boston Area Perfecting Training</title>
-    <link rel="stylesheet" type="text/css" href="../styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>2017 Boston Area Training on Eldership</title>
+</head>
+
 <style>
 body {
    background-color: #FEFFE6;
@@ -12,10 +14,16 @@ body {
 </style>
 </head>
 
+<div class="header">
+  2018 Boston Area Perfecting Training
+</div>
+
 <div class="content">
-  <b>Event: 2018 Boston Area Perfecting Training</b>
+  <div class="application_section">
+
   <b><u>Training Dates:</u></b><br/>
   Jan 27, Mar 3, Apr 28, Jun 9, July 28, Sep 8, Oct 6, Nov 17<br/>
+</div>
 </div>
 <?php
 
