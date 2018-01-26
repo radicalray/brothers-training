@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Media Access</title>
+    <title>2018 Boston Area Perfecting Training</title>
     <link rel="stylesheet" type="text/css" href="../styles.css" />
 <style>
 body {
@@ -12,6 +12,11 @@ body {
 </style>
 </head>
 
+<div class="content">
+  <b>Event: 2018 Boston Area Perfecting Training</b>
+  <b><u>Training Dates:</u></b><br/>
+  Jan 27, Mar 3, Apr 28, Jun 9, July 28, Sep 8, Oct 6, Nov 17<br/>
+</div>
 <?php
 
 if (isset($_POST['password'])) {
