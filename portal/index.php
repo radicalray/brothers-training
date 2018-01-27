@@ -22,7 +22,7 @@ body {
   <div class="application_section">
 
   <b><u>Training Dates:</u></b><br/>
-  Jan 27, Mar 3, Apr 28, Jun 9, July 28, Sep 8, Oct 6, Nov 17<br/>
+  Jan 27, Feb 24, Mar 24, Apr 21, May 19, Jun 16, July 28, Aug 25, Sep 22, Oct 20, Nov 17, Dec 15<br/>
 </div>
 </div>
 <?php
