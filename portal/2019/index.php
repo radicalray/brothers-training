@@ -4,7 +4,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2017 Boston Area Training on Eldership</title>
+    <title>2019 Boston Area Training on Eldership</title>
 </head>
 
 <style>
@@ -32,14 +32,15 @@ body {
 </head>
 
 <div class="header">
-  2018 Boston Area Perfecting Training
+  2019 Boston Area Perfecting Training
 </div>
 
 <div class="content">
   <div class="application_section">
 
-  <b><u>Training Dates:</u></b><br/>
-  Jan 27, Feb 24, Mar 24, Apr 21, May 19, Jun 16, July 28, Aug 25, Sep 22, Oct 20, Nov 17, Dec 15<br/>
+    <b><u>Training Dates:</u></b><br/>
+    March 9, May 18, July 27<br/>
+  <br/>
 </div>
 </div>
 <?php
@@ -50,7 +51,7 @@ if (isset($_POST['password'])) {
     $password = '';
 }
 
-if ($password == "1newman")
+if ($password == "holdingthehead")
 {
     include("./protected_contents.html");
 }
@@ -64,7 +65,7 @@ else
             Please enter your password to access: <input type="password" name="password"></input><br/>
             <div class="button-container">
                 <input type="submit" name="submit" value="Submit"></input>
-                <a href="/portal/">Cancel</a>                
+                <a href="/portal/">Cancel</a>
             </div>
             </form>
         </div>
