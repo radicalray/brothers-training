@@ -4,7 +4,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2017 Boston Area Training on Eldership</title>
+    <title>2019 Boston Area Training on Eldership</title>
 </head>
 
 <style>
@@ -32,7 +32,7 @@ body {
 </head>
 
 <div class="header">
-  2018 Boston Area Perfecting Training
+  2019 Boston Area Perfecting Training
 </div>
 
 <div class="content">
@@ -64,7 +64,7 @@ else
             Please enter your password to access: <input type="password" name="password"></input><br/>
             <div class="button-container">
                 <input type="submit" name="submit" value="Submit"></input>
-                <a href="/portal/">Cancel</a>                
+                <a href="/portal/">Cancel</a>
             </div>
             </form>
         </div>
