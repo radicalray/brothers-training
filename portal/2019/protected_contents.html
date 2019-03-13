@@ -1,0 +1,90 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../portal/styles.css" />
+    <title>2018 Boston Area Perfecting Training Protected Contents</title>
+    <style type="text/css">
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1000%;
+      display: block;
+      z-index: 1;
+      text-align: center;
+    }
+
+    .overlay::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: black;
+      opacity: 0.7;
+      display: block;
+      position: absolute;
+    }
+
+    .overlay iframe {
+      position: absolute;
+      left: 50%;
+      top: 20px;
+      margin-left: -380px;
+    }
+
+    .no-scroll {
+      overflow: hidden;
+    }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      var calledCount = 0;
+
+      function hideOverlay(location) {
+        calledCount++;
+        if (calledCount >= 2) {
+          $('body').removeClass('no-scroll');
+          $('.overlay').hide();
+        }
+      }
+    </script>
+
+    <div class="overlay" id="overlay">
+
+  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdN3Icrc65F46gK3RnYlaa1uunFVzwlbAd2EMvZtQdpGnIr4w/viewform?embedded=true" width="760" height="750" frameborder="0" marginheight="0" marginwidth="0" onLoad="hideOverlay(this.contentWindow.location);">Loading...</iframe>
+</div>
+</head>
+<body class="no-scroll">
+
+<div class="content">
+
+<center><b>2019 Boston Area Perfecting Training <br/>Training Media</b></center><br/>
+    <b>Training Lessons</b><br/>
+
+<b>Term 2</b>
+
+<div class="application_section">
+  <b>March 9, 2018</b>
+  <ol>
+    <li>Lesson 1</li>
+      <ul>
+        <li>Audio
+          <u><a href="../portal/uploads/Audio/2019/Message 1.mp3">(English)</a>
+          </u>
+        </li>
+        <li>Audio
+          <u><a href="../portal/uploads/Audio/2019/Message 1b.mp3">(English)</a>
+          </u>
+        </li>
+        </li></br>
+      <iframe src="https://player.vimeo.com/video/323344562" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </ul>
+
+</ol>
+</div>
+
+
+</body>
+</html>
