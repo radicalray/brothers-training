@@ -4,7 +4,7 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>2019 Boston Area Training on Eldership</title>
+    <title>2018 Boston Area Training on Eldership</title>
 </head>
 
 <style>
@@ -32,7 +32,7 @@ body {
 </head>
 
 <div class="header">
-  2019 Boston Area Perfecting Training
+  2018 Boston Area Perfecting Training
 </div>
 
 <div class="content">
