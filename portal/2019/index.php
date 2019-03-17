@@ -50,8 +50,7 @@ if (isset($_POST['password'])) {
 } else {
     $password = '';
 }
-
-if ($password == "holdingthehead")
+if ($password == trim(file(".pwd")[0]))
 {
     include("./protected_contents.html");
 }

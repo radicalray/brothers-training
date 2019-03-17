@@ -1,3 +1,5 @@
 uploads/
 backup/*.sql
 deploy.php
+# ignore all . files and . folders
+.*
